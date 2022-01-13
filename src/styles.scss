@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+*{
+  box-sizing: border-box;
+  // padding: 0;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  display: flexbox;
+  text-align: center;
+  color: white;
+
+}
+a{
+  text-decoration: none !important;
+  color: white !important;
+  
+}
+a:hover{
+  color: white;
+}
+
+//*******
+// Navbar
+//*******
+nav{
+  backdrop-filter: blur(4px) saturate(200%);
+  -webkit-backdrop-filter: blur(4px) saturate(200%);
+  background-color: rgba(255, 255, 255, 0.36); 
+  border-bottom: 1px solid rgba(209, 213, 219, 0.3);
+  .navbar-brand, .nav-link, .navbar-text{
+    color: white !important;
+  }
+} 
+
+
+.section-bkgd{
+  padding: 15px 0;
+  background-color: #180000;
+
+}
+
+//*************
+//text
+//*************
+
+h1{
+  font-size: 80px;
+  font-weight: 600;
+}
+h2{
+  font-size: 60px;
+}
+
+h3{
+  opacity: 80%;
+  font-size: 30px;
+}
+
+h1,h2,h3,.navbar-brand{
+  color: white;
+
+  font-weight: bold;
+}
+// *********
+// quote section
+// *********
+
+#Quote{
+  margin-top: 5%;
+
+}
+.quote-auth{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+//*************
+//banner image
+//*************
+.moonoz-Img{
+  margin-top: 120px;
+  margin-bottom: 30px;
+  img{
+    border-radius: 50%;
+    object-fit: contain;
+    width: 25%;
+    box-shadow: 0px -1px 8px 4px rgba(255,255,255,1);
+    -webkit-box-shadow: 0px -1px 8px 4px rgba(255,255,255,1);
+    -moz-box-shadow: 0px -1px 8px 4px rgba(255,255,255,1);
+  }
+}
+// *********
+// gradient backgrtound
+// ********
+
+.gradient-background {
+  // background: linear-gradient(90deg,#133a1b,#ff4f4f,#e4deae);
+  background: linear-gradient(90deg, #676767, #ede8e4, #86868b);
+  background-size: 400% 400%;
+  animation: gradient-animation 10s ease infinite;
+  padding-bottom: 5%;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+// *********
+// about me
+// ********
+.card{
+  width: 100%;
+  border-radius: 10px !important;
+  background-color: #7a0303 !important;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 250ms ease;
+}
+.card:hover{
+  transition: all 250ms ease;
+  -webkit-box-shadow: 0px 17px 49px 1px #FFFFFF; 
+box-shadow: 0px 17px 49px 1px #FFFFFF;
+}
+
+
+// ******** 
+// Media screen size phones
+// 
+
+@media only screen and (max-width: 700px){
+  
+
+  h1{
+    font-size: 40px;
+  }
+  h2{
+    font-size: 20px;
+    font-weight: none;
+  }
+  
+  h3{
+    opacity: 30%;
+    font-size: 15px;
+    font-weight: none;
+  }
+
+  // *********
+  // Banner
+  // *********
+
+  .moonoz-Img{
+    margin-top: 90px;
+    margin-bottom: 20px;
+    box-shadow: #133a1b;
+    img{
+      border-radius: 50%;
+      object-fit: contain;
+      width: 50%;
+    }
+  }
+  .banner-Mobile{
+    padding-bottom: 10%;
+  }
+  // *********
+  // quote
+  // *********
+  #Quote{
+    padding: 0 20px;
+  }
+  
+  .quote-text{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .quote-auth{
+    font-size: 15px;
+    opacity: 60%;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+
+  // *********
+  // about me
+  // *********
+  .aboutMe-title{
+    opacity: 60%;
+
+  }
+  .card{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    h4, .card-text{
+      text-align: left;
+    }
+    .skill-text, .card-text{
+      font-size: 12px !important;
+    }
+    .skill-title, .card-title{
+      font-size: 27px !important;
+      font-weight: 600;
+    }
+    .about-icon{
+      margin-bottom: 6px;
+    }
+    
+  }
+  // remove shadow in 
+  .card:hover{
+    box-shadow: none;
+  }
+  // **************
+  // skills section
+  // **************
+.card-sec{
+  padding:.7rem 1.5rem;
+  border: 1px solid;
+  border-radius: 10px;
+  // text-align: left;
+  width: 75%;
+  h4{
+    text-align: left;
+  }
+  div{
+    text-align: left;
+
+  }
+}
+.skills-space{
+  margin-top: 2rem;
+}
+.lang-sec{
+  h4, .pink-icon{
+    color:pink;
+  }
+}
+
+}
