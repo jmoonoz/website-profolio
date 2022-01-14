@@ -4,11 +4,18 @@ import { BsCode } from "react-icons/bs";
 
 const Skills = () => {
   return (
-    <Container>
+    <Container id='Skills'>
       <Row>
         {/* skills */}
         <Col className="skills-space" sm={5}>
-          <Container className="card-sec"></Container>
+          <Container className="card-sec">
+            <div className="skill-title">
+
+            </div>
+            <div className="skill-text">
+
+            </div>
+          </Container>
         </Col>
         {/* languages */}
         <Col className="skills-space" sm={5}>
@@ -17,8 +24,7 @@ const Skills = () => {
               <BsCode /> Language
             </div>
             <div className="skill-text">
-              I have a full knowledge of building responsive languages such as
-              HTML, CSS, React, Bootstrap
+              Experienced in coding with HTML, CSS and Javascript. Created Responsive applications with Bootstrap and React.
             </div>
           </Container>
         </Col>

@@ -1,61 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap");
+* {
   box-sizing: border-box;
   // padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   display: flexbox;
   text-align: center;
   color: white;
-
 }
-a{
+a {
   text-decoration: none !important;
   color: white !important;
-  
 }
-a:hover{
+a:hover {
   color: white;
 }
 
 //*******
 // Navbar
 //*******
-nav{
+nav {
   backdrop-filter: blur(4px) saturate(200%);
   -webkit-backdrop-filter: blur(4px) saturate(200%);
-  background-color: rgba(255, 255, 255, 0.36); 
+  background-color: rgba(255, 255, 255, 0.36);
   border-bottom: 1px solid rgba(209, 213, 219, 0.3);
-  .navbar-brand, .nav-link, .navbar-text{
+  .navbar-brand,
+  .nav-link,
+  .navbar-text {
     color: white !important;
   }
-} 
+}
 
-
-.section-bkgd{
+.section-bkgd {
   padding: 15px 0;
   background-color: #180000;
-
 }
 
 //*************
 //text
 //*************
 
-h1{
+h1 {
   font-size: 80px;
   font-weight: 600;
 }
-h2{
+h2 {
   font-size: 60px;
 }
 
-h3{
+h3 {
   opacity: 80%;
   font-size: 30px;
 }
 
-h1,h2,h3,.navbar-brand{
+h1,
+h2,
+h3,
+.navbar-brand {
   color: white;
 
   font-weight: bold;
@@ -64,11 +65,10 @@ h1,h2,h3,.navbar-brand{
 // quote section
 // *********
 
-#Quote{
+#Quote {
   margin-top: 5%;
-
 }
-.quote-auth{
+.quote-auth {
   font-size: 20px;
   font-weight: 500;
 }
@@ -76,16 +76,16 @@ h1,h2,h3,.navbar-brand{
 //*************
 //banner image
 //*************
-.moonoz-Img{
+.moonoz-Img {
   margin-top: 120px;
   margin-bottom: 30px;
-  img{
+  img {
     border-radius: 50%;
     object-fit: contain;
     width: 25%;
-    box-shadow: 0px -1px 8px 4px rgba(255,255,255,1);
-    -webkit-box-shadow: 0px -1px 8px 4px rgba(255,255,255,1);
-    -moz-box-shadow: 0px -1px 8px 4px rgba(255,255,255,1);
+    box-shadow: 0px -1px 8px 4px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px -1px 8px 4px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0px -1px 8px 4px rgba(255, 255, 255, 1);
   }
 }
 // *********
@@ -112,11 +112,10 @@ h1,h2,h3,.navbar-brand{
   }
 }
 
-
 // *********
 // about me
 // ********
-.card{
+.card {
   width: 100%;
   border-radius: 10px !important;
   background-color: #7a0303 !important;
@@ -124,63 +123,70 @@ h1,h2,h3,.navbar-brand{
   margin-right: auto;
   transition: all 250ms ease;
 }
-.card:hover{
+.card:hover {
   transition: all 250ms ease;
-  -webkit-box-shadow: 0px 17px 49px 1px #FFFFFF; 
-box-shadow: 0px 17px 49px 1px #FFFFFF;
+  -webkit-box-shadow: 0px 17px 49px 1px #ffffff;
+  box-shadow: 0px 17px 49px 1px #ffffff;
 }
 
-
-// ******** 
+// ******************************************
 // Media screen size phones
-// 
+// ******************************************
 
-@media only screen and (max-width: 700px){
-  
-
-  h1{
+@media only screen and (max-width: 700px) {
+  h1 {
     font-size: 40px;
   }
-  h2{
+  h2 {
     font-size: 20px;
     font-weight: none;
   }
-  
-  h3{
+
+  h3 {
     opacity: 30%;
     font-size: 15px;
     font-weight: none;
   }
+  .skill-title,
+  .card-title {
+    font-size: 30px !important;
+    font-weight: 600;
+  }
+  .skill-text,
+    .card-text {
+      font-size: 12px !important;
+      opacity: 80%;
+    }
 
   // *********
   // Banner
   // *********
 
-  .moonoz-Img{
+  .moonoz-Img {
     margin-top: 90px;
     margin-bottom: 20px;
     box-shadow: #133a1b;
-    img{
+    img {
       border-radius: 50%;
       object-fit: contain;
       width: 50%;
     }
   }
-  .banner-Mobile{
+  .banner-Mobile {
     padding-bottom: 10%;
   }
   // *********
   // quote
   // *********
-  #Quote{
+  #Quote {
     padding: 0 20px;
   }
-  
-  .quote-text{
+
+  .quote-text {
     font-size: 30px;
     font-weight: 600;
   }
-  .quote-auth{
+  .quote-auth {
     font-size: 15px;
     opacity: 60%;
     font-weight: 500;
@@ -190,58 +196,44 @@ box-shadow: 0px 17px 49px 1px #FFFFFF;
   // *********
   // about me
   // *********
-  .aboutMe-title{
+  .aboutMe-title {
     opacity: 60%;
-
   }
-  .card{
+  .card {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
-    h4, .card-text{
+    h4,
+    .card-text {
       text-align: left;
     }
-    .skill-text, .card-text{
-      font-size: 12px !important;
-    }
-    .skill-title, .card-title{
-      font-size: 27px !important;
-      font-weight: 600;
-    }
-    .about-icon{
+    .about-icon {
       margin-bottom: 6px;
     }
-    
   }
-  // remove shadow in 
-  .card:hover{
+  // remove shadow in
+  .card:hover {
     box-shadow: none;
   }
   // **************
   // skills section
   // **************
-.card-sec{
-  padding:.7rem 1.5rem;
-  border: 1px solid;
-  border-radius: 10px;
-  // text-align: left;
-  width: 75%;
-  h4{
-    text-align: left;
+  .card-sec {
+    padding: 0.7rem 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.6) !important;
+    border-radius: 10px;
+    width: 70%;
+    margin-top: 2em;
+    div {
+      text-align: left;
+    }
   }
-  div{
-    text-align: left;
-
+  .skills-space {
+    margin-top: 32px;
   }
-}
-.skills-space{
-  margin-top: 2rem;
-}
-.lang-sec{
-  h4, .pink-icon{
-    color:pink;
+  .skill-text{
+    margin-top: 1rem;
   }
-}
-
+  
 }
