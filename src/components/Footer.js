@@ -8,21 +8,28 @@ const Footer = () => {
   return (
     <Container id="Footer" fluid>
       <Row>
-        <Col>
+        <Col xs={4}>
           <p >
-            ©{year} Joel Munoz
+            ©{year} Joel Muñoz
           </p>
         </Col>
-        <Col>
+        <Col xs={2}>
           <p>Front-End Developer</p>
         </Col>
-        <Col>
-          <a href="https://www.linkedin.com/in/moonoz/" >
-            <BsLinkedin />
-          </a>
-          <BsGithub />
-          <BsInstagram />
+        <Col xs={6} >
+        <Container className="footer-icons">
 
+          <a className='icon-item' href="https://www.linkedin.com/in/moonoz/" >
+            <BsLinkedin className='icon-item' />
+          </a>
+          <a className='icon-item'>
+            <BsGithub className='icon-item' />
+          </a>
+
+          <a className='icon-item'>
+            <BsInstagram className='icon-item' />
+          </a>
+        </Container>
         </Col>
       </Row>
     </Container>

@@ -10,7 +10,7 @@ import {
 } from "reactstrap";
 import { IoSchool } from "react-icons/io5";
 import { IoIosBrush } from "react-icons/io";
-import { College } from "../img/joelCollege.jpg";
+import  College  from "../img/joelCollege.jpg";
 
 const About = () => {
   return (
@@ -51,14 +51,14 @@ const About = () => {
                     <IoIosBrush className="about-icon" /> Design
                   </h4>
                 </CardTitle>
-                <CardText></CardText>
+                <CardText>Born with natural artist skills i have developed a deep love for graphic designs and illustrating in 2d. I look to further my arti skills into animation.</CardText>
               </CardBody>
             </Card>
           </Container>
         </Col>
         <Col sm={4}>
           <Container>
-            <img src="../img/joelCollege.jpg" alt="Joel Munoz college" />
+            <img className="moonoz-college" src={College} alt="Joel Munoz college" />
           </Container>
         </Col>
       </Row>

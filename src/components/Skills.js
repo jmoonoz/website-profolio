@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Col, Row } from "reactstrap";
 import { BsCode } from "react-icons/bs";
+import { MdDraw } from 'react-icons/md';
+import { FaLaptopCode } from 'react-icons/fa';
 
 const Skills = () => {
   return (
@@ -32,7 +34,7 @@ const Skills = () => {
         <Col className="skills-space" sm={5}>
           <Container className="card-sec lang-sec">
             <div className="skill-title">
-              <BsCode /> Tools
+              <FaLaptopCode /> Tools
             </div>
             <div className="skill-text">
               Articulated in using Visual Studios, Xcode, Terminal and Chrome
@@ -42,7 +44,17 @@ const Skills = () => {
         </Col>
 
         {/*Graphic designer*/}
-        <Col sm={5}></Col>
+        <Col className="skills-space" sm={5}>
+          <Container className="card-sec">
+
+            <div className="skill-title graphics-title">
+              <MdDraw /> Graphic Designer
+            </div>
+            <div className="skill-text">
+
+            </div>
+          </Container>
+        </Col>
       </Row>
     </Container>
   );
