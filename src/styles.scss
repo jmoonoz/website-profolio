@@ -45,11 +45,12 @@ nav {
 
 .section-bkgd {
   padding: 15px 0;
-  background-color: #180000;
+  // background-color: #1f0202;
+  background-color: #0f1111;
 }
 
 //*************
-//text
+//text1
 //*************
 
 h1 {
@@ -106,7 +107,8 @@ h3,
 
 .gradient-background {
   // background: linear-gradient(90deg,#133a1b,#ff4f4f,#e4deae);
-  background: linear-gradient(90deg, #676767, #ede8e4, #86868b);
+  // background: linear-gradient(90deg, #676767, #ede8e4, #86868b);
+  background: linear-gradient(90deg, #e65e5a, #9ca2a5, #7daec3);
   background-size: 400% 400%;
   animation: gradient-animation 10s ease infinite;
   padding-bottom: 5%;
@@ -145,9 +147,9 @@ h3,
   border-radius: 50%;
 }
 
-// ******************************************
+// **************************************************************
 // Media screen size phones
-// ******************************************
+// **************************************************************
 
 @media only screen and (max-width: 700px) {
 
