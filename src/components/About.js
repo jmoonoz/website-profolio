@@ -10,7 +10,7 @@ import {
 } from "reactstrap";
 import { IoSchool } from "react-icons/io5";
 import { IoIosBrush } from "react-icons/io";
-import  College  from "../img/joelCollege.jpg";
+import College from "../img/joelCollege.jpg";
 
 const About = () => {
   return (
@@ -20,7 +20,7 @@ const About = () => {
           <h6 className="aboutMe-title">About me</h6>
         </Col>
         <Col sm={12}>
-          <h4>Mooñoz Mundo</h4>
+          <h4 className="aboutMe-Name">Mooñoz Mundo</h4>
         </Col>
       </Row>
       <Row>
@@ -29,9 +29,9 @@ const About = () => {
           <Container>
             <Card>
               <CardBody>
-                <CardTitle>
-                  <h4>
-                    <IoSchool className="about-icon" /> Education
+                <CardTitle className="aboutMe-Name" >
+                  <h4 >
+                    Education
                   </h4>
                 </CardTitle>
                 <CardText>
@@ -48,7 +48,7 @@ const About = () => {
               <CardBody>
                 <CardTitle>
                   <h4>
-                    <IoIosBrush className="about-icon" /> Design
+                    Design
                   </h4>
                 </CardTitle>
                 <CardText>Born with natural artist skills i have developed a deep love for graphic designs and illustrating in 2d. I look to further my arti skills into animation.</CardText>
@@ -61,8 +61,10 @@ const About = () => {
             <img className="moonoz-college" src={College} alt="Joel Munoz college" />
           </Container>
         </Col>
+        <Col className="selfDescription" sm={12}>
+          <p>Accomplished. Artistic. Deticated.</p>
+        </Col>
       </Row>
-      <h3>Artistic. Deticated. Accomplished</h3>
       <h4>
         Look into my Mundo through my{" "}
         <a href="https://www.instagram.com/moonozdisenoz/?hl=en">Instagram</a>

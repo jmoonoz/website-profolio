@@ -101,25 +101,23 @@ h3,
   }
 }
 
-.city {
-  opacity: 85%;
-  font-size: 20px !important;
-}
-.job-title{
-  font-size: 30px !important;
-}
-.name{
-  h1{
-    font-size: 40px !important;
-  }
-}
-
 .banner-icons {
   margin: 2% 0;
   width: 50% !important;
   display: flex;
   justify-content: space-evenly;
 }
+
+// ************************
+// skills section
+// ************************
+.card {
+  display: flex;
+}
+.card-title {
+  justify-content: center !important;
+}
+
 //************************
 // footer
 //************************
@@ -173,6 +171,10 @@ h3,
   width: 70%;
   border-radius: 50%;
 }
+.card-title {
+  display: flex;
+  text-align: center !important;
+}
 
 // **************************************************************
 // Media screen size phones
@@ -187,31 +189,30 @@ h3,
   #About {
     margin-top: 2rem;
   }
-  h1 {
-    font-size: 40px !important;
-  }
-  h2 {
-    font-size: 35px !important;
-    font-weight: 600;
-  }
 
-  h3 {
-    opacity: 30%;
-    font-size: 20px !important;
-    font-weight: 600;
-  }
-  h4 {
-    font-size: 8px;
-  }
-  .skill-title,
-  .card-title {
-    font-size: 30px !important;
-    font-weight: 600;
-  }
   .skill-text,
   .card-text {
     font-size: 12px !important;
     opacity: 80%;
+  }
+  .aboutMe-title,
+  .quote-auth,
+  .city {
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 60%;
+  }
+
+  .aboutMe-Name,
+  .skill-title,
+  .card-title {
+    font-size: 30px !important;
+    font-weight: 600 !important;
+  }
+  .quote-text,
+  .job-title {
+    font-size: 35px;
+    font-weight: 500;
   }
 
   // *********
@@ -219,19 +220,24 @@ h3,
   // *********
 
   .moonoz-Img {
-    margin-top: 110px;
-    margin-bottom: 20px;
+    margin-top: 80px;
+    margin-bottom: 30px;
     box-shadow: #133a1b;
     img {
-      border-radius: 55%;
+      border-radius: 50%;
       object-fit: contain;
-      width: 55%;
+      width: 60%;
     }
   }
   .banner-Mobile {
     padding-top: 90px;
     padding-bottom: 20%;
   }
+  .name {
+    font-size: 50px !important;
+    font-weight: 700;
+  }
+
   // *********
   // quote
   // *********
@@ -239,23 +245,21 @@ h3,
     padding: 0 20px;
   }
 
-  .quote-text {
+  .quote-text,.selfDescription {
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 500;
   }
   .quote-auth {
-    font-size: 15px;
-    opacity: 60%;
-    font-weight: 500;
     margin-bottom: 15px;
+  }
+  .banner-icons {
+    opacity: 50%;
   }
 
   // *********
   // about me
   // *********
-  .aboutMe-title {
-    opacity: 60%;
-  }
+
   .card {
     width: 100%;
     margin-left: auto;
@@ -289,6 +293,9 @@ h3,
   }
   .skills-space {
     margin-top: 32px;
+  }
+  .skill-title {
+    text-align: center;
   }
   .skill-text {
     margin-top: 1rem;
