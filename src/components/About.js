@@ -29,10 +29,10 @@ const About = () => {
           <Container>
             <Card>
               <CardBody>
-                <CardTitle className="aboutMe-Name" >
-                  <h4 >
+                <CardTitle className="about-title" >
+                  <div>
                     Education
-                  </h4>
+                  </div>
                 </CardTitle>
                 <CardText>
                   Graduated CSUEB in 2019 with a B.S in Computer Science, B.A in
@@ -47,9 +47,9 @@ const About = () => {
             <Card>
               <CardBody>
                 <CardTitle>
-                  <h4>
-                    Design
-                  </h4>
+                  <div className="about-title color-test">
+                    Graphics
+                  </div>
                 </CardTitle>
                 <CardText>Born with natural artist skills i have developed a deep love for graphic designs and illustrating in 2d. I look to further my arti skills into animation.</CardText>
               </CardBody>
@@ -64,11 +64,13 @@ const About = () => {
         <Col className="selfDescription" sm={12}>
           <p>Accomplished. Artistic. Deticated.</p>
         </Col>
+        <Col sm={12}>
+          <div className="aboutMe-foot">
+            Look into my Mundo through my{" "}
+            <a href="https://www.instagram.com/moonozdisenoz/?hl=en">Instagram</a>
+          </div>
+        </Col>
       </Row>
-      <h4>
-        Look into my Mundo through my{" "}
-        <a href="https://www.instagram.com/moonozdisenoz/?hl=en">Instagram</a>
-      </h4>
     </Container>
   );
 };

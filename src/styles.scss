@@ -197,7 +197,8 @@ h3,
   }
   .aboutMe-title,
   .quote-auth,
-  .city {
+  .city,
+  .aboutMe-foot {
     font-size: 20px;
     font-weight: 500;
     opacity: 60%;
@@ -205,7 +206,8 @@ h3,
 
   .aboutMe-Name,
   .skill-title,
-  .card-title {
+  .card-title,
+  .about-title {
     font-size: 30px !important;
     font-weight: 600 !important;
   }
@@ -245,7 +247,8 @@ h3,
     padding: 0 20px;
   }
 
-  .quote-text,.selfDescription {
+  .quote-text,
+  .selfDescription {
     font-size: 30px;
     font-weight: 500;
   }
@@ -256,9 +259,9 @@ h3,
     opacity: 50%;
   }
 
-  // *********
+  // *********************
   // about me
-  // *********
+  // *********************
 
   .card {
     width: 100%;
@@ -273,10 +276,18 @@ h3,
       margin-bottom: 6px;
     }
   }
-
+  .color-test {
+    background: linear-gradient(120deg, #ff5acd, #fbda61);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: fit-content;
+  }
   // remove shadow in
   .card:hover {
     box-shadow: none;
+  }
+  .moonoz-college {
+    margin: 10% 0 12%;
   }
   // **************
   // skills section
