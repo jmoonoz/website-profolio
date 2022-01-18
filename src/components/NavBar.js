@@ -22,9 +22,11 @@ const NavBar = () => {
       <Navbar expand="md" container light fixed="top" fluid>
 
         <NavbarBrand className="me-auto" href="#Banner">
-          <img className="nav-tag" src={MoonozTag} alt='Moonoz tag graffiti' />
+          <a href="#Banner">
+            <img className="nav-tag" src={MoonozTag} alt='Moonoz tag graffiti' />
+          </a>
         </NavbarBrand>
-        <NavbarToggler className="me-2"  />
+        <NavbarToggler className="me-2" />
         <Collapse navbar>
           <Nav className="me-auto" navbar>
             <NavItem>

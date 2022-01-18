@@ -14,7 +14,7 @@ $text-wht: #ededed;
 }
 a {
   // text-decoration: none ;
-  color: $text-wht !important;
+  // color: $text-wht !important;
 }
 
 #Footer {
@@ -125,6 +125,10 @@ h3,
   }
 }
 
+.banner-text{
+  line-height: 2.5rem;
+}
+
 .banner-icons {
   margin: 2% 0;
   width: 50% !important;
@@ -224,7 +228,7 @@ h3,
 
   #Quote,
   #About {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 
   .skill-text,
@@ -255,7 +259,7 @@ h3,
   }
   .banner-Mobile {
     padding-top: 90px;
-    padding-bottom: 20%;
+    padding-bottom: 15%;
   }
   
 

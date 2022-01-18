@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import Moonoz from "../img/moonozPic.png";
-import { BsLinkedin, BsGithub, BsInstagram } from 'react-icons/bs';
+import { BsLinkedin, BsGithub, BsInstagram, BsArrowDownCircle } from 'react-icons/bs';
 
 const Banner = () => {
   return (
@@ -17,7 +17,7 @@ const Banner = () => {
         </Row>
       </Container>
       <Container>
-        <Row>
+        <Row className="banner-text">
           {/* Name */}
           <Col sm={12}>
             <h1 className="name" >Joel Muñoz</h1>
@@ -44,8 +44,17 @@ const Banner = () => {
                 <BsInstagram className='icon-item' />
               </a>
             </Container>
+
+          </Col>
+          <Col sm={12}>
+            <a href="#Quote"> 
+              <BsArrowDownCircle className="icon-item" />
+
+            </a>
+
           </Col>
         </Row>
+        
       </Container>
     </Container>
   );
