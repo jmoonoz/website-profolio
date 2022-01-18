@@ -19,21 +19,28 @@ import {
 const NavBar = () => {
   return (
     <div>
-      <Navbar expand="md" container light fixed="top">
-        <NavbarBrand href="#Banner">
+      <Navbar expand="md" container light fixed="top" fluid>
+
+        <NavbarBrand className="me-auto" href="#Banner">
           <img className="nav-tag" src={MoonozTag} alt='Moonoz tag graffiti' />
         </NavbarBrand>
-        <NavbarToggler onClick={function noRefCheck() {}} />
+        <NavbarToggler className="me-2"  />
         <Collapse navbar>
           <Nav className="me-auto" navbar>
             <NavItem>
-              <NavLink href="#About">About</NavLink>
+              <NavLink href="#About">
+                About
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#Skills">Skills</NavLink>
+              <NavLink href="#Skills">
+                Skills
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#Projects">Projects</NavLink>
+              <NavLink href="#Projects">
+                Projects
+              </NavLink>
             </NavItem>
             {/* <UncontrolledDropdown inNavbar nav>
               

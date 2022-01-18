@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap");
 
+$main-bkgd: #393a3c;
+$text-wht: #ededed;
+
 * {
   box-sizing: border-box;
   // padding: 0;
@@ -11,20 +14,17 @@
 }
 a {
   // text-decoration: none ;
-  color: white !important;
-}
-a:hover {
-  // color: white;
+  color: $text-wht !important;
 }
 
 #Footer {
-  background-color: royalblue;
+  background-color: #7C898F;
   padding: 1.5rem 0;
 }
 .section-bkgd {
   padding: 15px 0;
   // background-color: #1f0202;
-  background-color: #0f1111;
+  background-color: $main-bkgd;
 }
 
 .icon-item {
@@ -73,6 +73,30 @@ h3,
   color: white;
   font-weight: bold;
 }
+.aboutMe-title,
+  .quote-auth,
+  .city,
+  .aboutMe-foot {
+    font-size: 1.5rem;
+    font-weight: 500;
+    opacity: 60%;
+  }
+  .aboutMe-Name,
+  .skill-title,
+  .card-title,
+  .about-title {
+    font-size: 30px !important;
+    font-weight: 600 !important;
+  }
+  .quote-text,
+  .job-title {
+    font-size: 35px;
+    font-weight: 500;
+  }
+  .name {
+    font-size: 50px !important;
+    font-weight: 700;
+  }
 // ************************
 // quote section
 // ************************
@@ -106,6 +130,13 @@ h3,
   width: 50% !important;
   display: flex;
   justify-content: space-evenly;
+  // opacity: 50%;
+  .icon-item{
+    opacity: 50%;
+  }
+}
+.icon-item:hover{
+  opacity: 100% !important;
 }
 
 // ************************
@@ -116,6 +147,10 @@ h3,
 }
 .card-title {
   justify-content: center !important;
+}
+.card-sec {
+  padding: 0.7rem 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.6) !important;
 }
 
 //************************
@@ -133,7 +168,8 @@ h3,
 .gradient-background {
   // background: linear-gradient(90deg,#133a1b,#ff4f4f,#e4deae);
   // background: linear-gradient(90deg, #676767, #ede8e4, #86868b);
-  background: linear-gradient(90deg, #e65e5a, #9ca2a5, #7daec3);
+  // background: linear-gradient(90deg, #e65e5a, #9ca2a5, #7daec3);
+  background: linear-gradient(90deg, #787b6a, #7c898f), #393a3c;
   background-size: 400% 400%;
   animation: gradient-animation 10s ease infinite;
   padding-bottom: 5%;
@@ -157,7 +193,8 @@ h3,
 .card {
   width: 100%;
   border-radius: 10px !important;
-  background-color: #7a0303 !important;
+  background-color: #7c898f !important;
+  border: 1px solid rgba(237, 237, 237, 0.8) !important;
   margin-left: auto;
   margin-right: auto;
   transition: all 250ms ease;
@@ -195,27 +232,12 @@ h3,
     font-size: 12px !important;
     opacity: 80%;
   }
-  .aboutMe-title,
-  .quote-auth,
-  .city,
-  .aboutMe-foot {
-    font-size: 20px;
-    font-weight: 500;
-    opacity: 60%;
-  }
+  
 
-  .aboutMe-Name,
-  .skill-title,
-  .card-title,
-  .about-title {
-    font-size: 30px !important;
-    font-weight: 600 !important;
-  }
-  .quote-text,
-  .job-title {
-    font-size: 35px;
-    font-weight: 500;
-  }
+  
+  // *********
+  // navbar
+  // *********
 
   // *********
   // Banner
@@ -235,10 +257,7 @@ h3,
     padding-top: 90px;
     padding-bottom: 20%;
   }
-  .name {
-    font-size: 50px !important;
-    font-weight: 700;
-  }
+  
 
   // *********
   // quote
@@ -255,9 +274,7 @@ h3,
   .quote-auth {
     margin-bottom: 15px;
   }
-  .banner-icons {
-    opacity: 50%;
-  }
+  
 
   // *********************
   // about me
@@ -293,8 +310,8 @@ h3,
   // skills section
   // **************
   .card-sec {
-    padding: 0.7rem 1.5rem;
-    border: 1px solid rgba(255, 255, 255, 0.6) !important;
+    // padding: 0.7rem 1.5rem;
+    // border: 1px solid rgba(255, 255, 255, 0.6) !important;
     border-radius: 10px;
     width: 70%;
     margin-top: 2em;

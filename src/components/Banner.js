@@ -33,14 +33,14 @@ const Banner = () => {
           {/* link icons */}
           <Col sm={12}>
             <Container className="banner-icons">
-              <a className='icon-item'  >
-                <BsLinkedin className='icon-item' href="https://www.linkedin.com/in/moonoz/" />
+              <a  >
+                <BsLinkedin className='icon-item icon-one' href="https://www.linkedin.com/in/moonoz/" />
               </a>
-              <a className='icon-item'>
+              <a >
                 <BsGithub className='icon-item' />
               </a>
 
-              <a className='icon-item'>
+              <a >
                 <BsInstagram className='icon-item' />
               </a>
             </Container>
