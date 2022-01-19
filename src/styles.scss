@@ -85,7 +85,7 @@ h3,
 .aboutMe-foot {
   font-size: 1.5rem;
   font-weight: 500;
-  opacity: 60%;
+  opacity: 60% !important;
 }
 .aboutMe-Name,
 .skill-title,
@@ -149,24 +149,24 @@ h3,
   .lkd-icon,
   .git-icon,
   .ig-icon {
-    opacity: 70%;
+    opacity: 70% !important;
   }
 }
 // icon hover
 .lkd-icon:hover {
-  opacity: 100%;
+  opacity: 100% !important;
   .icon-item {
     fill: $orangeColor;
   }
 }
 .git-icon:hover{
-  opacity: 100%;
+  opacity: 100% !important;
   .icon-item {
     fill: $redColor;
   }
 }
 .ig-icon:hover{
-  opacity: 100%;
+  opacity: 100% !important;
   .icon-item {
     fill:$pinkColor;
   }
@@ -282,7 +282,7 @@ h3,
   .skill-text,
   .card-text {
     font-size: 12px !important;
-    opacity: 80%;
+    opacity: 80% !important;
   }
 
   // *********
