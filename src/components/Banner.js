@@ -39,7 +39,7 @@ const Banner = () => {
           {/* link icons and fourth row */}
           <Col xs={1} sm={1} ></Col>
           <Col xs={10} sm={5}>
-            <Container className="banner-icons">
+            {/* <Container className="banner-icons">
               <a className="lkd-icon" href="https://www.linkedin.com/in/moonoz/" >
                 <BsLinkedin className='icon-item' />
               </a>
@@ -50,7 +50,7 @@ const Banner = () => {
               <a className="ig-icon" >
                 <BsInstagram className='icon-item ' />
               </a>
-            </Container>
+            </Container> */}
 
           </Col>
           <Col xs={1} sm={6}></Col>

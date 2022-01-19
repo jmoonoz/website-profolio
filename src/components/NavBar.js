@@ -1,5 +1,4 @@
 import React from "react";
-import MoonozTag from '../img/MoonozTagwht.svg';
 import {
   Collapse,
   Navbar,
@@ -23,7 +22,8 @@ const NavBar = () => {
 
         <NavbarBrand className="me-auto" href="#Banner">
           <a href="#Banner">
-            <img className="nav-tag" src={MoonozTag} alt='Moonoz tag graffiti' />
+          Joel Munoz
+            {/* <img className="nav-tag" src={MoonozTag} alt='Moonoz tag graffiti' /> */}
           </a>
         </NavbarBrand>
         <NavbarToggler className="me-2" />
