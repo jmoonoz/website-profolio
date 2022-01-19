@@ -9,36 +9,26 @@ const Skills = () => {
     <Container id='Skills'>
       <Row>
         {/* skills */}
-        <Col className="skills-space" sm={5}>
-          <Container className="card-sec">
-            <div className="skill-title">
-
-            </div>
-            <div className="skill-text">
-
-            </div>
-          </Container>
-        </Col>
         {/* languages */}
         <Col className="skills-space" sm={5}>
           <Container className="card-sec lang-sec">
-            <div className="pink-icon skill-title">
-              <BsCode /> Language
+            <div className="skill-title">
+              <BsCode /> Front-End Dev.
             </div>
             <div className="skill-text">
-              Experienced in coding with HTML, CSS and Javascript. Created Responsive applications with Bootstrap and React.
+              Experienced with HTML, CSS and Javascript; as well as creating responsive frame works with Bootstrap and React.
             </div>
           </Container>
         </Col>
         {/* Tools */}
         <Col className="skills-space" sm={5}>
-          <Container className="card-sec lang-sec">
+          <Container className="card-sec ">
             <div className="skill-title">
               <FaLaptopCode /> Tools
             </div>
             <div className="skill-text">
-              Articulated in using Visual Studios, Xcode, Terminal and Chrome
-              Developer tools
+              Proficient in using Visual Studios, Xcode, Terminal and Chrome
+              Developer tools.
             </div>
           </Container>
         </Col>
@@ -51,7 +41,7 @@ const Skills = () => {
               <MdDraw /> Graphic Designer
             </div>
             <div className="skill-text">
-
+              Talented Freelance graphics designer with 3+ years experience creating digital artwork in Afinity desinger, Procreate and Photoshop.
             </div>
           </Container>
         </Col>

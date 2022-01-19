@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap");
 
-$main-bkgd: #393a3c;
+$main-bkgd: #1f2225;
 $text-wht: #ededed;
+$red-color: #EE3B24;
+$blue-color: #2498CB;
+$orangecolor: #f99e1a;
+// colors influenced by coco
+
 
 * {
   box-sizing: border-box;
@@ -18,7 +23,7 @@ a {
 }
 
 #Footer {
-  background-color: #7C898F;
+  background-color: #7c898f;
   padding: 1.5rem 0;
 }
 .section-bkgd {
@@ -74,29 +79,29 @@ h3,
   font-weight: bold;
 }
 .aboutMe-title,
-  .quote-auth,
-  .city,
-  .aboutMe-foot {
-    font-size: 1.5rem;
-    font-weight: 500;
-    opacity: 60%;
-  }
-  .aboutMe-Name,
-  .skill-title,
-  .card-title,
-  .about-title {
-    font-size: 30px !important;
-    font-weight: 600 !important;
-  }
-  .quote-text,
-  .job-title {
-    font-size: 35px;
-    font-weight: 500;
-  }
-  .name {
-    font-size: 50px !important;
-    font-weight: 700;
-  }
+.quote-auth,
+.city,
+.aboutMe-foot {
+  font-size: 1.5rem;
+  font-weight: 500;
+  opacity: 60%;
+}
+.aboutMe-Name,
+.skill-title,
+.card-title,
+.about-title {
+  font-size: 30px !important;
+  font-weight: 600 !important;
+}
+.quote-text,
+.job-title {
+  font-size: 35px;
+  font-weight: 500;
+}
+.name {
+  font-size: 50px !important;
+  font-weight: 700;
+}
 // ************************
 // quote section
 // ************************
@@ -125,7 +130,7 @@ h3,
   }
 }
 
-.banner-text{
+.banner-text {
   line-height: 2.5rem;
 }
 
@@ -135,12 +140,41 @@ h3,
   display: flex;
   justify-content: space-evenly;
   // opacity: 50%;
-  .icon-item{
+  .icon-item {
     opacity: 50%;
   }
 }
-.icon-item:hover{
+.icon-item:hover {
   opacity: 100% !important;
+}
+.about-title{
+  .red-text{
+    color: #EE3B24;
+  }
+  
+}
+.yellow-change:hover{
+  background-color: #F99E1A !important;
+  .red-text{
+    color: #EF519E;
+  }
+}
+
+
+
+// .red-text,
+// .color-test {
+//   color: #FC5c14;
+// }
+
+.blue-text{
+  background: linear-gradient(120deg,  $blue-color, $red-color);
+}
+
+.blue-text {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: fit-content;
 }
 
 // ************************
@@ -173,7 +207,7 @@ h3,
   // background: linear-gradient(90deg,#133a1b,#ff4f4f,#e4deae);
   // background: linear-gradient(90deg, #676767, #ede8e4, #86868b);
   // background: linear-gradient(90deg, #e65e5a, #9ca2a5, #7daec3);
-  background: linear-gradient(90deg, #787b6a, #7c898f), #393a3c;
+  background: linear-gradient(90deg, $red-color, $orangecolor, $blue-color);
   background-size: 400% 400%;
   animation: gradient-animation 10s ease infinite;
   padding-bottom: 5%;
@@ -236,9 +270,7 @@ h3,
     font-size: 12px !important;
     opacity: 80%;
   }
-  
 
-  
   // *********
   // navbar
   // *********
@@ -261,7 +293,6 @@ h3,
     padding-top: 90px;
     padding-bottom: 15%;
   }
-  
 
   // *********
   // quote
@@ -278,7 +309,6 @@ h3,
   .quote-auth {
     margin-bottom: 15px;
   }
-  
 
   // *********************
   // about me
@@ -297,12 +327,7 @@ h3,
       margin-bottom: 6px;
     }
   }
-  .color-test {
-    background: linear-gradient(120deg, #ff5acd, #fbda61);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    height: fit-content;
-  }
+
   // remove shadow in
   .card:hover {
     box-shadow: none;

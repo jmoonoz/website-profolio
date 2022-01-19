@@ -27,16 +27,16 @@ const About = () => {
         {/*  */}
         <Col sm={4}>
           <Container>
-            <Card>
+            <Card className="yellow-change">
               <CardBody>
                 <CardTitle className="about-title" >
-                  <div>
+                  <div className="red-text">
                     Education
                   </div>
                 </CardTitle>
                 <CardText>
-                  Graduated CSUEB in 2019 with a B.S in Computer Science, B.A in
-                  Psychology and a minor in Sociology
+                  Graduated CSUEB with a B.S in Computer Science, B.A in
+                  Psychology and a minor in Sociology.
                 </CardText>
               </CardBody>
             </Card>
@@ -47,11 +47,13 @@ const About = () => {
             <Card>
               <CardBody>
                 <CardTitle>
-                  <div className="about-title color-test">
+                  <div className="about-title blue-text">
                     Graphics
                   </div>
                 </CardTitle>
-                <CardText>Born with natural artist skills i have developed a deep love for graphic designs and illustrating in 2d. I look to further my arti skills into animation.</CardText>
+                <CardText>
+                  Freelance Graphics designer. I look to further my arti skills into animation.
+                </CardText>
               </CardBody>
             </Card>
           </Container>
