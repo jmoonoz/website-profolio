@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a7b242db.chunk.css",
+    "main.js": "/static/js/main.abf2bd4b.chunk.js",
+    "main.js.map": "/static/js/main.abf2bd4b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.93ad318f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.93ad318f.js.map",
+    "static/css/2.cbedb215.chunk.css": "/static/css/2.cbedb215.chunk.css",
+    "static/js/2.c413eb35.chunk.js": "/static/js/2.c413eb35.chunk.js",
+    "static/js/2.c413eb35.chunk.js.map": "/static/js/2.c413eb35.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.cbedb215.chunk.css.map": "/static/css/2.cbedb215.chunk.css.map",
+    "static/css/main.a7b242db.chunk.css.map": "/static/css/main.a7b242db.chunk.css.map",
+    "static/js/2.c413eb35.chunk.js.LICENSE.txt": "/static/js/2.c413eb35.chunk.js.LICENSE.txt",
+    "static/media/styles.scss": "/static/media/bannerBkgd.9bdac03a.jpg",
+    "static/media/MoonozTagwht.a04be4b4.svg": "/static/media/MoonozTagwht.a04be4b4.svg",
+    "static/media/joelCollege.e221f366.jpg": "/static/media/joelCollege.e221f366.jpg",
+    "static/media/moonozPic.d428565c.png": "/static/media/moonozPic.d428565c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93ad318f.js",
+    "static/css/2.cbedb215.chunk.css",
+    "static/js/2.c413eb35.chunk.js",
+    "static/css/main.a7b242db.chunk.css",
+    "static/js/main.abf2bd4b.chunk.js"
+  ]
+}

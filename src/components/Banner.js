@@ -19,53 +19,53 @@ const Banner = () => {
       <Container>
         <Row className="banner-text">
           {/* Name and one row */}
-          <Col xs={1} sm={2} ></Col>
-          <Col xs={10} sm={4}>
+          <Col xs={1} sm={1} ></Col>
+          <Col xs={10} sm={5}>
             <h1 className="name" >Joel Muñoz</h1>
           </Col>
           <Col xs={1} sm={12}></Col>
           {/* Job title and second row */}
-          <Col xs={1} sm={2} ></Col>
-          <Col xs={10} sm={4}>
+          <Col xs={1} sm={1} ></Col>
+          <Col xs={10} sm={5}>
             <h2 className="job-title" >Front-End Developer</h2>
           </Col>
           <Col xs={1} sm={12}></Col>
           {/* city and third row*/}
-          <Col xs={1} sm={2} ></Col>
-          <Col xs={10} sm={4}>
+          <Col xs={1} sm={1} ></Col>
+          <Col xs={10} sm={5}>
             <h3 className="city" >Hayward, California</h3>
           </Col>
           <Col xs={1} sm={12}></Col>
           {/* link icons and fourth row */}
-          <Col xs={1} sm={2} ></Col>
-          <Col xs={10} sm={4}>
+          <Col xs={1} sm={1} ></Col>
+          <Col xs={10} sm={5}>
             <Container className="banner-icons">
-              <a  >
-                <BsLinkedin className='icon-item icon-one' href="https://www.linkedin.com/in/moonoz/" />
+              <a className="lkd-icon" href="https://www.linkedin.com/in/moonoz/" >
+                <BsLinkedin className='icon-item' />
               </a>
-              <a >
-                <BsGithub className='icon-item' />
+              <a className="git-icon" href="https://github.com/jmoonoz">
+                <BsGithub className='icon-item ' />
               </a>
 
-              <a >
-                <BsInstagram className='icon-item' />
+              <a className="ig-icon" >
+                <BsInstagram className='icon-item ' />
               </a>
             </Container>
 
           </Col>
-          <Col xs={1} sm={12}></Col>
+          <Col xs={1} sm={6}></Col>
           {/* down arrow and fith row */}
-          <Col xs={1} sm={2} ></Col>
-          <Col xs={10} sm={4}>
-            <a href="#Quote"> 
+          <Col xs={1} sm={1} ></Col>
+          <Col xs={10} sm={5}>
+            <a href="#Quote">
               <BsArrowDownCircle className="icon-item" />
 
             </a>
 
           </Col>
-          <Col xs={1} sm={12}></Col>
+          <Col xs={1} sm={6}></Col>
         </Row>
-        
+
       </Container>
     </Container>
   );

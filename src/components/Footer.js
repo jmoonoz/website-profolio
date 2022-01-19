@@ -19,14 +19,14 @@ const Footer = () => {
         <Col xs={6} >
         <Container className="footer-icons">
 
-          <a className='icon-item' href="https://www.linkedin.com/in/moonoz/" >
+          <a href="https://www.linkedin.com/in/moonoz/" >
             <BsLinkedin className='icon-item' />
           </a>
-          <a className='icon-item'>
+          <a >
             <BsGithub className='icon-item' />
           </a>
 
-          <a className='icon-item'>
+          <a >
             <BsInstagram className='icon-item' />
           </a>
         </Container>
