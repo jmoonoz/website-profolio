@@ -6,13 +6,13 @@
 // colors influenced by coco
 $main-bkgd: #000000;
 $whtColor: #fcf4f4;
-$redColor: #EE3B24;
-$blueColor: #2498CB;
+$redColor: #ee3b24;
+$blueColor: #2498cb;
 $dk-blue: #107dbc;
-$pinkColor: #EF519E;
+$pinkColor: #ef519e;
 $orangeColor: #f99e1a;
-$dk-orange-color: #f5801E;
-$green-color: #ADA03D;
+$dk-orange-color: #f5801e;
+$green-color: #ada03d;
 
 * {
   box-sizing: border-box;
@@ -138,6 +138,9 @@ h3,
 .banner-text {
   line-height: 2.5rem;
 }
+.job-title {
+  font-size: 29px;
+}
 
 .banner-icons {
   margin: 2% 0;
@@ -151,6 +154,12 @@ h3,
 }
 .icon-item:hover {
   opacity: 100% !important;
+}
+.banner {
+  background-size: cover;
+  background-image: url("../src/img/bannerBkgd.jpg");
+  background-position: center;
+  padding: 22px 0 130px !important;
 }
 
 // ************************
@@ -179,12 +188,12 @@ h3,
 // gradient backgrtound
 //************************
 
-.gradient-background {
-  background: linear-gradient(100deg, $redColor, $orangeColor,$dk-orange-color, $blueColor, $dk-blue);
-  background-size: 400% 400%;
-  animation: gradient-animation 10s ease infinite;
-  padding-bottom: 5%;
-}
+// .gradient-background {
+//   background: linear-gradient(100deg, $redColor, $orangeColor,$dk-orange-color, $blueColor, $dk-blue);
+//   background-size: 400% 400%;
+//   animation: gradient-animation 10s ease infinite;
+//   padding-bottom: 5%;
+// }
 
 @keyframes gradient-animation {
   0% {
@@ -213,19 +222,19 @@ h3,
 .card:hover {
   transition: all 250ms ease;
   -webkit-box-shadow: 0px 17px 49px 1px #ffffff;
-  box-shadow: 0px 17px 49px 1px $pinkColor;
+  box-shadow: 0px 17px 30px 0.5px $pinkColor;
 }
 .moonoz-college {
   width: 70%;
   border-radius: 50%;
 }
 
-.yellow-change:hover{
-  background-color: $redColor!important;
+.yellow-change:hover {
+  background-color: $blueColor !important;
   border: none;
-  .red-text{
+  .red-text {
     font-family: cocoFont;
-    color: $blueColor;
+    // color: $dk-blue;
     transition: all 250ms ease;
   }
 }
@@ -235,8 +244,6 @@ h3,
 //   -webkit-text-fill-color: transparent;
 //   height: fit-content;
 // }
-
-
 
 // .card-title {
 //   color: $orangecolor !important;
@@ -281,8 +288,11 @@ h3,
     }
   }
   .banner-Mobile {
-    padding-top: 90px;
-    padding-bottom: 15%;
+    // padding-bottom: 15%;
+  }
+  .banner {
+    padding: 360px 0 60px !important;
+    background-position: -620px 0px;
   }
 
   // *********

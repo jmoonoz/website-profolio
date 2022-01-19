@@ -5,9 +5,9 @@ import { BsLinkedin, BsGithub, BsInstagram, BsArrowDownCircle } from 'react-icon
 
 const Banner = () => {
   return (
-    <Container id="Banner" className="gradient-background banner-Mobile" fluid>
+    <Container id="Banner" className="banner gradient-background banner-Mobile" fluid>
       {/* Image */}
-      <Container>
+      {/* <Container>
         <Row>
           <Col>
             <div className="moonoz-Img">
@@ -15,23 +15,30 @@ const Banner = () => {
             </div>
           </Col>
         </Row>
-      </Container>
+      </Container> */}
       <Container>
         <Row className="banner-text">
-          {/* Name */}
-          <Col sm={12}>
+          {/* Name and one row */}
+          <Col xs={1} ></Col>
+          <Col xs={10}>
             <h1 className="name" >Joel Muñoz</h1>
           </Col>
-          {/* Job title */}
-          <Col sm={12}>
+          <Col xs={1} ></Col>
+          {/* Job title and second row */}
+          <Col xs={1} ></Col>
+          <Col xs={10}>
             <h2 className="job-title" >Front-End Developer</h2>
           </Col>
-          {/* city */}
-          <Col sm={12}>
+          <Col xs={1} ></Col>
+          {/* city and third row*/}
+          <Col xs={1} ></Col>
+          <Col xs={10}>
             <h3 className="city" >Hayward, California</h3>
           </Col>
-          {/* link icons */}
-          <Col sm={12}>
+          <Col xs={1} ></Col>
+          {/* link icons and fourth row */}
+          <Col xs={1} ></Col>
+          <Col xs={10}>
             <Container className="banner-icons">
               <a  >
                 <BsLinkedin className='icon-item icon-one' href="https://www.linkedin.com/in/moonoz/" />
@@ -46,13 +53,17 @@ const Banner = () => {
             </Container>
 
           </Col>
-          <Col sm={12}>
+          <Col xs={1} ></Col>
+          {/* down arrow and fith row */}
+          <Col xs={1} ></Col>
+          <Col xs={10}>
             <a href="#Quote"> 
               <BsArrowDownCircle className="icon-item" />
 
             </a>
 
           </Col>
+          <Col xs={1} ></Col>
         </Row>
         
       </Container>
