@@ -1,21 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap");
-
-$main-bkgd: #1f2225;
-$text-wht: #ededed;
-$red-color: #EE3B24;
-$blue-color: #2498CB;
-$orangecolor: #f99e1a;
+@font-face {
+  font-family: "cocoFont";
+  src: url("../src/font/Coco.otf");
+}
 // colors influenced by coco
-
+$main-bkgd: #000000;
+$whtColor: #fcf4f4;
+$redColor: #EE3B24;
+$blueColor: #2498CB;
+$dk-blue: #107dbc;
+$pinkColor: #EF519E;
+$orangeColor: #f99e1a;
+$dk-orange-color: #f5801E;
+$green-color: #ADA03D;
 
 * {
   box-sizing: border-box;
-  // padding: 0;
   font-family: "Roboto", sans-serif;
   margin: 0;
   display: flexbox;
   text-align: center;
-  color: white;
+  color: $whtColor;
 }
 a {
   // text-decoration: none ;
@@ -147,35 +152,6 @@ h3,
 .icon-item:hover {
   opacity: 100% !important;
 }
-.about-title{
-  .red-text{
-    color: #EE3B24;
-  }
-  
-}
-.yellow-change:hover{
-  background-color: #F99E1A !important;
-  .red-text{
-    color: #EF519E;
-  }
-}
-
-
-
-// .red-text,
-// .color-test {
-//   color: #FC5c14;
-// }
-
-.blue-text{
-  background: linear-gradient(120deg,  $blue-color, $red-color);
-}
-
-.blue-text {
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  height: fit-content;
-}
 
 // ************************
 // skills section
@@ -188,7 +164,7 @@ h3,
 }
 .card-sec {
   padding: 0.7rem 1.5rem;
-  border: 1px solid rgba(255, 255, 255, 0.6) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
 }
 
 //************************
@@ -204,10 +180,7 @@ h3,
 //************************
 
 .gradient-background {
-  // background: linear-gradient(90deg,#133a1b,#ff4f4f,#e4deae);
-  // background: linear-gradient(90deg, #676767, #ede8e4, #86868b);
-  // background: linear-gradient(90deg, #e65e5a, #9ca2a5, #7daec3);
-  background: linear-gradient(90deg, $red-color, $orangecolor, $blue-color);
+  background: linear-gradient(100deg, $redColor, $orangeColor,$dk-orange-color, $blueColor, $dk-blue);
   background-size: 400% 400%;
   animation: gradient-animation 10s ease infinite;
   padding-bottom: 5%;
@@ -231,8 +204,8 @@ h3,
 .card {
   width: 100%;
   border-radius: 10px !important;
-  background-color: #7c898f !important;
-  border: 1px solid rgba(237, 237, 237, 0.8) !important;
+  background-color: #959b9e !important;
+  border: 1px solid rgba(237, 237, 237, 0.6) !important;
   margin-left: auto;
   margin-right: auto;
   transition: all 250ms ease;
@@ -240,16 +213,34 @@ h3,
 .card:hover {
   transition: all 250ms ease;
   -webkit-box-shadow: 0px 17px 49px 1px #ffffff;
-  box-shadow: 0px 17px 49px 1px #ffffff;
+  box-shadow: 0px 17px 49px 1px $pinkColor;
 }
 .moonoz-college {
   width: 70%;
   border-radius: 50%;
 }
-.card-title {
-  display: flex;
-  text-align: center !important;
+
+.yellow-change:hover{
+  background-color: $redColor!important;
+  border: none;
+  .red-text{
+    font-family: cocoFont;
+    color: $blueColor;
+    transition: all 250ms ease;
+  }
 }
+
+// .blue-text {
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   height: fit-content;
+// }
+
+
+
+// .card-title {
+//   color: $orangecolor !important;
+// }
 
 // **************************************************************
 // Media screen size phones
@@ -327,12 +318,8 @@ h3,
       margin-bottom: 6px;
     }
   }
-
-  // remove shadow in
-  .card:hover {
-    box-shadow: none;
-  }
   .moonoz-college {
+    width: 90%;
     margin: 10% 0 12%;
   }
   // **************

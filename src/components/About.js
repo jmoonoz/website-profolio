@@ -16,9 +16,11 @@ const About = () => {
   return (
     <Container id="About">
       <Row>
-        <Col sm={12}>
+      <Col xs={1}></Col>
+        <Col xs={10}>
           <h6 className="aboutMe-title">About me</h6>
         </Col>
+        <Col xs={1}></Col>
         <Col sm={12}>
           <h4 className="aboutMe-Name">Mooñoz Mundo</h4>
         </Col>
@@ -44,7 +46,7 @@ const About = () => {
         </Col>
         <Col sm={4}>
           <Container>
-            <Card>
+            <Card className="blue-change" > 
               <CardBody>
                 <CardTitle>
                   <div className="about-title blue-text">
