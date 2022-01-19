@@ -19,26 +19,26 @@ const Banner = () => {
       <Container>
         <Row className="banner-text">
           {/* Name and one row */}
-          <Col xs={1} ></Col>
-          <Col xs={10}>
+          <Col xs={1} sm={2} ></Col>
+          <Col xs={10} sm={4}>
             <h1 className="name" >Joel Muñoz</h1>
           </Col>
-          <Col xs={1} ></Col>
+          <Col xs={1} sm={12}></Col>
           {/* Job title and second row */}
-          <Col xs={1} ></Col>
-          <Col xs={10}>
+          <Col xs={1} sm={2} ></Col>
+          <Col xs={10} sm={4}>
             <h2 className="job-title" >Front-End Developer</h2>
           </Col>
-          <Col xs={1} ></Col>
+          <Col xs={1} sm={12}></Col>
           {/* city and third row*/}
-          <Col xs={1} ></Col>
-          <Col xs={10}>
+          <Col xs={1} sm={2} ></Col>
+          <Col xs={10} sm={4}>
             <h3 className="city" >Hayward, California</h3>
           </Col>
-          <Col xs={1} ></Col>
+          <Col xs={1} sm={12}></Col>
           {/* link icons and fourth row */}
-          <Col xs={1} ></Col>
-          <Col xs={10}>
+          <Col xs={1} sm={2} ></Col>
+          <Col xs={10} sm={4}>
             <Container className="banner-icons">
               <a  >
                 <BsLinkedin className='icon-item icon-one' href="https://www.linkedin.com/in/moonoz/" />
@@ -53,17 +53,17 @@ const Banner = () => {
             </Container>
 
           </Col>
-          <Col xs={1} ></Col>
+          <Col xs={1} sm={12}></Col>
           {/* down arrow and fith row */}
-          <Col xs={1} ></Col>
-          <Col xs={10}>
+          <Col xs={1} sm={2} ></Col>
+          <Col xs={10} sm={4}>
             <a href="#Quote"> 
               <BsArrowDownCircle className="icon-item" />
 
             </a>
 
           </Col>
-          <Col xs={1} ></Col>
+          <Col xs={1} sm={12}></Col>
         </Row>
         
       </Container>
