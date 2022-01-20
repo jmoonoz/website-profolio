@@ -21,8 +21,8 @@ const NavBar = () => {
       <Navbar expand="md" container light fixed="top" fluid>
 
         <NavbarBrand className="me-auto" href="#Banner">
-          <a href="#Banner">
-          Joel Munoz
+          <a href="#Banner nav-Name">
+          Joel Muñoz
             {/* <img className="nav-tag" src={MoonozTag} alt='Moonoz tag graffiti' /> */}
           </a>
         </NavbarBrand>
