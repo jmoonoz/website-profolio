@@ -47,7 +47,7 @@ const Banner = () => {
                 <BsGithub className='icon-item ' />
               </a>
 
-              <a className="ig-icon" >
+              <a className="ig-icon" href="https://www.instagram.com/moonozdisenoz/?hl=en">
                 <BsInstagram className='icon-item ' />
               </a>
             </Container>
