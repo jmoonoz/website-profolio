@@ -181,14 +181,13 @@ h3,
   padding: 21.3rem 0 14rem !important;
 }
 
-
 //************************
 // about me
 //************************
 .card {
   width: 100%;
   border-radius: 10px !important;
-  background-color: rgb(243 243 243 / 12%)!important;
+  background-color: rgb(243 243 243 / 12%) !important;
   border: 1px solid rgba(255, 255, 255, 0.6) !important;
   margin-left: auto;
   margin-right: auto;
@@ -199,17 +198,42 @@ h3,
   -webkit-box-shadow: 0px 17px 49px 1px #ffffff;
 }
 .moonoz-college {
-  width: 70%;
-  border-radius: 50%;
-  
-  box-shadow: 0px 0px 22px 5px rgb(255, 255, 255, .8);
-  
+  width: 100%;
+  height: 100%;
+  // background-color: $redColor;
+  background: url("./img/joelCollege.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  // background-repeat: none;
+  // background-position: cover;
+  // border-radius: 50%;
+  // box-shadow: 0px 0px 22px 5px rgb(255, 255, 255, .8);
+}
+.moonoz-college:hover{
+  background: url("https://c.tenor.com/02ILjyFVXWQAAAAC/handshake.gif") no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  background-color: #fffe;
+
+}
+.frame {
+  border-image: url("./img/goldFrame.png") 130 145 133 138 stretch stretch;
+  border-color: #f4be52;
+  border-style: inset;
+  border-width: 50px;
+  display: inline-block;
+  // width: 30% !important;
+  // height: 100% !important;
+  background-color: #fffe;
+  margin: 0 auto;
 }
 .name,
 .graphics-title,
 .about-title,
 .skill-title,
-.selfDescription, .certificate-title {
+.selfDescription,
+.certificate-title {
   font-family: cocoFont !important;
 }
 .red-change:hover {
@@ -309,7 +333,7 @@ h3,
     padding: 360px 0 60px !important;
     background-position: -625px 0px;
   }
-  .banner-arrow{
+  .banner-arrow {
     margin-top: 20px;
   }
 
@@ -354,7 +378,8 @@ h3,
     }
   }
   .moonoz-college {
-    width: 90%;
+    width: 100%;
+    height: 294px;
     margin: 10% 0 12%;
   }
   // **************
@@ -373,7 +398,8 @@ h3,
   .skills-space {
     margin-top: 32px;
   }
-  .skill , .certificate-title {
+  .skill,
+  .certificate-title {
     text-align: center;
     font-size: 25px;
   }

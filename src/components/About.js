@@ -62,7 +62,9 @@ const About = () => {
         </Col>
         <Col sm={4}>
           <Container>
-            <img className="moonoz-college" src={College} alt="Joel Munoz college" />
+            {/* <img className="moonoz-college frame" src={College} alt="Joel Munoz college" /> */}
+            <div className="moonoz-college frame">
+            </div>
           </Container>
         </Col>
         <Col sm={12}>
