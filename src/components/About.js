@@ -31,8 +31,8 @@ const About = () => {
           <Container>
             <Card className="yellow-change">
               <CardBody>
-                <CardTitle className="about-title" >
-                  <div className="red-text">
+                <CardTitle >
+                  <div className="about-title" >
                     Education
                   </div>
                 </CardTitle>
@@ -49,7 +49,7 @@ const About = () => {
             <Card className="blue-change" > 
               <CardBody>
                 <CardTitle>
-                  <div className="about-title blue-text">
+                  <div className="about-title ">
                     Graphics
                   </div>
                 </CardTitle>
@@ -65,12 +65,12 @@ const About = () => {
             <img className="moonoz-college" src={College} alt="Joel Munoz college" />
           </Container>
         </Col>
-        <Col className="selfDescription" sm={12}>
-          <p>Accomplished. Artistic. Deticated.</p>
+        <Col sm={12}>
+          <p className="selfDescription" >Accomplished. Artistic. Deticated.</p>
         </Col>
         <Col sm={12}>
           <div className="aboutMe-foot">
-            Look into my Mundo through my{" "}
+            Learn more by checking out my {" "}
             <a href="https://www.instagram.com/moonozdisenoz/?hl=en">Instagram</a>
           </div>
         </Col>

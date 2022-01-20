@@ -37,7 +37,7 @@ const Skills = () => {
         <Col className="skills-space" sm={5}>
           <Container className="card-sec">
 
-            <div className="skill-title graphics-title">
+            <div className="graphics-title">
               <MdDraw /> Graphic Designer
             </div>
             <div className="skill-text">

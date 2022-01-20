@@ -21,10 +21,7 @@ const NavBar = () => {
       <Navbar expand="md" container light fixed="top" fluid='true'>
 
         <NavbarBrand className="me-auto" href="#Banner">
-          
           Joel Muñoz
-            {/* <img className="nav-tag" src={MoonozTag} alt='Moonoz tag graffiti' /> */}
-          
         </NavbarBrand>
         <NavbarToggler className="me-2" />
         <Collapse navbar>
