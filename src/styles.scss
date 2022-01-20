@@ -181,6 +181,7 @@ h3,
   padding: 21.3rem 0 14rem !important;
 }
 
+
 //************************
 // about me
 //************************
@@ -208,7 +209,7 @@ h3,
 .graphics-title,
 .about-title,
 .skill-title,
-.selfDescription {
+.selfDescription, .certificate-title {
   font-family: cocoFont !important;
 }
 .red-change:hover {
@@ -306,7 +307,10 @@ h3,
 
   .banner {
     padding: 360px 0 60px !important;
-    background-position: -610px 0px;
+    background-position: -625px 0px;
+  }
+  .banner-arrow{
+    margin-top: 20px;
   }
 
   // *********
@@ -369,7 +373,7 @@ h3,
   .skills-space {
     margin-top: 32px;
   }
-  .skill-title {
+  .skill , .certificate-title {
     text-align: center;
     font-size: 25px;
   }

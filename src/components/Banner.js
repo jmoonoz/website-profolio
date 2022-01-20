@@ -57,8 +57,8 @@ const Banner = () => {
           {/* down arrow and fith row */}
           <Col xs={1} sm={1} ></Col>
           <Col xs={10} sm={5}>
-            <a href="#Quote">
-              <BsArrowDownCircle className="icon-item" />
+            <a href="#Quote" >
+              <BsArrowDownCircle className="icon-item banner-arrow" />
 
             </a>
 
