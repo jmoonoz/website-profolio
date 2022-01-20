@@ -23,7 +23,7 @@ $green-color: #ada03d;
   color: $whtColor;
 }
 
-a:visted{
+a:visted {
   color: inherit !important;
 }
 #Footer {
@@ -57,7 +57,7 @@ nav {
     text-align: left !important;
   }
 }
-.nav-Name{
+.nav-Name {
   text-decoration: none;
 }
 
@@ -88,7 +88,8 @@ h3,
 .aboutMe-title,
 .quote-auth,
 .city,
-.aboutMe-foot, .projects-title {
+.aboutMe-foot,
+.projects-title {
   font-size: 1.5rem;
   font-weight: 500;
   opacity: 60% !important;
@@ -134,7 +135,6 @@ h3,
 }
 .name {
   font-size: 40px !important;
-  
 }
 
 .banner-text {
@@ -162,18 +162,17 @@ h3,
     fill: $orangeColor;
   }
 }
-.git-icon:hover{
+.git-icon:hover {
   opacity: 100% !important;
   .icon-item {
     fill: $redColor;
   }
 }
-.ig-icon:hover{
+.ig-icon:hover {
   opacity: 100% !important;
   .icon-item {
-    fill:$pinkColor;
+    fill: $pinkColor;
   }
-
 }
 .banner {
   background-size: cover;
@@ -188,8 +187,8 @@ h3,
 .card {
   width: 100%;
   border-radius: 10px !important;
-  background-color: #959b9e !important;
-  border: 1px solid rgba(237, 237, 237, 0.6) !important;
+  background-color: rgb(243 243 243 / 12%)!important;
+  border: 1px solid rgba(255, 255, 255, 0.6) !important;
   margin-left: auto;
   margin-right: auto;
   transition: all 250ms ease;
@@ -197,24 +196,29 @@ h3,
 .card:hover {
   transition: all 250ms ease;
   -webkit-box-shadow: 0px 17px 49px 1px #ffffff;
-  
 }
 .moonoz-college {
   width: 70%;
   border-radius: 50%;
+  
+  box-shadow: 0px 0px 22px 5px rgb(255, 255, 255, .8);
+  
 }
-.name,.graphics-title, .about-title, .skill-title, .selfDescription{
+.name,
+.graphics-title,
+.about-title,
+.skill-title,
+.selfDescription {
   font-family: cocoFont !important;
 }
-.red-change:hover{
+.red-change:hover {
   background-color: $redColor !important;
   box-shadow: 0px 17px 30px 0.5px $pinkColor;
 }
-.blue-change:hover{
-  background-color: $blueColor !important; 
+.blue-change:hover {
+  background-color: $blueColor !important;
   box-shadow: 0px 17px 30px 0.5px $orangeColor;
 }
-
 
 // ************************
 // skills section
@@ -261,7 +265,6 @@ h3,
   }
 }
 
-
 // **************************************************************
 // Media screen size phones
 // **************************************************************
@@ -300,7 +303,7 @@ h3,
       width: 60%;
     }
   }
-  
+
   .banner {
     padding: 360px 0 60px !important;
     background-position: -610px 0px;
@@ -313,7 +316,7 @@ h3,
     padding: 0 20px;
   }
 
-  .quote-text{
+  .quote-text {
     font-size: 30px;
     font-weight: 500;
   }
@@ -324,14 +327,13 @@ h3,
   // *********************
   // about me
   // *********************
-  
+
   .aboutMe-foot {
     font-size: 20px;
-    a{
+    a {
       color: $whtColor;
       text-decoration: none;
     }
-    
   }
 
   .card {
@@ -371,15 +373,14 @@ h3,
     text-align: center;
     font-size: 25px;
   }
-  .graphics-title{
+  .graphics-title {
     font-size: 22px;
   }
   .skill-text {
     margin-top: 1rem;
   }
-  
+
   .selfDescription {
     font-size: 20px;
-
   }
 }
