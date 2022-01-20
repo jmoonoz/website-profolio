@@ -5,6 +5,7 @@ import About from "./components/About";
 import NavBar from "./components/NavBar";
 import Banner from "./components/Banner";
 import Quote from "./components/Quote";
+import QuoteArray from './components/quotes';
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import { Container } from "reactstrap";
@@ -15,7 +16,13 @@ export default function App() {
         <NavBar />
         <Banner />
         <Container className="section-bkgd" fluid>
-          <Quote />
+          {QuoteArray.map((arrayItem) => (
+            <Quote
+              key={arrayItem.id}
+              phrase={arrayItem.quote}
+              person={arrayItem.auth}
+            />
+          ))}
           <About />
           <Skills />
           <Projects />
