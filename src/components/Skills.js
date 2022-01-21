@@ -22,7 +22,7 @@ const Skills = () => {
             {/* <img /> */}
           </div>
         </Col>
-        <Col sm={6}>
+        <Col sm={5}>
           {/* languages */}
           <Container className="card-sec lang-sec">
             <div className="skill-title front-title">

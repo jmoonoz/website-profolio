@@ -4,7 +4,7 @@
   src: url("../src/font/Coco.otf");
 }
 // colors influenced by coco
-$main-bkgd: #000000;
+$main-bkgd: #162029;
 $whtColor: #fcf4f4;
 $redColor: #ee3b24;
 $blueColor: #2498cb;
@@ -28,7 +28,7 @@ a {
   text-decoration: none !important;
 }
 #Footer {
-  background-color: #7c898f;
+  background-color: #273749;
   padding: 1.5rem 0;
 }
 .section-bkgd {
@@ -183,6 +183,7 @@ h3,
   margin-left: auto;
   margin-right: auto;
   transition: all 250ms ease;
+  // animation: grow-shadow ;
 }
 .card:hover {
   transition: all 250ms ease;
@@ -228,13 +229,30 @@ h3,
 .skill-intro {
   font-family: cocoFont !important;
 }
-.red-change:hover {
-  background-color: $redColor !important;
-  box-shadow: 0px 17px 30px 0.5px $pinkColor;
+// .red-change:hover {
+//   background-color: $redColor !important;
+//   box-shadow: 0px 17px 30px 0.5px $pinkColor;
+// }
+// .blue-change:hover {
+//   background-color: $blueColor !important;
+//   box-shadow: 0px 17px 30px 0.5px $orangeColor;
+// }
+
+/* Grow Rotate */
+.hvr-grow-rotate {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
 }
-.blue-change:hover {
-  background-color: $blueColor !important;
-  box-shadow: 0px 17px 30px 0.5px $orangeColor;
+.hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
+  -webkit-transform: scale(1.1) rotate(-4deg);
+  transform: scale(1.1) rotate(-4deg);
 }
 
 // ************************
@@ -259,6 +277,21 @@ h3,
 .card-sec {
   padding: 0.7rem 1.5rem;
   border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+.card-sec {
+  // padding: 0.7rem 1.5rem;
+  // border: 1px solid rgba(255, 255, 255, 0.6) !important;
+  border-radius: 10px;
+  width: 75% !important;
+  margin-top: 2em;
+  div {
+    text-align: left !important;
+  }
+}
+.skill-text{
+  margin-top: 10px;
+  font-size: 12px;
+  opacity: 80%;
 }
 .front-icon {
   stroke-width: 1;
@@ -391,6 +424,9 @@ a {
   // ****************************
   // skills section
   // ****************************
+  .card-sec{
+    width: 100% !important;
+  }
   .moonoz-Img {
     box-shadow: #133a1b;
     img {
@@ -404,16 +440,7 @@ a {
     margin-top:  -12rem !important;
   }
 
-  .card-sec {
-    // padding: 0.7rem 1.5rem;
-    // border: 1px solid rgba(255, 255, 255, 0.6) !important;
-    border-radius: 10px;
-    width: 70%;
-    margin-top: 2em;
-    div {
-      text-align: left !important;
-    }
-  }
+  
   .skills-space {
     margin-top: 32px;
   }

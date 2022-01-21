@@ -29,7 +29,7 @@ const About = () => {
         {/*  */}
         <Col sm={4}>
           <Container>
-            <Card className="red-change">
+            <Card className="red-change hvr-grow-rotate">
               <CardBody>
                 <CardTitle >
                   <div className="about-title" >
