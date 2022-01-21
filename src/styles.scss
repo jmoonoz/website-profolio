@@ -23,8 +23,9 @@ $green-color: #ada03d;
   color: $whtColor;
 }
 
-a:visted {
-  color: inherit !important;
+a {
+  color: $whtColor !important;
+  text-decoration: none !important;
 }
 #Footer {
   background-color: #7c898f;
@@ -39,6 +40,9 @@ a:visted {
 .icon-item {
   height: 2rem;
   width: 2rem;
+}
+.cert-icon {
+  fill: $whtColor;
 }
 //************************
 // Navbar
@@ -56,9 +60,6 @@ nav {
   .navbar-brand {
     text-align: left !important;
   }
-}
-.nav-Name {
-  text-decoration: none;
 }
 
 .nav-tag {
@@ -86,6 +87,7 @@ h3,
   font-weight: bold;
 }
 .aboutMe-title,
+.skills-head,
 .quote-auth,
 .city,
 .aboutMe-foot,
@@ -121,18 +123,7 @@ h3,
 //************************
 //banner
 //************************
-.moonoz-Img {
-  margin-top: 120px;
-  margin-bottom: 30px;
-  img {
-    border-radius: 50%;
-    object-fit: contain;
-    width: 25%;
-    box-shadow: 0px -1px 8px 4px rgba(255, 255, 255, 1);
-    -webkit-box-shadow: 0px -1px 8px 4px rgba(255, 255, 255, 1);
-    -moz-box-shadow: 0px -1px 8px 4px rgba(255, 255, 255, 1);
-  }
-}
+
 .name {
   font-size: 40px !important;
 }
@@ -209,13 +200,13 @@ h3,
   // border-radius: 50%;
   // box-shadow: 0px 0px 22px 5px rgb(255, 255, 255, .8);
 }
-.moonoz-college:hover{
-  background: url("https://c.tenor.com/02ILjyFVXWQAAAAC/handshake.gif") no-repeat;
+.moonoz-college:hover {
+  background: url("https://c.tenor.com/02ILjyFVXWQAAAAC/handshake.gif")
+    no-repeat;
   background-position: center;
   background-size: cover;
 
   background-color: #fffe;
-
 }
 .frame {
   border-image: url("./img/goldFrame.png") 130 145 133 138 stretch stretch;
@@ -233,7 +224,8 @@ h3,
 .about-title,
 .skill-title,
 .selfDescription,
-.certificate-title {
+.certificate-title,
+.skill-intro {
   font-family: cocoFont !important;
 }
 .red-change:hover {
@@ -248,6 +240,16 @@ h3,
 // ************************
 // skills section
 // ************************
+.moonoz-Img {
+  img {
+    border-radius: 50%;
+    object-fit: contain;
+    width: 25%;
+    box-shadow: 0px -1px 8px 4px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px -1px 8px 4px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0px -1px 8px 4px rgba(255, 255, 255, 1);
+  }
+}
 .card {
   display: flex;
 }
@@ -257,6 +259,21 @@ h3,
 .card-sec {
   padding: 0.7rem 1.5rem;
   border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+.front-icon {
+  stroke-width: 1;
+}
+.skill-row{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+a {
+  p {
+    text-align: left;
+    margin-bottom: 5px;
+  }
 }
 
 //************************
@@ -309,6 +326,10 @@ h3,
     font-size: 12px !important;
     opacity: 80% !important;
   }
+  .skills-head,
+  .skill-intro {
+    text-align: left;
+  }
 
   // *********
   // navbar
@@ -317,17 +338,6 @@ h3,
   // *********
   // Banner
   // *********
-
-  .moonoz-Img {
-    margin-top: 80px;
-    margin-bottom: 30px;
-    box-shadow: #133a1b;
-    img {
-      border-radius: 50%;
-      object-fit: contain;
-      width: 60%;
-    }
-  }
 
   .banner {
     padding: 360px 0 60px !important;
@@ -358,10 +368,6 @@ h3,
 
   .aboutMe-foot {
     font-size: 20px;
-    a {
-      color: $whtColor;
-      text-decoration: none;
-    }
   }
 
   .card {
@@ -382,9 +388,22 @@ h3,
     height: 294px;
     margin: 10% 0 12%;
   }
-  // **************
+  // ****************************
   // skills section
-  // **************
+  // ****************************
+  .moonoz-Img {
+    box-shadow: #133a1b;
+    img {
+      border-radius: 70%;
+      object-fit: contain;
+      width: 100%;
+    }
+  }
+  .Moonoz{
+    margin-left: 11rem !important;
+    margin-top:  -12rem !important;
+  }
+
   .card-sec {
     // padding: 0.7rem 1.5rem;
     // border: 1px solid rgba(255, 255, 255, 0.6) !important;
@@ -392,22 +411,31 @@ h3,
     width: 70%;
     margin-top: 2em;
     div {
-      text-align: left;
+      text-align: left !important;
     }
   }
   .skills-space {
     margin-top: 32px;
   }
   .skill,
-  .certificate-title {
+  .certificate-title,
+  .front-title,
+  .tool-title {
     text-align: center;
     font-size: 25px;
   }
+  .skill-intro {
+    // margin-top: 15px;
+
+  }
+  .skills-head {
+    font-size: 18px;
+  }
   .graphics-title {
-    font-size: 22px;
+    font-size: 1.3rem;
   }
   .skill-text {
-    margin-top: 1rem;
+    margin-top: .4rem;
   }
 
   .selfDescription {
