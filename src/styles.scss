@@ -72,6 +72,15 @@ nav {
 //************************
 //text1
 //************************
+.name,
+.graphics-title,
+.about-title,
+.skill-title,
+.selfDescription,
+.certificate-title,
+.skill-intro, .aboutMe-Name {
+  font-family: cocoFont !important;
+}
 
 h1 {
   font-size: 80px;
@@ -137,7 +146,7 @@ h3,
   font-size: 29px;
 }
 
-.banner-icons {
+.banner-icons, .footer-icons  {
   margin: 2% 0;
   // width: 50% !important;
   display: flex;
@@ -217,45 +226,18 @@ h3,
   border-style: inset;
   border-width: 50px;
   display: inline-block;
-  // width: 30% !important;
-  // height: 100% !important;
   background-color: #fffe;
   margin: 0 auto;
 }
-.name,
-.graphics-title,
-.about-title,
-.skill-title,
-.selfDescription,
-.certificate-title,
-.skill-intro {
-  font-family: cocoFont !important;
-}
-.red-change:hover {
-  background-color: #7e2135 !important;
-  // box-shadow: 0px 17px 30px 0.5px $pinkColor;
-}
-// .blue-change:hover {
-//   background-color: $blueColor !important;
-//   box-shadow: 0px 17px 30px 0.5px $orangeColor;
-// }
 
-/* Grow Rotate */
-.hvr-grow-rotate {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
+.red-change:hover {
+  background-color: rgb(126, 33, 53, .5)!important;
 }
-.hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
-  -webkit-transform: scale(1.1) rotate(-4deg);
-  transform: scale(1.1) rotate(-4deg);
+.blue-change:hover {
+  background-color: #345454 !important;
 }
+
+
 
 // ************************
 // skills section
@@ -277,6 +259,7 @@ h3,
   justify-content: center !important;
 }
 .card-sec {
+  background-color: rgb(243 243 243 / 12%) !important;
   padding: 0.7rem 1.5rem;
   border: 1px solid rgba(255, 255, 255, 0.3) !important;
 }
@@ -285,7 +268,7 @@ h3,
   // border: 1px solid rgba(255, 255, 255, 0.6) !important;
   border-radius: 10px;
   width: 75% !important;
-  margin-top: 2em;
+  margin-bottom: 2em;
   div {
     text-align: left !important;
   }
@@ -403,6 +386,7 @@ a {
 
   .aboutMe-foot {
     font-size: 20px;
+    margin-bottom: 2rem;
   }
 
   .card {
@@ -427,7 +411,7 @@ a {
   // skills section
   // ****************************
   .card-sec{
-    width: 100% !important;
+    width: 85% !important;
   }
   .moonoz-Img {
     box-shadow: #133a1b;
@@ -451,17 +435,14 @@ a {
   .front-title,
   .tool-title {
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
   }
-  .skill-intro {
-    // margin-top: 15px;
 
-  }
   .skills-head {
     font-size: 18px;
   }
   .graphics-title {
-    font-size: 1.3rem;
+    font-size: 21px;
   }
   .skill-text {
     margin-top: .4rem;
@@ -524,7 +505,7 @@ a {
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  background-color: $blueColor;
+  // background-color: $blueColor;
 }
 .hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
   -webkit-animation-name: hvr-bob-float, hvr-bob;
@@ -541,4 +522,20 @@ a {
   animation-fill-mode: forwards;
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
+}
+/* Grow Rotate */
+.hvr-grow-rotate {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
+  -webkit-transform: scale(1.1) rotate(-4deg);
+  transform: scale(1.1) rotate(-4deg);
 }

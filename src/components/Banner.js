@@ -1,21 +1,11 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-import Moonoz from "../img/moonozPic.png";
 import { BsLinkedin, BsGithub, BsInstagram, BsArrowDownCircle } from 'react-icons/bs';
 
 const Banner = () => {
   return (
     <Container id="Banner" className="banner gradient-background banner-Mobile" fluid>
       {/* Image */}
-      {/* <Container>
-        <Row>
-          <Col>
-            <div className="moonoz-Img">
-              <img src={Moonoz} alt="head shot of Joel Munoz Moonoz" />
-            </div>
-          </Col>
-        </Row>
-      </Container> */}
       <Container>
         <Row className="banner-text">
           {/* Name and one row */}

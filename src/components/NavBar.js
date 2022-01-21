@@ -25,26 +25,29 @@ const NavBar = () => {
         </NavbarBrand>
         <NavbarToggler className="me-2" />
         <Collapse navbar>
-          <Nav className="me-auto" navbar>
-            <NavItem>
-              <NavLink href="#About">
-                About
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="#Skills">
-                Skills
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="#Projects">
-                Projects
-              </NavLink>
-            </NavItem>
-            {/* <UncontrolledDropdown inNavbar nav>
-              
-            </UncontrolledDropdown> */}
-          </Nav>
+          <Container>
+
+            <Nav className="me-auto" navbar>
+              <NavItem>
+                <NavLink href="#About">
+                  About
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#Skills">
+                  Skills
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#Projects">
+                  Projects
+                </NavLink>
+              </NavItem>
+              <UncontrolledDropdown inNavbar nav>
+
+              </UncontrolledDropdown>
+            </Nav>
+          </Container>
           <NavbarText>Simple Text</NavbarText>
         </Collapse>
       </Navbar>

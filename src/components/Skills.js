@@ -4,7 +4,7 @@ import { BsCode } from "react-icons/bs";
 import { MdDraw } from 'react-icons/md';
 import Moonoz from "../img/moonozHeadshot.jpg";
 import { FaLaptopCode } from 'react-icons/fa';
-import { GrCertificate } from "react-icons/gr";
+import { BiCertification } from "react-icons/bi";
 
 const Skills = () => {
   return (
@@ -16,7 +16,7 @@ const Skills = () => {
         <Col xs={5}></Col>
         <Col xs={1}></Col>
         <Col xs={5}>
-          <h3 className="skill-intro">A highly deticated creative team player</h3>
+          <h3 className="skill-intro">highly deticated creative team player</h3>
           <div className="moonoz-Img">
             <img src={Moonoz} className="img-fluid Moonoz hvr-bob" alt="head shot of Joel Munoz Moonoz" />
             {/* <img /> */}
@@ -45,7 +45,7 @@ const Skills = () => {
           {/* Graphic design */}
           <Container className="card-sec">
             <div className="graphics-title">
-              <MdDraw className='icon-item' /> Graphic Designer
+              <MdDraw className='icon-item' />Graphic Designer
             </div>
             <div className="skill-text">
               Talented Freelance graphics designer with 3+ years experience creating digital artwork in Afinity desinger, Procreate and Photoshop.
@@ -54,7 +54,7 @@ const Skills = () => {
           {/* Certificates */}
           <Container className="card-sec">
             <div className="certificate-title">
-              <GrCertificate className='icon-item cert-icon' /> Certificates
+              <BiCertification className='icon-item cert-icon' /> Certificates
             </div>
             <div className="skill-text">
               <a href="https://www.udemy.com/certificate/UC-7cea0eba-da1b-44ef-8f01-221b3f702138/"><p>Complete Wb Development Bootcamp by Dr.Angela Yu</p></a>

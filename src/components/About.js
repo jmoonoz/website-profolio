@@ -11,6 +11,7 @@ import {
 import { IoSchool } from "react-icons/io5";
 import { IoIosBrush } from "react-icons/io";
 import College from "../img/joelCollege.jpg";
+import IpadTag from '../img/ipadDesign.jpg';
 
 const About = () => {
   return (
@@ -46,7 +47,7 @@ const About = () => {
         </Col>
         <Col sm={4}>
           <Container>
-            <Card className="blue-change" > 
+            <Card className="blue-change hvr-grow-rotate" > 
               <CardBody>
                 <CardTitle>
                   <div className="about-title ">
@@ -77,6 +78,7 @@ const About = () => {
           </div>
         </Col>
       </Row>
+      
     </Container>
   );
 };
