@@ -18,7 +18,7 @@ const Skills = () => {
         <Col xs={5}>
           <h3 className="skill-intro">A highly deticated creative team player</h3>
           <div className="moonoz-Img">
-            <img src={Moonoz} className="img-fluid Moonoz" alt="head shot of Joel Munoz Moonoz" />
+            <img src={Moonoz} className="img-fluid Moonoz hvr-bob" alt="head shot of Joel Munoz Moonoz" />
             {/* <img /> */}
           </div>
         </Col>

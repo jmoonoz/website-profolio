@@ -5,6 +5,8 @@
 }
 // colors influenced by coco
 $main-bkgd: #162029;
+// 1a2631
+// 19161d
 $whtColor: #fcf4f4;
 $redColor: #ee3b24;
 $blueColor: #2498cb;
@@ -28,7 +30,7 @@ a {
   text-decoration: none !important;
 }
 #Footer {
-  background-color: #273749;
+  background-color: #2b3a4b;
   padding: 1.5rem 0;
 }
 .section-bkgd {
@@ -186,7 +188,7 @@ h3,
   // animation: grow-shadow ;
 }
 .card:hover {
-  transition: all 250ms ease;
+  transition: all 250ms ease-in-out;
   -webkit-box-shadow: 0px 17px 49px 1px #ffffff;
 }
 .moonoz-college {
@@ -229,10 +231,10 @@ h3,
 .skill-intro {
   font-family: cocoFont !important;
 }
-// .red-change:hover {
-//   background-color: $redColor !important;
-//   box-shadow: 0px 17px 30px 0.5px $pinkColor;
-// }
+.red-change:hover {
+  background-color: #7e2135 !important;
+  // box-shadow: 0px 17px 30px 0.5px $pinkColor;
+}
 // .blue-change:hover {
 //   background-color: $blueColor !important;
 //   box-shadow: 0px 17px 30px 0.5px $orangeColor;
@@ -468,4 +470,75 @@ a {
   .selfDescription {
     font-size: 20px;
   }
+}
+
+// ***********************************************************************
+// hoover effects
+// ***********************************************************************
+
+
+// bob effect
+@-webkit-keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@-webkit-keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+.hvr-bob {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  background-color: $blueColor;
+}
+.hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
 }
