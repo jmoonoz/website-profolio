@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Col, Img, Row } from "reactstrap";
 import { BsCode } from "react-icons/bs";
 import { MdDraw } from 'react-icons/md';
-import Moonoz from "../img/moonozPic.png";
+import Moonoz from "../img/moonozHeadshot.jpg";
 import { FaLaptopCode } from 'react-icons/fa';
 import { GrCertificate } from "react-icons/gr";
 
