@@ -55,7 +55,7 @@ const About = () => {
                   </div>
                 </CardTitle>
                 <CardText>
-                  Freelance Graphics designer. I look to further my arti skills into animation.
+                  Freelance Graphics designer, filling the world with art one design at a time. I look to further my art skills into animation.
                 </CardText>
               </CardBody>
             </Card>

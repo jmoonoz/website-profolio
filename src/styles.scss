@@ -76,7 +76,6 @@ nav {
 //************************
 .name,
 .graphics-title,
-.about-title,
 .skill-title,
 .selfDescription,
 .certificate-title,
@@ -231,6 +230,14 @@ h3,
   background-color: #fffe;
   margin: 0 auto;
 }
+.about-title{
+  font-size: 24px;
+  font-weight: 600;
+}
+.about-title:hover{
+  font-family: cocoFont;
+  transition: 2s ease-in-out;
+}
 
 .red-change:hover {
   background-color: rgb(126, 33, 53, .5)!important;
@@ -381,6 +388,7 @@ a {
   .quote-text {
     font-size: 30px;
     font-weight: 600;
+    text-align: left;
   }
   .quote-auth {
     margin-bottom: 15px;
