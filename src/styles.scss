@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap');
+
 @font-face {
   font-family: "cocoFont";
   src: url("../src/font/Coco.otf");
@@ -18,7 +20,7 @@ $green-color: #ada03d;
 
 * {
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Inter', sans-serif;
   margin: 0;
   display: flexbox;
   text-align: center;
@@ -328,7 +330,7 @@ a {
 // **************************************************************
 // Media screen size phones
 // **************************************************************
-
+// iphone 12
 @media only screen and (max-width: 700px) {
   // *********
   // shared CSS rules
@@ -359,10 +361,14 @@ a {
 
   .banner {
     padding: 360px 0 60px !important;
-    background-position: -625px 0px;
+    background-position: -585px 0px;
   }
   .banner-arrow {
     margin-top: 30px;
+  }
+  .job-title {
+    font-size: 28;
+    font-weight: 500;
   }
 
   // *********
@@ -374,7 +380,7 @@ a {
 
   .quote-text {
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 600;
   }
   .quote-auth {
     margin-bottom: 15px;

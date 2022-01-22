@@ -21,11 +21,11 @@ const Banner = () => {
           </Col>
           <Col xs={1} sm={12}></Col>
           {/* city and third row*/}
-          <Col xs={1} sm={1} ></Col>
+          {/* <Col xs={1} sm={1} ></Col>
           <Col xs={10} sm={5}>
             <h3 className="city" >Hayward, California</h3>
           </Col>
-          <Col xs={1} sm={12}></Col>
+          <Col xs={1} sm={12}></Col> */}
           {/* link icons and fourth row */}
           <Col xs={1} sm={1} ></Col>
           <Col xs={10} sm={5}>

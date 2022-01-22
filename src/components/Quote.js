@@ -12,9 +12,9 @@ const Quote = (props) => {
         <Row>
 
           <Col sm={12}>
-            <h2 className="quote-text" >
+            <h3 className="quote-text" >
             Craft is what we are expected to know; art is the unexpected use of our craft
-            </h2>
+            </h3>
           </Col>
           <Col sm={12}>
             <p className="quote-auth">- Ed Catmull</p>

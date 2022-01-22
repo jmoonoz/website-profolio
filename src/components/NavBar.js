@@ -23,8 +23,8 @@ const NavBar = () => {
         <NavbarBrand className="me-auto" href="#Banner">
           Joel Muñoz
         </NavbarBrand>
-        <NavbarToggler className="me-2" />
-        <Collapse navbar>
+        <NavbarToggler className="me-2" data-target="#navbarSupportedContent" onClick={function noRefCheck(){}}/>
+        <Collapse navbar id="navbarSupportedContent">
           <Container>
 
             <Nav className="me-auto" navbar>
