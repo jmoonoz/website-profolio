@@ -5,7 +5,7 @@ import { BsLinkedin, BsGithub, BsInstagram, BsArrowDownCircle } from 'react-icon
 const Banner = () => {
   return (
     <Container id="Banner" className="banner gradient-background banner-Mobile" fluid>
-      {/* Image */}
+      
       <Container>
         <Row className="banner-text">
           {/* Name and one row */}
@@ -20,13 +20,7 @@ const Banner = () => {
             <h2 className="job-title" >Front-End Developer</h2>
           </Col>
           <Col xs={1} sm={12}></Col>
-          {/* city and third row*/}
-          {/* <Col xs={1} sm={1} ></Col>
-          <Col xs={10} sm={5}>
-            <h3 className="city" >Hayward, California</h3>
-          </Col>
-          <Col xs={1} sm={12}></Col> */}
-          {/* link icons and fourth row */}
+          
           <Col xs={1} sm={1} ></Col>
           <Col xs={10} sm={5}>
             <Container className="banner-icons">

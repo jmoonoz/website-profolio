@@ -45,7 +45,6 @@ const About = () => {
             </Card>
           </Container>
         </Col>
-        
         <Col sm={4}>
           <Container>
             <Card className="blue-change hvr-grow-rotate-right" > 
@@ -56,7 +55,24 @@ const About = () => {
                   </div>
                 </CardTitle>
                 <CardText>
-                  Freelance Graphics designer, filling the world with art one design at a time. I look to further my art skills into animation.
+                  Freelance Graphics designer, filling the world with art one design at a time. I design in Procreate, Affinity Designer and Photoshop.
+                </CardText>
+              </CardBody>
+            </Card>
+          </Container>
+        </Col>
+        
+        <Col sm={4}>
+          <Container>
+            <Card className="blue-change hvr-grow-rotate-right" > 
+              <CardBody>
+                <CardTitle>
+                  <div className="about-title ">
+                    Animation
+                  </div>
+                </CardTitle>
+                <CardText>
+                  I have always admired the heart filled works of Disney and Pixar animated films. Currently undergoing self lesson on creating 2-D short.
                 </CardText>
               </CardBody>
             </Card>
@@ -81,23 +97,6 @@ const About = () => {
             </Card>
           </Container>
         </Col>
-        <Col sm={4}>
-          <Container>
-            <Card className="blue-change hvr-grow-rotate-right" > 
-              <CardBody>
-                <CardTitle>
-                  <div className="about-title ">
-                    Graphics
-                  </div>
-                </CardTitle>
-                <CardText>
-                  Freelance Graphics designer, filling the world with art one design at a time. I look to further my art skills into animation.
-                </CardText>
-              </CardBody>
-            </Card>
-          </Container>
-        </Col>
-        
         <Col sm={4} >
           <Container>
             <div className="moonoz-college frame">

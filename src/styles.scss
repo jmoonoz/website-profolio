@@ -6,7 +6,7 @@
   src: url("../src/font/Coco.otf");
 }
 // colors influenced by coco
-$main-bkgd: #162029;
+$main-bkgd: #0d1318;
 // 1a2631
 // 19161d
 $whtColor: #fcf4f4;
@@ -190,10 +190,10 @@ h3,
 //************************
 // about me
 //************************
-.card {
+.card, .card-sec {
   width: 100%;
   border-radius: 10px !important;
-  background-color: rgb(243 243 243 / 12%) !important;
+  background-color: rgb(32, 48, 53) !important;
   border: 1px solid rgba(255, 255, 255, 0.6) !important;
   margin-left: auto;
   margin-right: auto;
@@ -272,13 +272,10 @@ h3,
   justify-content: center !important;
 }
 .card-sec {
-  background-color: rgb(243 243 243 / 12%) !important;
   padding: 0.7rem 1.5rem;
   border: 1px solid rgba(255, 255, 255, 0.3) !important;
 }
 .card-sec {
-  // padding: 0.7rem 1.5rem;
-  // border: 1px solid rgba(255, 255, 255, 0.6) !important;
   border-radius: 10px;
   width: 75% !important;
   margin-bottom: 2em;
@@ -368,7 +365,8 @@ a {
     background-position: -650px 0px;
   }
   .banner-arrow {
-    margin-top: 50px;
+    // margin-top: 50px;
+    margin: 50px 0 10px !important;
   }
   .job-title {
     font-size: 28;

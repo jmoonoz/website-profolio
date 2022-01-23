@@ -29,7 +29,7 @@ const Skills = () => {
               <BsCode className='icon-item front-icon' />Front-End Dev.
             </div>
             <div className="skill-text">
-              Experienced with HTML, CSS and Javascript; as well as creating responsive frame works with Bootstrap and React.
+              Experienced in coding with HTML, CSS and Javascript; as well as desinging responsive frame works with Bootstrap and React.
             </div>
           </Container>
           {/* Tools */}
@@ -48,7 +48,7 @@ const Skills = () => {
               <MdDraw className='icon-item' />Graphics
             </div>
             <div className="skill-text">
-              Talented Freelance graphics designer with 3+ years experience creating digital artwork in Afinity desinger, Procreate and Photoshop.
+              Talented graphic designer with 3+ years experience creating digital artwork for clients ranging from small start up to well established cooperations.
             </div>
           </Container>
           {/* Certificates */}
