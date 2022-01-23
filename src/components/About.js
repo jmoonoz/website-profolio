@@ -30,7 +30,7 @@ const About = () => {
         {/*  */}
         <Col sm={4}>
           <Container>
-            <Card className="red-change hvr-grow-rotate">
+            <Card className="red-change hvr-grow-rotate-left">
               <CardBody>
                 <CardTitle >
                   <div className="about-title" >
@@ -38,7 +38,7 @@ const About = () => {
                   </div>
                 </CardTitle>
                 <CardText>
-                  Graduated CSUEB with a B.S in Computer Science, B.A in
+                  Graduated CSUEB with a B.S. in Computer Science, B.A. in
                   Psychology and a minor in Sociology.
                 </CardText>
               </CardBody>
@@ -47,7 +47,7 @@ const About = () => {
         </Col>
         <Col sm={4}>
           <Container>
-            <Card className="blue-change hvr-grow-rotate" > 
+            <Card className="blue-change hvr-grow-rotate-right" > 
               <CardBody>
                 <CardTitle>
                   <div className="about-title ">

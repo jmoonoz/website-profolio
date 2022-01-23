@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap");
 
 @font-face {
   font-family: "cocoFont";
@@ -18,12 +18,16 @@ $orangeColor: #f99e1a;
 $dk-orange-color: #f5801e;
 $green-color: #ada03d;
 
-* {
+:root{
+  --font: "Inter", sans-serif;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  text-align: center;
+
+}
+
+* {
   margin: 0;
   display: flexbox;
-  text-align: center;
   color: $whtColor;
 }
 
@@ -75,11 +79,9 @@ nav {
 //text1
 //************************
 .name,
-.graphics-title,
-.skill-title,
 .selfDescription,
-.certificate-title,
-.skill-intro, .aboutMe-Name {
+.skill-intro,
+.aboutMe-Name {
   font-family: cocoFont !important;
 }
 
@@ -147,7 +149,8 @@ h3,
   font-size: 29px;
 }
 
-.banner-icons, .footer-icons  {
+.banner-icons,
+.footer-icons {
   margin: 2% 0;
   // width: 50% !important;
   display: flex;
@@ -200,6 +203,9 @@ h3,
 .card:hover {
   transition: all 250ms ease-in-out;
   -webkit-box-shadow: 0px 17px 49px 1px #ffffff;
+  .about-title {
+    font-family: cocoFont;
+  }
 }
 .moonoz-college {
   width: 100%;
@@ -230,23 +236,21 @@ h3,
   background-color: #fffe;
   margin: 0 auto;
 }
-.about-title{
+.about-title {
   font-size: 24px;
   font-weight: 600;
 }
-.about-title:hover{
-  font-family: cocoFont;
-  transition: 2s ease-in-out;
-}
+// .about-title:hover{
+//   font-family: cocoFont;
+//   transition: 2s ease-in-out;
+// }
 
 .red-change:hover {
-  background-color: rgb(126, 33, 53, .5)!important;
+  background-color: rgb(126, 33, 53, 0.5) !important;
 }
 .blue-change:hover {
   background-color: #345454 !important;
 }
-
-
 
 // ************************
 // skills section
@@ -282,15 +286,14 @@ h3,
     text-align: left !important;
   }
 }
-.skill-text{
-  margin-top: 10px;
+.skill-text {
   font-size: 12px;
   opacity: 80%;
 }
 .front-icon {
   stroke-width: 1;
 }
-.skill-row{
+.skill-row {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -368,7 +371,7 @@ a {
 
   .banner {
     padding: 360px 0 60px !important;
-    background-position: -585px 0px;
+    background-position: -629px 0px;
   }
   .banner-arrow {
     margin-top: 30px;
@@ -376,6 +379,9 @@ a {
   .job-title {
     font-size: 28;
     font-weight: 500;
+  }
+  .banner-text{
+    margin-top: 15px;
   }
 
   // *********
@@ -424,7 +430,7 @@ a {
   // ****************************
   // skills section
   // ****************************
-  .card-sec{
+  .card-sec {
     width: 85% !important;
   }
   .moonoz-Img {
@@ -435,42 +441,46 @@ a {
       width: 100%;
     }
   }
-  .Moonoz{
+  .Moonoz {
     margin-left: 11rem !important;
-    margin-top:  -12rem !important;
+    margin-top: -12rem !important;
   }
 
-  
   .skills-space {
     margin-top: 32px;
   }
   .skill,
   .certificate-title,
   .front-title,
-  .tool-title {
+  .tool-title, .graphics-title  {
     text-align: center;
-    font-size: 20px;
+    font-size: 28px;
+    font-weight: 600;
   }
 
   .skills-head {
     font-size: 18px;
   }
-  .graphics-title {
-    font-size: 21px;
+  .skill-text{
+    font-size: 12px;
+    font-weight: 600;
   }
-  .skill-text {
-    margin-top: .4rem;
-  }
+  
 
   .selfDescription {
     font-size: 20px;
+  }
+  svg.icon-item{
+    margin-bottom: 8px;
+    margin-right: 10px;
+    height: 2.5rem;
+    width: 2.5rem;
   }
 }
 
 // ***********************************************************************
 // hoover effects
 // ***********************************************************************
-
 
 // bob effect
 @-webkit-keyframes hvr-bob {
@@ -521,13 +531,15 @@ a {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   // background-color: $blueColor;
 }
-.hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
+.hvr-bob:hover,
+.hvr-bob:focus,
+.hvr-bob:active {
   -webkit-animation-name: hvr-bob-float, hvr-bob;
   animation-name: hvr-bob-float, hvr-bob;
-  -webkit-animation-duration: .3s, 1.5s;
-  animation-duration: .3s, 1.5s;
-  -webkit-animation-delay: 0s, .3s;
-  animation-delay: 0s, .3s;
+  -webkit-animation-duration: 0.3s, 1.5s;
+  animation-duration: 0.3s, 1.5s;
+  -webkit-animation-delay: 0s, 0.3s;
+  animation-delay: 0s, 0.3s;
   -webkit-animation-timing-function: ease-out, ease-in-out;
   animation-timing-function: ease-out, ease-in-out;
   -webkit-animation-iteration-count: 1, infinite;
@@ -538,7 +550,8 @@ a {
   animation-direction: normal, alternate;
 }
 /* Grow Rotate */
-.hvr-grow-rotate {
+.hvr-grow-rotate-left,
+.hvr-grow-rotate-right {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -549,7 +562,15 @@ a {
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-.hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
+.hvr-grow-rotate-left:hover,
+.hvr-grow-rotate-left:focus,
+.hvr-grow-rotate-left:active {
   -webkit-transform: scale(1.1) rotate(-4deg);
   transform: scale(1.1) rotate(-4deg);
+}
+.hvr-grow-rotate-right:hover,
+.hvr-grow-rotate-right:focus,
+.hvr-grow-rotate-right:active  {
+  -webkit-transform: scale(1.1) rotate(4deg);
+  transform: scale(1.1) rotate(4deg);
 }

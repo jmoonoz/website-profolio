@@ -26,7 +26,7 @@ const Skills = () => {
           {/* languages */}
           <Container className="card-sec lang-sec">
             <div className="skill-title front-title">
-              <BsCode className='icon-item front-icon' /> Front-End Dev.
+              <BsCode className='icon-item front-icon' />Front-End Dev.
             </div>
             <div className="skill-text">
               Experienced with HTML, CSS and Javascript; as well as creating responsive frame works with Bootstrap and React.
@@ -35,7 +35,7 @@ const Skills = () => {
           {/* Tools */}
           <Container className="card-sec ">
             <div className="skill-title tool-title">
-              <FaLaptopCode className='icon-item' /> Tools
+              <FaLaptopCode className='icon-item' />Tools
             </div>
             <div className="skill-text">
               Proficient in Visual Studios, Xcode, Terminal and Chrome
@@ -45,7 +45,7 @@ const Skills = () => {
           {/* Graphic design */}
           <Container className="card-sec">
             <div className="graphics-title">
-              <MdDraw className='icon-item' />Graphic Designer
+              <MdDraw className='icon-item' />Graphics
             </div>
             <div className="skill-text">
               Talented Freelance graphics designer with 3+ years experience creating digital artwork in Afinity desinger, Procreate and Photoshop.
@@ -54,7 +54,7 @@ const Skills = () => {
           {/* Certificates */}
           <Container className="card-sec">
             <div className="certificate-title">
-              <BiCertification className='icon-item cert-icon' /> Certificates
+              <BiCertification className='icon-item cert-icon' />Certificates
             </div>
             <div className="skill-text">
               <a href="https://www.udemy.com/certificate/UC-7cea0eba-da1b-44ef-8f01-221b3f702138/"><p>Complete Wb Development Bootcamp by Dr.Angela Yu</p></a>
