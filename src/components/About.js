@@ -45,6 +45,26 @@ const About = () => {
             </Card>
           </Container>
         </Col>
+        
+        <Col sm={4}>
+          <Container>
+            <Card className="blue-change hvr-grow-rotate-right" > 
+              <CardBody>
+                <CardTitle>
+                  <div className="about-title ">
+                    Graphics
+                  </div>
+                </CardTitle>
+                <CardText>
+                  Freelance Graphics designer, filling the world with art one design at a time. I look to further my art skills into animation.
+                </CardText>
+              </CardBody>
+            </Card>
+          </Container>
+        </Col>
+        <Col sm={4} className="d-xs-none">
+          
+        </Col>
         <Col sm={4}>
           <Container>
             <Card className="blue-change hvr-grow-rotate-right" > 
@@ -63,12 +83,30 @@ const About = () => {
         </Col>
         <Col sm={4}>
           <Container>
-            {/* <img className="moonoz-college frame" src={College} alt="Joel Munoz college" /> */}
+            <Card className="blue-change hvr-grow-rotate-right" > 
+              <CardBody>
+                <CardTitle>
+                  <div className="about-title ">
+                    Graphics
+                  </div>
+                </CardTitle>
+                <CardText>
+                  Freelance Graphics designer, filling the world with art one design at a time. I look to further my art skills into animation.
+                </CardText>
+              </CardBody>
+            </Card>
+          </Container>
+        </Col>
+        
+        <Col sm={4} >
+          <Container>
             <div className="moonoz-college frame">
             </div>
           </Container>
         </Col>
-        <Col sm={12}>
+      </Row>
+      <Row>
+      <Col sm={12}>
           <p className="selfDescription" >Accomplished. Artistic. Deticated.</p>
         </Col>
         <Col sm={12}>
@@ -78,6 +116,7 @@ const About = () => {
           </div>
         </Col>
       </Row>
+      
       
     </Container>
   );
