@@ -36,7 +36,7 @@ a {
   text-decoration: none !important;
 }
 #Footer {
-  background-color: #2b3a4b;
+  // background-color: #2b3a4b;
   padding: 1.5rem 0;
 }
 .section-bkgd {
@@ -193,11 +193,13 @@ h3,
 .card, .card-sec {
   width: 100%;
   border-radius: 10px !important;
-  background-color: rgb(32, 48, 53) !important;
   margin-left: auto;
   margin-right: auto;
   transition: all 250ms ease;
   // animation: grow-shadow ;
+}
+.card, .card-sec, #Footer{
+  background-color: rgb(24, 37, 41) !important;
 }
 
 .card:hover {
