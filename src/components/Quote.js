@@ -3,6 +3,8 @@ import { Container, Row, Col } from "reactstrap";
 import { FaCode } from "react-icons/fa";
 import { GoCode } from "react-icons/go";
 import QuoteArray from './quotes';
+import TextTransition, { presets } from "react-text-transition";
+
 
 
 
@@ -19,51 +21,54 @@ const Quote = () => {
       id: 1,
       quote: "I guess one person can make a difference",
       auth: "- Stan Lee"
+    },
+    {
+      id: 2,
+      quote: "Stargazing, See how can reach your farthest aspirations",
+      auth: "- Capital Steez"
+    },
+    {
+      id: 3,
+      quote: "You got the making of greatness in you",
+      auth: "- Captain John Silver"
     }
   ];
-  const q = "";
-  const a = "";
-
-  // function textChange() {
-  //   let i = 0;
-  //   setInterval(() => {
-  //     $('.quote-text').fadeOut(function () {
-  //       $(this).html(quoteArray[i = (i + 1) % quoteArray.length].quote).fadeIn();
-  //     });
-  //     $('.quote-text').fadeOut(function () {
-  //       $(this).html(quoteArray[i = (i + 1) % quoteArray.length].auth).fadeIn();
-  //     });
-
-  //   }, 3000)
-
-  // }
-  // textChange();
 
 
-//  setInterval(() => {
-//       if (index < quoteArray.length-1) {
-//         setIndex(index + 1);
-//       } else {
-//         setIndex(0);
-//       }
-//     }, 3000);
+  useEffect(() => {
+    let interval = setInterval(() => {
+      setNextIndex();
+    }, 5000);
+    return () => clearInterval(interval);
+  }, []);
+
+  const setNextIndex = () => {
+    if (index < quoteArray, length - 1) {
+      setIndex(previousVal => {
+        if (previousVal < quoteArray.length - 1) {
+          return previousVal + 1;
+        }
+        return 0;
+      });
+    }
+  }
 
 
   return (
     <Container id="Quote" fluid>
-      <Container>
-        <Row>
+      <Container className="quote-row">
+        <Row >
 
           <Col sm={12}>
             <h3 className="quote-text" >
-              {quoteArray[index].quote}
-              {/* Craft is what we are expected to know; art is the unexpected use of our craft */}
-              {/* {this.state.quote} */}
+            <TextTransition text={quoteArray[index].quote} springConfig={presets.gentle} />
             </h3>
           </Col>
           <Col sm={12}>
 
-            <p className="quote-auth">{quoteArray[index].auth}</p>
+
+            <TextTransition className="quote-auth" text={quoteArray[index].auth} springConfig={presets.gentle} />
+            
           </Col>
         </Row>
       </Container>

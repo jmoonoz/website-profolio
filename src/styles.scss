@@ -127,7 +127,14 @@ h3,
 // ************************
 
 #Quote {
-  margin-top: 5%;
+  // margin-top: 5%;
+  display: flex;
+  height: 250px;
+}
+.quote-row{
+  margin-top: auto !important;
+  margin-bottom: auto!important;
+  vertical-align: middle;
 }
 .quote-auth {
   font-size: 20px;
@@ -337,7 +344,7 @@ a {
   // shared CSS rules
   // *********
 
-  #Quote,
+  // #Quote,
   #About {
     margin-top: 3rem;
   }
@@ -380,13 +387,14 @@ a {
   // quote
   // *********
   #Quote {
-    padding: 0 25px;
+    // padding: 0 25px;
   }
 
   .quote-text {
     font-size: 30px;
     font-weight: 600;
     text-align: left;
+    transition: .5s ease !important;
   }
   .quote-auth {
     margin-bottom: 15px;
