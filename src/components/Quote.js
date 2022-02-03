@@ -61,13 +61,13 @@ const Quote = () => {
 
           <Col sm={12}>
             <h3 className="quote-text" >
-            <TextTransition text={quoteArray[index].quote} springConfig={presets.gentle} />
+            <TextTransition text={quoteArray[index].quote} springConfig={presets.gentle} delay={400} />
             </h3>
           </Col>
           <Col sm={12}>
 
 
-            <TextTransition className="quote-auth" text={quoteArray[index].auth} springConfig={presets.gentle} />
+            <TextTransition className="quote-auth" text={quoteArray[index].auth} springConfig={presets.gentle} delay={400} />
             
           </Col>
         </Row>
