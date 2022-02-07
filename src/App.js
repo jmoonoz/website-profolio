@@ -1,4 +1,5 @@
-import "./styles.scss";
+import "./style/styles.scss";
+import "./style/animation.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/Footer";
 import About from "./components/About";

@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: "cocoFont";
-  src: url("../src/font/Coco.otf");
+  src: url("../font/Coco.otf");
 }
 // colors influenced by coco
 $main-bkgd: #0d1318;
@@ -189,7 +189,7 @@ h3,
 }
 .banner {
   background-size: cover;
-  background-image: url("../src/img/bannerBkgd.jpg");
+  background-image: url("../img/bannerBkgd.jpg");
   background-position: center;
   padding: 21.3rem 0 14rem !important;
 }
@@ -220,7 +220,7 @@ h3,
   width: 100%;
   height: 100%;
   // background-color: $redColor;
-  background: url("./img/joelCollege.jpg") no-repeat;
+  background: url("../img/joelCollege.jpg") no-repeat;
   background-position: center;
   background-size: cover;
   // background-repeat: none;
@@ -237,7 +237,7 @@ h3,
   background-color: #fffe;
 }
 .frame {
-  border-image: url("./img/goldFrame.png") 130 145 133 138 stretch stretch;
+  border-image: url("../img/goldFrame.png") 130 145 133 138 stretch stretch;
   border-color: #f4be52;
   border-style: inset;
   border-width: 50px;
@@ -346,7 +346,7 @@ a {
 
   // #Quote,
   #About {
-    margin-top: 3rem;
+    // margin-top: 3rem;
   }
 
   .skill-text,
@@ -475,101 +475,4 @@ a {
     height: 2.5rem;
     width: 2.5rem;
   }
-}
-
-// ***********************************************************************
-// hoover effects
-// ***********************************************************************
-
-// bob effect
-@-webkit-keyframes hvr-bob {
-  0% {
-    -webkit-transform: translateY(-8px);
-    transform: translateY(-8px);
-  }
-  50% {
-    -webkit-transform: translateY(-4px);
-    transform: translateY(-4px);
-  }
-  100% {
-    -webkit-transform: translateY(-8px);
-    transform: translateY(-8px);
-  }
-}
-@keyframes hvr-bob {
-  0% {
-    -webkit-transform: translateY(-8px);
-    transform: translateY(-8px);
-  }
-  50% {
-    -webkit-transform: translateY(-4px);
-    transform: translateY(-4px);
-  }
-  100% {
-    -webkit-transform: translateY(-8px);
-    transform: translateY(-8px);
-  }
-}
-@-webkit-keyframes hvr-bob-float {
-  100% {
-    -webkit-transform: translateY(-8px);
-    transform: translateY(-8px);
-  }
-}
-@keyframes hvr-bob-float {
-  100% {
-    -webkit-transform: translateY(-8px);
-    transform: translateY(-8px);
-  }
-}
-.hvr-bob {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  // background-color: $blueColor;
-}
-.hvr-bob:hover,
-.hvr-bob:focus,
-.hvr-bob:active {
-  -webkit-animation-name: hvr-bob-float, hvr-bob;
-  animation-name: hvr-bob-float, hvr-bob;
-  -webkit-animation-duration: 0.3s, 1.5s;
-  animation-duration: 0.3s, 1.5s;
-  -webkit-animation-delay: 0s, 0.3s;
-  animation-delay: 0s, 0.3s;
-  -webkit-animation-timing-function: ease-out, ease-in-out;
-  animation-timing-function: ease-out, ease-in-out;
-  -webkit-animation-iteration-count: 1, infinite;
-  animation-iteration-count: 1, infinite;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-direction: normal, alternate;
-  animation-direction: normal, alternate;
-}
-/* Grow Rotate */
-.hvr-grow-rotate-left,
-.hvr-grow-rotate-right {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-.hvr-grow-rotate-left:hover,
-.hvr-grow-rotate-left:focus,
-.hvr-grow-rotate-left:active {
-  -webkit-transform: scale(1.1) rotate(-4deg);
-  transform: scale(1.1) rotate(-4deg);
-}
-.hvr-grow-rotate-right:hover,
-.hvr-grow-rotate-right:focus,
-.hvr-grow-rotate-right:active  {
-  -webkit-transform: scale(1.1) rotate(4deg);
-  transform: scale(1.1) rotate(4deg);
 }

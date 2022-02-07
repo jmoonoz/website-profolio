@@ -17,19 +17,19 @@ const Footer = () => {
           <p>Front-End Developer</p>
         </Col>
         <Col xs={6} >
-        <Container className="footer-icons">
+          <Container className="footer-icons">
 
-          <a href="https://www.linkedin.com/in/moonoz/" >
-            <BsLinkedin className='icon-item' />
-          </a>
-          <a >
-            <BsGithub className='icon-item' />
-          </a>
+            <a className="lkd-icon" href="https://www.linkedin.com/in/moonoz/" >
+              <BsLinkedin className='icon-item' />
+            </a>
+            <a className="git-icon" href="https://github.com/jmoonoz">
+              <BsGithub className='icon-item' />
+            </a>
 
-          <a >
-            <BsInstagram className='icon-item' />
-          </a>
-        </Container>
+            <a className="ig-icon" href="https://www.instagram.com/moonozdisenoz/?hl=en">
+              <BsInstagram className='icon-item' />
+            </a>
+          </Container>
         </Col>
       </Row>
     </Container>
