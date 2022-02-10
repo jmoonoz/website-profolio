@@ -55,11 +55,11 @@ a {
 //************************
 // Navbar
 //************************
-nav {
-  backdrop-filter: blur(4px) saturate(200%);
-  -webkit-backdrop-filter: blur(4px) saturate(200%);
-  background-color: rgba(255, 255, 255, 0.36);
-  border-bottom: 1px solid rgba(209, 213, 219, 0.3);
+#nav {
+  backdrop-filter: blur(4px) saturate(200%) !important;
+  -webkit-backdrop-filter: blur(4px) saturate(200%) !important;
+  background-color: rgba(255, 255, 255, 0.36) !important;
+  border-bottom: 1px solid rgba(209, 213, 219, 0.3) !important;
   .navbar-brand,
   .nav-link,
   .navbar-text {
@@ -345,9 +345,6 @@ a {
   // *********
 
   // #Quote,
-  #About {
-    // margin-top: 3rem;
-  }
 
   .skill-text,
   .card-text {
@@ -386,10 +383,6 @@ a {
   // *********
   // quote
   // *********
-  #Quote {
-    // padding: 0 25px;
-  }
-
   .quote-text {
     font-size: 30px;
     font-weight: 600;

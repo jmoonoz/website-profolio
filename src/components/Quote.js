@@ -11,30 +11,6 @@ import TextTransition, { presets } from "react-text-transition";
 const Quote = () => {
   const [index, setIndex] = useState(0);
 
-  const quoteArray = [
-    {
-      id: 0,
-      quote: "Craft is what we are expected to know; art is the unexpected use of our craft",
-      auth: "- Ed Catmull"
-    },
-    {
-      id: 1,
-      quote: "I guess one person can make a difference",
-      auth: "- Stan Lee"
-    },
-    {
-      id: 2,
-      quote: "Stargazing, See how can reach your farthest aspirations",
-      auth: "- Capital Steez"
-    },
-    {
-      id: 3,
-      quote: "You got the making of greatness in you",
-      auth: "- Captain John Silver"
-    }
-  ];
-
-
   useEffect(() => {
     let interval = setInterval(() => {
       setNextIndex();
@@ -43,9 +19,9 @@ const Quote = () => {
   }, []);
 
   const setNextIndex = () => {
-    if (index < quoteArray, length - 1) {
+    if (index < QuoteArray, length - 1) {
       setIndex(previousVal => {
-        if (previousVal < quoteArray.length - 1) {
+        if (previousVal < QuoteArray.length - 1) {
           return previousVal + 1;
         }
         return 0;
@@ -61,13 +37,13 @@ const Quote = () => {
 
           <Col sm={12}>
             <h3 className="quote-text" >
-            <TextTransition text={quoteArray[index].quote} springConfig={presets.gentle} delay={400} />
+            <TextTransition text={QuoteArray[index].quote} springConfig={presets.gentle} delay={400} />
             </h3>
           </Col>
           <Col sm={12}>
 
 
-            <TextTransition className="quote-auth" text={quoteArray[index].auth} springConfig={presets.gentle} delay={400} />
+            <TextTransition className="quote-auth" text={QuoteArray[index].auth} springConfig={presets.gentle} delay={400} />
             
           </Col>
         </Row>

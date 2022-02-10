@@ -1,6 +1,7 @@
 import "./style/styles.scss";
 import "./style/animation.scss";
-import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.js';
 import Footer from "./components/Footer";
 import About from "./components/About";
 import NavBar from "./components/NavBar";
