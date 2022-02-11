@@ -9,7 +9,7 @@ import Banner from "./components/Banner";
 import Quote from "./components/Quote";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-import { Container } from "reactstrap";
+import {Container} from 'react-bootstrap';
 export default function App() {
   return (
     <div className="App">

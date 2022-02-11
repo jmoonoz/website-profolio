@@ -14,7 +14,7 @@ const Quote = () => {
   useEffect(() => {
     let interval = setInterval(() => {
       setNextIndex();
-    }, 5000);
+    }, 4000);
     return () => clearInterval(interval);
   }, []);
 
@@ -37,14 +37,15 @@ const Quote = () => {
 
           <Col sm={12}>
             <h3 className="quote-text" >
-            <TextTransition text={QuoteArray[index].quote} springConfig={presets.gentle} delay={400} />
+              <TextTransition text={QuoteArray[index].quote} springConfig={presets.gentle} delay={400} />
             </h3>
           </Col>
           <Col sm={12}>
 
+            <div className="quote-auth">
+              <TextTransition text={QuoteArray[index].auth} springConfig={presets.gentle} delay={400} />
+            </div>
 
-            <TextTransition className="quote-auth" text={QuoteArray[index].auth} springConfig={presets.gentle} delay={400} />
-            
           </Col>
         </Row>
       </Container>

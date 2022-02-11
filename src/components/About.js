@@ -7,7 +7,7 @@ import {
   CardBody,
   CardTitle,
   CardText
-} from "reactstrap";
+} from "react-bootstrap";
 import { IoSchool } from "react-icons/io5";
 import { IoIosBrush } from "react-icons/io";
 import College from "../img/joelCollege.jpg";
@@ -31,72 +31,75 @@ const About = () => {
         <Col sm={4}>
           <Container>
             <Card className="red-change hvr-grow-rotate-left">
-              <CardBody>
-                <CardTitle >
+              <Card.Body>
+                <Card.Title >
                   <div className="about-title" >
                     Education
                   </div>
-                </CardTitle>
-                <CardText>
+                </Card.Title>
+                <Card.Text>
                   Graduated CSUEB with a B.S. in Computer Science, B.A. in
                   Psychology and a minor in Sociology.
-                </CardText>
-              </CardBody>
+                </Card.Text>
+              </Card.Body>
             </Card>
           </Container>
         </Col>
         <Col sm={4}>
           <Container>
             <Card className="blue-change hvr-grow-rotate-right" > 
-              <CardBody>
-                <CardTitle>
+              <Card.Body>
+                <Card.Title>
                   <div className="about-title ">
                     Graphics
                   </div>
-                </CardTitle>
-                <CardText>
+                </Card.Title>
+                <Card.Text>
                   Freelance Graphics designer, filling the world with art one design at a time. I design in Procreate, Affinity Designer and Photoshop.
-                </CardText>
-              </CardBody>
+                </Card.Text>
+              </Card.Body>
             </Card>
           </Container>
+        </Col>
+         {/* blank col */}
+         <Col sm={4} className="d-xs-none">
         </Col>
         
         <Col sm={4}>
           <Container>
             <Card className="red-change hvr-grow-rotate-left" > 
-              <CardBody>
-                <CardTitle>
+              <Card.Body>
+                <Card.Title>
                   <div className="about-title ">
                     Animation
                   </div>
-                </CardTitle>
-                <CardText>
+                </Card.Title>
+                <Card.Text>
                   I have always admired the heart filled works of Disney and Pixar animated films. Currently undergoing self lesson on creating 2-D short.
-                </CardText>
-              </CardBody>
+                </Card.Text>
+              </Card.Body>
             </Card>
           </Container>
         </Col>
-        <Col sm={4} className="d-xs-none">
-          
-        </Col>
+       
+
         <Col sm={4}>
           <Container>
             <Card className="blue-change hvr-grow-rotate-right" > 
-              <CardBody>
-                <CardTitle>
+              <Card.Body>
+                <Card.Title>
                   <div className="about-title ">
                     Graphics
                   </div>
-                </CardTitle>
-                <CardText>
+                </Card.Title>
+                <Card.Text>
                   Freelance Graphics designer, filling the world with art one design at a time. I look to further my art skills into animation.
-                </CardText>
-              </CardBody>
+                </Card.Text>
+              </Card.Body>
             </Card>
           </Container>
         </Col>
+        {/* frame image */}
         <Col sm={4} >
           <Container>
             <div className="moonoz-college frame">

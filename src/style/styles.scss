@@ -115,12 +115,7 @@ h3,
   font-weight: 500;
   opacity: 60% !important;
 }
-.aboutMe-Name,
-.card-title,
-.about-title {
-  font-size: 30px !important;
-  font-weight: 600 !important;
-}
+
 .quote-text,
 .job-title {
   font-size: 35px;
@@ -164,7 +159,6 @@ h3,
 .banner-icons,
 .footer-icons {
   margin: 2% 0;
-  // width: 50% !important;
   display: flex;
   justify-content: space-evenly;
   .lkd-icon,
@@ -323,33 +317,20 @@ a {
     margin-left: 2%;
   }
 }
-//************************
-// gradient backgrtound
-//************************
 
-
-@keyframes gradient-animation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
 
 // **************************************************************
 // Media screen size phones
 // **************************************************************
+
+// 
 // iphone 12
+// 
+
 @media only screen and (max-width: 700px) {
   // *********
   // shared CSS rules
   // *********
-
-  // #Quote,
 
   .skill-text,
   .card-text {
@@ -360,6 +341,12 @@ a {
   .skill-intro {
     text-align: left;
   }
+  .aboutMe-Name,
+.card-title,
+.about-title {
+  font-size: 30px !important;
+  font-weight: 600 !important;
+}
 
   // *********
   // navbar
@@ -473,4 +460,71 @@ a {
     height: 2.5rem;
     width: 2.5rem;
   }
+}
+
+// 
+// laptops
+// 
+
+@media only screen and (min-width: 990px) {
+// *********
+// banner
+// *********
+.name{
+  font-size: 60px!important;
+}
+.banner-arrow{
+margin-top: 1rem;
+}
+.banner{
+  padding: 15.3rem 0 14rem !important;
+}
+// *********
+// quote
+// *********
+#Quote{
+  height: 500px;
+}
+.quote-text {
+  font-size: 70px;
+  font-weight: 600;
+}
+.quote-auth, .quote-text{
+  text-align: center !important;
+}
+
+.moonoz-college{
+  width: 100%;
+  height: 300px;
+  margin-top: -150px;
+}
+
+.selfDescription, .aboutMe-Name{
+  font-size: 50px;
+}
+.selfDescription{
+  margin-top: 50px;
+}
+.aboutMe-foot{
+  margin-bottom: 50px;
+}
+// *********************
+// about me
+// *********************
+.moonoz-Img img{
+  width: 75%;
+}
+// *********************
+// skills
+// *********************
+
+.skill-title{
+  font-weight: 500;
+  font-size: 25px;
+}
+.cert-icon, .graph-icon, .tools-icon, .front-icon{
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
 }

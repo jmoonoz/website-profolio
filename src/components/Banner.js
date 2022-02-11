@@ -43,7 +43,6 @@ const Banner = () => {
           <Col xs={10} sm={5}>
             <a href="#Quote" >
               <BsArrowDownCircle className="icon-item banner-arrow" />
-
             </a>
 
           </Col>
