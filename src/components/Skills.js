@@ -35,7 +35,7 @@ const Skills = () => {
           {/* Tools */}
           <Container className="card-sec ">
             <div className="skill-title tool-title">
-              <FaLaptopCode className='icon-item' />Tools
+              <FaLaptopCode className='icon-item tools-icon' />Tools
             </div>
             <div className="skill-text">
               Proficient in Visual Studios, Xcode, Terminal and Chrome
@@ -44,8 +44,8 @@ const Skills = () => {
           </Container>
           {/* Graphic design */}
           <Container className="card-sec">
-            <div className="graphics-title">
-              <MdDraw className='icon-item' />Graphics
+            <div className="graphics-title skill-title">
+              <MdDraw className='icon-item graph-icon' />Graphics
             </div>
             <div className="skill-text">
               Talented graphic designer with 3+ years experience creating digital artwork for clients ranging from small start up to well established cooperations.
@@ -53,7 +53,7 @@ const Skills = () => {
           </Container>
           {/* Certificates */}
           <Container className="card-sec">
-            <div className="certificate-title">
+            <div className="certificate-title skill-title">
               <BiCertification className='icon-item cert-icon' />Certificates
             </div>
             <div className="skill-text">
