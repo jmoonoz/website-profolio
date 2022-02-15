@@ -12,8 +12,8 @@ const Skills = () => {
       <Row>
         {/* skills */}
         <Col xs={1}></Col>
-        <Col xs={6}><h6 className="skills-head">My Expertise</h6></Col>
-        <Col xs={5}></Col>
+        <Col xs={5}><h6 className="skills-head">My Expertise</h6></Col>
+        <Col xs={6}></Col>
         <Col xs={1}></Col>
         <Col xs={5}>
           <h3 className="skill-intro">highly deticated creative team player</h3>
