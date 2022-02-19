@@ -15,7 +15,7 @@ import IpadTag from '../img/ipadDesign.jpg';
 
 const About = () => {
   return (
-    <Container id="About">
+    <Container id="About" fluid>
       <Row>
       <Col xs={1}></Col>
         <Col xs={10}>

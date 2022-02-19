@@ -9,7 +9,9 @@ import Banner from "./components/Banner";
 import Quote from "./components/Quote";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import ContactMe from "./components/Email";
 import {Container} from 'react-bootstrap';
+
 export default function App() {
   return (
     <div className="App">
@@ -21,6 +23,7 @@ export default function App() {
           <About />
           <Skills />
           <Projects />
+          <ContactMe />
         </Container>
         <Footer />
       </main>

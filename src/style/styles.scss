@@ -289,6 +289,10 @@ h3,
     text-align: left !important;
   }
 }
+
+//************************
+// footer
+//*************************
 .skill-text {
   font-size: 12px;
   opacity: 80%;
@@ -296,10 +300,19 @@ h3,
 .front-icon {
   stroke-width: 1;
 }
+
+
 .skill-row {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+}
+.project-img{
+  border-radius: 2%;
+  height: 100%;
+  width: 85%;
+  object-fit: cover;
+  background-color: #fcf4f4;
 }
 
 a {
