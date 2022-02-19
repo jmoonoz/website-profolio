@@ -1,5 +1,10 @@
-import React from "react"
+import React from "react";
+import emailjs from '@emailjs/browser';
 import { Container, Button, Form, Row, Col } from "react-bootstrap";
+
+const API_SER = process.env.REACT_APP_SERVICE_KEY
+const API_TEMP = process.env.REACT_APP_TEMPLATE_KEY
+const API_USER = process.env.REACT_APP_USER_KEY
 
 const Email = () => {
     function sendEmail(e) {
