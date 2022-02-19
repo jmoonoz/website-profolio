@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.75c03d51.css",
-    "main.js": "/static/js/main.f9c3ae0e.js",
+    "main.css": "/static/css/main.06781a39.css",
+    "main.js": "/static/js/main.ea99388a.js",
+    "static/media/MoonozNetflix.png": "/static/media/MoonozNetflix.5ca478be8b2120299d81.png",
+    "static/media/ipadDesign.jpg": "/static/media/ipadDesign.4d5c75201355420b9af5.jpg",
     "static/media/joelCollege.jpg": "/static/media/joelCollege.e221f3664c780e8582d3.jpg",
     "static/media/bannerBkgd.jpg": "/static/media/bannerBkgd.9bdac03a80ff0053787b.jpg",
     "static/media/goldFrame.png": "/static/media/goldFrame.e71a76c211f83a1726cf.png",
-    "static/media/moonozPic.png": "/static/media/moonozPic.d428565cf2256055a1c0.png",
     "static/media/Coco.otf": "/static/media/Coco.237d231f61b1e71a250e.otf",
     "index.html": "/index.html",
-    "main.75c03d51.css.map": "/static/css/main.75c03d51.css.map",
-    "main.f9c3ae0e.js.map": "/static/js/main.f9c3ae0e.js.map"
+    "main.06781a39.css.map": "/static/css/main.06781a39.css.map",
+    "main.ea99388a.js.map": "/static/js/main.ea99388a.js.map"
   },
   "entrypoints": [
-    "static/css/main.75c03d51.css",
-    "static/js/main.f9c3ae0e.js"
+    "static/css/main.06781a39.css",
+    "static/js/main.ea99388a.js"
   ]
 }
