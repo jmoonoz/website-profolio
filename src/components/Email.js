@@ -39,19 +39,12 @@ const Email = () => {
                 <Col sm={6}>
                     <Form className="formInput" onSubmit={sendEmail}>
                         <Form.Group controlId="enterName">
-                            <Form.Label>Name{redStar}</Form.Label>
                             <Form.Control type="text" placeholder="Name" name="name" />
                         </Form.Group>
                         <Form.Group controlId="formGroupEmail">
-                            <Form.Label>Email{redStar}</Form.Label>
                             <Form.Control type="email" placeholder="Email" name="email" />
                         </Form.Group>
-                        <Form.Group controlId="enterSubject">
-                            <Form.Label>Subject{redStar}</Form.Label>
-                            <Form.Control type="text" placeholder="Email Subject" name="subject" />
-                        </Form.Group>
                         <Form.Group controlId="exampleForm ControlTextarea1">
-                            <Form.Label>Message{redStar}</Form.Label>
                             <Form.Control
                                 as="textarea"
                                 rows={3}
