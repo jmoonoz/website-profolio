@@ -48,7 +48,7 @@ const Email = () => {
                             <Form.Control
                                 as="textarea"
                                 rows={3}
-                                placeholder="Write to Moon, add as much detail as you'd like"
+                                placeholder="Write to Me!"
                                 name="message"
                             />
                         </Form.Group>
