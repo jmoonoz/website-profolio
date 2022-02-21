@@ -57,12 +57,15 @@ const Email = () => {
                                 name="message"
                             />
                         </Form.Group>
+                        <div className="button-align">
+
                         <Button type="submit" variant="danger" className="styleButton" value="Send" size="lg">
                             Submit
                         </Button>
+                        </div>
                     </Form>
-
                 </Col>
+                <Col sm={1}></Col>
             </Row>
         </Container>
 

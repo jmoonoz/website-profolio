@@ -8,17 +8,17 @@ const Projects = () => {
     <Container id="Projects" fluid>
       <Row>
         {/* row */}
-        <Col xs={1} className="d-sm-none"></Col>
+        <Col xs={1} ></Col>
         <Col xs={10}>
           <h6 className="projects-title">Projects</h6>
         </Col>
-        <Col xs={1} className="d-sm-none"></Col>
+        <Col xs={1} ></Col>
         {/* row */}
-        <Col xs={0} className="d-sm-none"></Col>
+        <Col xs={1} ></Col>
         <Col xs={10}>
           <h4 className="aboutMe-Name">Check out some of my works</h4>
         </Col>
-        <Col xs={1} className="d-sm-none"></Col>
+        <Col xs={1}></Col>
         {/* row */}
         <Col sm={6}>
           <a href="https://netflix-clone-8caf8.web.app/" >
