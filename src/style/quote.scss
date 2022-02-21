@@ -1,0 +1,38 @@
+#Quote{
+    display: flex;
+    height: 500px;
+}
+.quote-row{
+    margin-top: auto !important;
+    margin-bottom: auto!important;
+    vertical-align: middle;
+  }
+  .quote-auth, .quote-text{
+    display: flex;
+    justify-content: center;
+}
+.quote-text {
+    font-size: 70px;
+    font-weight: 600;
+  }
+
+@media only screen and (min-width: 990px){
+     
+    
+}
+
+@media only screen and (max-width: 700px){
+    #Quote{
+        height: 350px;
+    }
+    .quote-text {
+        font-size: 30px;
+        font-weight: 600;
+        text-align: left;
+      }
+      .quote-auth {
+        margin-bottom: 15px;
+      }
+    
+    
+}

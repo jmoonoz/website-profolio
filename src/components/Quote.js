@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "reactstrap";
+import "../style/quote.scss";
 import { FaCode } from "react-icons/fa";
 import { GoCode } from "react-icons/go";
 import QuoteArray from './quotes';
@@ -41,11 +42,9 @@ const Quote = () => {
             </h3>
           </Col>
           <Col sm={12}>
-
             <div className="quote-auth">
               <TextTransition text={QuoteArray[index].auth} springConfig={presets.gentle} delay={400} />
             </div>
-
           </Col>
         </Row>
       </Container>

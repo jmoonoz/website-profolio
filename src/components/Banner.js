@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
+import "../style/banner.scss";
 import { BsLinkedin, BsGithub, BsInstagram, BsArrowDownCircle } from 'react-icons/bs';
 
 const Banner = () => {

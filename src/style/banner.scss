@@ -1,0 +1,79 @@
+
+.name {
+    font-size: 40px !important;
+  }
+  
+  .banner-text {
+    line-height: 2.5rem;
+  }
+  .job-title {
+    font-size: 29px;
+  }
+  
+  .banner-icons,
+  .footer-icons {
+    margin: 2% 0;
+    display: flex;
+    justify-content: space-evenly;
+    .lkd-icon,
+    .git-icon,
+    .ig-icon {
+      opacity: 70% !important;
+    }
+  }
+  // icon hover
+  .lkd-icon:hover {
+    opacity: 100% !important;
+    .icon-item {
+      fill: #f5801e;
+    }
+  }
+  .git-icon:hover {
+    opacity: 100% !important;
+    .icon-item {
+      fill: #ee3b24;
+    }
+  }
+  .ig-icon:hover {
+    opacity: 100% !important;
+    .icon-item {
+      fill: #ef519e;
+    }
+  }
+  .banner {
+    background-size: cover;
+    background-image: url("../img/bannerBkgd.jpg");
+    background-position: center;
+    padding: 21.3rem 0 14rem !important;
+  }
+  
+  @media only screen and (max-width: 700px) {
+
+    .banner {
+        padding: 360px 0 60px !important;
+        background-position: -650px 0px;
+      }
+      .banner-arrow {
+        // margin-top: 50px;
+        margin: 50px 0 10px !important;
+      }
+      .job-title {
+        font-size: 28;
+        font-weight: 500;
+      }
+      .banner-text{
+        margin-top: 15px;
+      }
+  }
+
+  @media only screen and (min-width: 990px){
+    .name{
+        font-size: 60px!important;
+      }
+      .banner-arrow{
+      margin-top: 1rem;
+      }
+      .banner{
+        padding: 15.3rem 0 14rem !important;
+      }
+  }
