@@ -79,7 +79,7 @@ a {
 .name,
 .selfDescription,
 .skill-intro,
-.aboutMe-Name, .contact-text {
+.aboutMe-Name, .contact-text, .about-title {
   font-family: cocoFont !important;
 }
 
@@ -116,7 +116,7 @@ h3,
 }
 
 // margin between sections{
-  #About{
+  #About, #Projects{
     margin-top: 50px;
   }
 

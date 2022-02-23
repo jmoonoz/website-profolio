@@ -90,7 +90,7 @@ const About = () => {
             <Card className="blue-change hvr-grow-rotate-right" >
               <Card.Body>
                 <Card.Title>
-                  <div className="about-title ">
+                  <div className="about-title">
                     Graphics
                   </div>
                 </Card.Title>
