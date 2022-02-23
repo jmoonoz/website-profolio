@@ -25,7 +25,7 @@ const About = () => {
         </Col>
         <Col xs={1}></Col>
         <Col sm={12}>
-          <h4 className="aboutMe-Name">Mooñoz Mundo</h4>
+          <h1 className="aboutMe-Name">Mooñoz Mundo</h1>
         </Col>
       </Row>
       <Row>

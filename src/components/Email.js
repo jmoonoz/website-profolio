@@ -36,9 +36,9 @@ const Email = () => {
         <Container id="Email" fluid>
             <Row>
                 <Col className="contact-header" sm={6}>
-                    <h1 className="contact-text">
+                    <h2 className="contact-text">
                         Send me a message!
-                    </h1>
+                    </h2>
 
                 </Col>
                 {/* email form */}

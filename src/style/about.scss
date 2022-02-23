@@ -92,7 +92,7 @@
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 370px) and (max-width: 400px ) {
   .hidden-Mouseketeer{
     width: 35%;
     left: 130px;
@@ -101,6 +101,15 @@
     width: 100% !important;
     height: 294px !important;
     margin: 10% 0 12%;
+  }
+  .aboutMe-Name{
+    font-size: 27px;
+  }
+  .card{
+    height: 100px;
+  }
+  .aboutMe-foot{
+    font-size: 14px;
   }
   
 }
