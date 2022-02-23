@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import "../style/quote.scss";
 import { FaCode } from "react-icons/fa";
 import { GoCode } from "react-icons/go";

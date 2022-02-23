@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Col, Row } from "reactstrap";
+import { Container, Col, Row } from "react-bootstrap";
 import MoonozNetflix from "../img/MoonozNetflix.png";
 
 const Projects = () => {

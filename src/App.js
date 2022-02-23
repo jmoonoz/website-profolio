@@ -17,12 +17,13 @@ export default function App() {
     <div className="App">
       <main>
         <NavBar />
+        {/* <ScrollBanner /> */}
         <Banner />
         <Container className="section-bkgd" fluid>
           <Quote />
-          <About />
           <Skills />
           <Projects />
+          <About />
           <ContactMe />
         </Container>
         <Footer />

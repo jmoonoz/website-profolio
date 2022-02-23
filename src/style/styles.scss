@@ -119,69 +119,6 @@ h3,
 //banner
 //************************
 
-//************************
-// about me
-//************************
-.card, .card-sec {
-  width: 100%;
-  border-radius: 10px !important;
-  margin-left: auto;
-  margin-right: auto;
-  transition: all 250ms ease;
-  // animation: grow-shadow ;
-}
-.card, .card-sec, #Footer{
-  background-color: rgb(24, 37, 41) !important;
-}
-
-.card:hover {
-  transition: all 250ms ease-in-out;
-  -webkit-box-shadow: 0px 17px 49px 1px #ffffff;
-  .about-title {
-    font-family: cocoFont;
-  }
-}
-.moonoz-college {
-  width: 100%;
-  height: 100%;
-  // background-color: $redColor;
-  background: url("../img/joelCollege.jpg") no-repeat;
-  background-position: center;
-  background-size: cover;
-  // background-repeat: none;
-  // background-position: cover;
-  // border-radius: 50%;
-  // box-shadow: 0px 0px 22px 5px rgb(255, 255, 255, .8);
-}
-.moonoz-college:hover {
-  background: url("https://c.tenor.com/02ILjyFVXWQAAAAC/handshake.gif")
-    no-repeat;
-  background-position: center;
-  background-size: cover;
-
-  background-color: #fffe;
-}
-.frame {
-  border-image: url("../img/goldFrame.png") 130 145 133 138 stretch stretch;
-  border-color: #f4be52;
-  border-style: inset;
-  border-width: 50px;
-  display: inline-block;
-  background-color: #fffe;
-  margin: 0 auto;
-}
-.about-title {
-  font-size: 24px;
-  font-weight: 600;
-}
-
-
-.red-change:hover {
-  background-color: rgb(126, 33, 53, 0.5) !important;
-}
-.blue-change:hover {
-  background-color: #345454 !important;
-}
 
 // ************************
 // skills section
@@ -321,11 +258,7 @@ a {
       margin-bottom: 6px;
     }
   }
-  .moonoz-college {
-    width: 100%;
-    height: 294px;
-    margin: 10% 0 12%;
-  }
+
   // ****************************
   // skills section
   // ****************************
@@ -389,14 +322,6 @@ a {
 // 
 
 @media only screen and (min-width: 990px) {
-
-
-
-.moonoz-college{
-  width: 100%;
-  height: 300px;
-  margin-top: -150px;
-}
 
 .selfDescription, .aboutMe-Name{
   font-size: 50px;

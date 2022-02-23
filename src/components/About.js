@@ -8,16 +8,18 @@ import {
   CardTitle,
   CardText
 } from "react-bootstrap";
+import "../style/about.scss";
 import { IoSchool } from "react-icons/io5";
 import { IoIosBrush } from "react-icons/io";
 import College from "../img/joelCollege.jpg";
 import IpadTag from '../img/ipadDesign.jpg';
+import HiddenMouseketeer from "../img/HiddenMouseketeer.png";
 
 const About = () => {
   return (
     <Container id="About" fluid>
       <Row>
-      <Col xs={1}></Col>
+        <Col xs={1}></Col>
         <Col xs={10}>
           <h6 className="aboutMe-title">About me</h6>
         </Col>
@@ -47,7 +49,7 @@ const About = () => {
         </Col>
         <Col sm={4}>
           <Container>
-            <Card className="blue-change hvr-grow-rotate-right" > 
+            <Card className="blue-change hvr-grow-rotate-right" >
               <Card.Body>
                 <Card.Title>
                   <div className="about-title ">
@@ -61,13 +63,13 @@ const About = () => {
             </Card>
           </Container>
         </Col>
-         {/* blank col */}
-         <Col sm={4} className="d-xs-none">
+        {/* blank col */}
+        <Col sm={4} className="d-xs-none">
         </Col>
-        
+
         <Col sm={4}>
           <Container>
-            <Card className="red-change hvr-grow-rotate-left" > 
+            <Card className="red-change hvr-grow-rotate-left" >
               <Card.Body>
                 <Card.Title>
                   <div className="about-title ">
@@ -81,11 +83,11 @@ const About = () => {
             </Card>
           </Container>
         </Col>
-       
+
 
         <Col sm={4}>
           <Container>
-            <Card className="blue-change hvr-grow-rotate-right" > 
+            <Card className="blue-change hvr-grow-rotate-right" >
               <Card.Body>
                 <Card.Title>
                   <div className="about-title ">
@@ -103,12 +105,13 @@ const About = () => {
         <Col sm={4} >
           <Container>
             <div className="moonoz-college frame">
+              <img src={HiddenMouseketeer} className="hidden-Mouseketeer" alt="Hidden Mouseketeer" />
             </div>
           </Container>
         </Col>
       </Row>
       <Row>
-      <Col sm={12}>
+        <Col sm={12}>
           <p className="selfDescription" >Accomplished. Artistic. Deticated.</p>
         </Col>
         <Col sm={12}>
@@ -118,8 +121,8 @@ const About = () => {
           </div>
         </Col>
       </Row>
-      
-      
+
+
     </Container>
   );
 };

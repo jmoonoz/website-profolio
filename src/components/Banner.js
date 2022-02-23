@@ -1,12 +1,11 @@
 import React from "react";
-import { Col, Container, Row } from "reactstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import "../style/banner.scss";
 import { BsLinkedin, BsGithub, BsInstagram, BsArrowDownCircle } from 'react-icons/bs';
 
 const Banner = () => {
   return (
-    <Container id="Banner" className="banner gradient-background banner-Mobile" fluid>
-      
+    <Container id="Banner" className="banner banner-Mobile" fluid>
       <Container>
         <Row className="banner-text">
           {/* Name and one row */}
