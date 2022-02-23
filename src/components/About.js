@@ -121,8 +121,6 @@ const About = () => {
           </div>
         </Col>
       </Row>
-
-
     </Container>
   );
 };

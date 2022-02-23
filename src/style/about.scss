@@ -35,6 +35,7 @@
   background-size: cover;
 }
 .hidden-Mouseketeer{
+  // position: absolute;
   opacity: 0;
   transition: 1s ease-in;
 }
@@ -67,10 +68,46 @@
 .blue-change:hover {
   background-color: #345454 !important;
 }
+.card-body{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+}
+
+.card-body{
+  .card-text{
+    display: none;
+  }
+}
+// hover effects
+.card-body:hover{
+  .card-text{
+    display: block;
+  }
+  .card-title{
+    display: none;
+  }
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .hidden-Mouseketeer{
+    width: 35%;
+    left: 130px;
+  }
+  .moonoz-college {
+    width: 100% !important;
+    height: 294px !important;
+    margin: 10% 0 12%;
+  }
+  
+}
 
 @media screen and (min-width: 990px) {
   .card {
-      margin-top: 30px;
+    margin-top: 30px;
     width: 340px;
     height: 165px;
   }

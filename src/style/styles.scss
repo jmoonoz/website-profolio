@@ -79,7 +79,7 @@ a {
 .name,
 .selfDescription,
 .skill-intro,
-.aboutMe-Name {
+.aboutMe-Name, .contact-text {
   font-family: cocoFont !important;
 }
 
@@ -115,9 +115,10 @@ h3,
   font-weight: 500;
 }
 
-//************************
-//banner
-//************************
+// margin between sections{
+  #About{
+    margin-top: 50px;
+  }
 
 
 // ************************
@@ -150,16 +151,7 @@ h3,
   }
 }
 
-// ************************
-// email
-// ************************
-.button-align{
-  display: flex;
-  justify-content: flex-end;
-}
-.formInput, .form-control, .button-align{
-  margin-top: 15px;
-}
+
 
 
 //************************

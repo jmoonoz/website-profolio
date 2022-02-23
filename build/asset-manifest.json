@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.41d5437a.css",
-    "main.js": "/static/js/main.f71293e0.js",
+    "main.css": "/static/css/main.685cacce.css",
+    "main.js": "/static/js/main.906dd916.js",
     "static/media/MoonozNetflix.png": "/static/media/MoonozNetflix.5ca478be8b2120299d81.png",
+    "static/media/bannerLight.jpg": "/static/media/bannerLight.1256f850add4024d39ce.jpg",
     "static/media/ipadDesign.jpg": "/static/media/ipadDesign.4d5c75201355420b9af5.jpg",
     "static/media/joelCollege.jpg": "/static/media/joelCollege.e221f3664c780e8582d3.jpg",
-    "static/media/bannerBkgd.jpg": "/static/media/bannerBkgd.9bdac03a80ff0053787b.jpg",
     "static/media/goldFrame.png": "/static/media/goldFrame.e71a76c211f83a1726cf.png",
+    "static/media/HiddenMouseketeer.png": "/static/media/HiddenMouseketeer.b5ca0f1df8035030662b.png",
     "static/media/Coco.otf": "/static/media/Coco.237d231f61b1e71a250e.otf",
     "index.html": "/index.html",
-    "main.41d5437a.css.map": "/static/css/main.41d5437a.css.map",
-    "main.f71293e0.js.map": "/static/js/main.f71293e0.js.map"
+    "main.685cacce.css.map": "/static/css/main.685cacce.css.map",
+    "main.906dd916.js.map": "/static/js/main.906dd916.js.map"
   },
   "entrypoints": [
-    "static/css/main.41d5437a.css",
-    "static/js/main.f71293e0.js"
+    "static/css/main.685cacce.css",
+    "static/js/main.906dd916.js"
   ]
 }

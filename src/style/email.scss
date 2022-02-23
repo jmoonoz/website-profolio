@@ -1,0 +1,28 @@
+// ************************
+// email
+// ************************
+.button-align{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .formInput, .form-control, .button-align{
+    margin-top: 15px;
+  }
+.contact-header{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:389px) {
+    .contact-text{
+        font-size: 25px !important;
+    }
+    
+}
+@media screen and (min-width: 390 ) and (max-width: 430px) {
+    .contact-text{
+        font-size: 27px;
+    }
+    
+}

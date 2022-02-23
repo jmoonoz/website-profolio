@@ -1,5 +1,6 @@
 import React from "react";
 import emailjs from '@emailjs/browser';
+import "../style/email.scss";
 import { Container, Button, Form, Row, Col } from "react-bootstrap";
 
 const API_SER = process.env.REACT_APP_SERVICE_KEY
@@ -34,9 +35,9 @@ const Email = () => {
     return (
         <Container id="Email" fluid>
             <Row>
-                <Col sm={6}>
-                    <h1>
-                        Feel free contact me!
+                <Col className="contact-header" sm={6}>
+                    <h1 className="contact-text">
+                        Send me a message!
                     </h1>
 
                 </Col>
