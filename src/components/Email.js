@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import{ init } from '@emailjs/browser';
 
 import "../style/email.scss";
 import { Container, Button, Form, Row, Col } from "react-bootstrap";
+import { useRef } from 'react';
 
 const API_SER = process.env.REACT_APP_SERVICE_KEY;
 const API_TEMP = process.env.REACT_APP_TEMPLATE_KEY;
@@ -12,7 +13,8 @@ init(API_USER);
 
 
 const Email = () => {
-    function sendEmail(e) {
+    const form = useRef();
+    const sendEmail =(e) => {
         e.preventDefault();
         emailjs.init(API_USER);
 
@@ -48,7 +50,7 @@ const Email = () => {
                 </Col>
                 {/* email form */}
                 <Col sm={6}>
-                    <Form className="formInput" onSubmit={sendEmail} >
+                    <Form ref={form} className="formInput" onSubmit={sendEmail} >
                         <Form.Group controlId="enterName">
                             <Form.Control type="text" placeholder="Name" name="name" />
                         </Form.Group>
