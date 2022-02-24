@@ -22,13 +22,13 @@ const Projects = () => {
         {/* row */}
         <Col sm={6}>
           <a href="https://netflix-clone-8caf8.web.app/" >
-            <img src={MoonozNetflix} alt="netflix clone" className="project-img" />
+            <img src={MoonozNetflix} alt="netflix clone" className="project-img hvr-grow-rotate-right" />
           </a>
         </Col>
         <Col sm={6} >
 
           <a href="https://netflix-clone-8caf8.web.app/" >
-            <img src={MoonozNetflix} alt="netflix clone" className="project-img" />
+            <img src={MoonozNetflix} alt="netflix clone" className="project-img hvr-grow-rotate-left" />
           </a>
         </Col>
 

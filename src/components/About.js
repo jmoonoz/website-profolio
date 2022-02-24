@@ -32,7 +32,7 @@ const About = () => {
         {/*  */}
         <Col sm={4}>
           <Container>
-            <Card className="red-change hvr-grow-rotate-left">
+            <Card className="blue-change hvr-grow-shadow">
               <Card.Body>
                 <Card.Title >
                   <div className="about-title" >
@@ -40,7 +40,7 @@ const About = () => {
                   </div>
                 </Card.Title>
                 <Card.Text>
-                  Graduated CSUEB with a B.S. in Computer Science, B.A. in
+                  2019 California State University East Bay (CSUEB) Alumni with a B.S. in Computer Science, B.A. in
                   Psychology and a minor in Sociology.
                 </Card.Text>
               </Card.Body>
@@ -49,7 +49,7 @@ const About = () => {
         </Col>
         <Col sm={4}>
           <Container>
-            <Card className="blue-change hvr-grow-rotate-right" >
+            <Card className="blue-change hvr-grow-shadow" >
               <Card.Body>
                 <Card.Title>
                   <div className="about-title ">
@@ -57,7 +57,7 @@ const About = () => {
                   </div>
                 </Card.Title>
                 <Card.Text>
-                  Freelance Graphics designer, filling the world with art one design at a time. I design in Procreate, Affinity Designer and Photoshop.
+                  Freelance Graphics designer, filling the world with art one design at a time. Skilled in desinging with Procreate, Affinity Designer and Photoshop.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -69,7 +69,7 @@ const About = () => {
 
         <Col sm={4}>
           <Container>
-            <Card className="red-change hvr-grow-rotate-left" >
+            <Card className="blue-change hvr-grow-shadow" >
               <Card.Body>
                 <Card.Title>
                   <div className="about-title ">
@@ -77,7 +77,7 @@ const About = () => {
                   </div>
                 </Card.Title>
                 <Card.Text>
-                  I have always admired the heart filled works of Disney and Pixar animated films. Currently undergoing self lesson on creating 2-D short.
+                  Filled with admiration for the works of Disney and Pixar animated films has inspired by intrest in developing my own 2D animated shorts. 
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -87,7 +87,7 @@ const About = () => {
 
         <Col sm={4}>
           <Container>
-            <Card className="blue-change hvr-grow-rotate-right" >
+            <Card className="blue-change hvr-grow-shadow" >
               <Card.Body>
                 <Card.Title>
                   <div className="about-title">
