@@ -4,7 +4,6 @@ import{ init } from '@emailjs/browser';
 
 import "../style/email.scss";
 import { Container, Button, Form, Row, Col } from "react-bootstrap";
-import { useRef } from 'react';
 
 const API_SER = process.env.REACT_APP_SERVICE_KEY;
 const API_TEMP = process.env.REACT_APP_TEMPLATE_KEY;
