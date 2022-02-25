@@ -1,14 +1,13 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { init } from '@emailjs/browser';
-
 import "../style/email.scss";
 import { Container, Button, Form, Row, Col } from "react-bootstrap";
 
 const API_SER = process.env.REACT_APP_SERVICE_KEY;
 const API_TEMP = process.env.REACT_APP_TEMPLATE_KEY;
 const API_USER = process.env.REACT_APP_USER_KEY;
-
+init("user_E2y7AWBwmc6CuoPjIzgMV");
 
 
 const Email = () => {
@@ -25,7 +24,7 @@ const Email = () => {
             API_SER,
             API_TEMP,
             e.target,
-            'user_E2y7AWBwmc6CuoPjIzgMV'
+            API_USER
         )
             .then(
                 (result) => {
