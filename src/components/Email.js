@@ -14,30 +14,42 @@ const Email = () => {
     const form = useRef();
 
 
+    // const sendEmail = (e) => {
+    //     e.preventDefault();
+    //     init(API_USER);
+
+    //     console.log(process.env.NODE_ENV);
+
+    //     emailjs.sendForm(
+    //         API_SER,
+    //         API_TEMP,
+    //         e.target,
+    //         API_USER
+    //     )
+    //         .then(
+    //             (result) => {
+    //                 console.log(result.text);
+    //             },
+    //             (error) => {
+    //                 console.log(error.text);
+    //             }
+    //         );
+    //     e.target.reset();
+    // };
+
     const sendEmail = (e) => {
         e.preventDefault();
-        init(API_USER);
 
-        console.log(process.env.NODE_ENV);
-
-        emailjs.sendForm(
-            API_SER,
-            API_TEMP,
-            e.target,
-            API_USER
-        )
-            .then(
-                (result) => {
-                    console.log(result.text);
-                },
-                (error) => {
-                    console.log(error.text);
-                }
-            );
+        emailjs.sendForm(API_SER, API_TEMP, form.current, API_USER)
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
         e.target.reset();
     };
 
-    const redStar = <span>*</span>;
+
 
     return (
         <Container id="Email" fluid>
