@@ -39,6 +39,7 @@ const Email = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
+        emailjs.init(API_USER);
 
         emailjs.sendForm(API_SER, API_TEMP, form.current, API_USER)
             .then((result) => {
