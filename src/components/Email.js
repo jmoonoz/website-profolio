@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import{ init } from '@emailjs/browser';
+import { init } from '@emailjs/browser';
 
 import "../style/email.scss";
 import { Container, Button, Form, Row, Col } from "react-bootstrap";
@@ -15,11 +15,9 @@ const Email = () => {
     const form = useRef();
 
 
-    const sendEmail =(e) => {
+    const sendEmail = (e) => {
         e.preventDefault();
         emailjs.init(API_USER);
-
-
 
         console.log(process.env.NODE_ENV);
 
@@ -49,7 +47,6 @@ const Email = () => {
                     <h2 className="contact-text">
                         Send me a message!
                     </h2>
-
                 </Col>
                 {/* email form */}
                 <Col sm={6}>
@@ -69,10 +66,9 @@ const Email = () => {
                             />
                         </Form.Group>
                         <div className="button-align">
-
-                        <Button type="submit" variant="danger" className="styleButton" value="Send" size="lg">
-                            Submit
-                        </Button>
+                            <Button type="submit" variant="danger" className="styleButton" value="Send" size="lg">
+                                Submit
+                            </Button>
                         </div>
                     </Form>
                 </Col>
