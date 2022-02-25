@@ -13,9 +13,13 @@ init(API_USER);
 
 const Email = () => {
     const form = useRef();
+
+
     const sendEmail =(e) => {
         e.preventDefault();
         emailjs.init(API_USER);
+
+
 
         console.log(process.env.NODE_ENV);
 
@@ -34,7 +38,7 @@ const Email = () => {
                 }
             );
         e.target.reset();
-    }
+    };
 
     const redStar = <span>*</span>;
 
