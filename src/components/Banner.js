@@ -8,21 +8,10 @@ const Banner = () => {
     <Container id="Banner" className="banner banner-Mobile" fluid>
       <Container>
         <Row className="banner-text">
-          {/* Name and one row */}
-          <Col xs={1} sm={1} ></Col>
-          <Col xs={10} sm={5}>
+          <Col md={1}></Col>
+          <Col md={5}>
             <h1 className="name" >Joel Muñoz</h1>
-          </Col>
-          <Col xs={1} sm={12}></Col>
-          {/* Job title and second row */}
-          <Col xs={1} sm={1} ></Col>
-          <Col xs={10} sm={5}>
             <h2 className="job-title" >Front-End Developer</h2>
-          </Col>
-          <Col xs={1} sm={12}></Col>
-          
-          <Col xs={1} sm={1} ></Col>
-          <Col xs={10} sm={5}>
             <Container className="banner-icons">
               <a className="lkd-icon" href="https://www.linkedin.com/in/moonoz/" >
                 <BsLinkedin className='icon-item' />
@@ -35,20 +24,14 @@ const Banner = () => {
                 <BsInstagram className='icon-item ' />
               </a>
             </Container>
-
-          </Col>
-          <Col xs={1} sm={6}></Col>
-          {/* down arrow and fith row */}
-          <Col xs={1} sm={1} ></Col>
-          <Col xs={10} sm={5}>
             <a href="#Quote" >
               <BsArrowDownCircle className="icon-item banner-arrow" />
             </a>
 
           </Col>
-          <Col xs={1} sm={6}></Col>
-        </Row>
+          <Col md={6}></Col>
 
+        </Row>
       </Container>
     </Container>
   );

@@ -4,38 +4,14 @@ import { init } from '@emailjs/browser';
 import "../style/email.scss";
 import { Container, Button, Form, Row, Col } from "react-bootstrap";
 
-const API_SER = process.env.REACT_APP_SERVICE_KEY;
-const API_TEMP = process.env.REACT_APP_TEMPLATE_KEY;
-const API_USER = process.env.REACT_APP_USER_KEY;
+const API_SER = "service_whwcb36";
+const API_TEMP = "template_t42zq95";
+const API_USER = "user_E2y7AWBwmc6CuoPjIzgMV";
 init("user_E2y7AWBwmc6CuoPjIzgMV");
 
 
 const Email = () => {
     const form = useRef();
-
-
-    // const sendEmail = (e) => {
-    //     e.preventDefault();
-    //     init(API_USER);
-
-    //     console.log(process.env.NODE_ENV);
-
-    //     emailjs.sendForm(
-    //         API_SER,
-    //         API_TEMP,
-    //         e.target,
-    //         API_USER
-    //     )
-    //         .then(
-    //             (result) => {
-    //                 console.log(result.text);
-    //             },
-    //             (error) => {
-    //                 console.log(error.text);
-    //             }
-    //         );
-    //     e.target.reset();
-    // };
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -61,7 +37,7 @@ const Email = () => {
                     </h2>
                 </Col>
                 {/* email form */}
-                <Col sm={6}>
+                <Col sm={5}>
                     <Form ref={form} className="formInput" onSubmit={sendEmail} >
                         <Form.Group controlId="enterName">
                             <Form.Control type="text" placeholder="Name" name="name" />
@@ -84,7 +60,7 @@ const Email = () => {
                         </div>
                     </Form>
                 </Col>
-                <Col sm={1}></Col>
+                <Col md={1}></Col>
             </Row>
         </Container>
 

@@ -1,4 +1,5 @@
 import React from "react";
+import "../style/skills.scss";
 import { Container, Col, Img, Row } from "react-bootstrap";
 import { BsCode } from "react-icons/bs";
 import { MdDraw } from 'react-icons/md';
@@ -29,7 +30,7 @@ const Skills = () => {
               <BsCode className='icon-item front-icon' />Front-End Dev.
             </div>
             <div className="skill-text">
-              Experienced in coding with HTML, CSS and Javascript; as well as desinging responsive frame works with Bootstrap and React.
+            Meticulous web developer with over 3 years of Front end experience and passion for responsive website design and a firm believer in the mobile-first approach. Experience in utalising the current technologies including ReactJS, HTML5, CSS3 and Bootstrap.
             </div>
           </Container>
           {/* Tools */}
@@ -38,7 +39,7 @@ const Skills = () => {
               <FaLaptopCode className='icon-item tools-icon' />Tools
             </div>
             <div className="skill-text">
-              Proficient in Visual Studios, Xcode, Terminal and Chrome
+              Proficient in working from concept to deployment with Visual Studios, Xcode, Terminal and Chrome
               Developer tools.
             </div>
           </Container>
@@ -48,7 +49,7 @@ const Skills = () => {
               <MdDraw className='icon-item graph-icon' />Graphics
             </div>
             <div className="skill-text">
-              Talented graphic designer with 3+ years experience creating digital artwork for clients ranging from small start up to well established cooperations.
+              Established Graphic Designer with 3+ years experience creating digital artwork for clients ranging from small start up to well established cooperations.
             </div>
           </Container>
           {/* Certificates */}

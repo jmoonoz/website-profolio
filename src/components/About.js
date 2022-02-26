@@ -52,8 +52,8 @@ const About = () => {
             <Card className="blue-change hvr-grow-shadow" >
               <Card.Body>
                 <Card.Title>
-                  <div className="about-title ">
-                    Graphics
+                  <div className="about-title">
+                    Design
                   </div>
                 </Card.Title>
                 <Card.Text>
@@ -91,7 +91,7 @@ const About = () => {
               <Card.Body>
                 <Card.Title>
                   <div className="about-title">
-                    Graphics
+                    Hidden Mouseketeer
                   </div>
                 </Card.Title>
                 <Card.Text>

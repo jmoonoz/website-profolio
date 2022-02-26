@@ -6,7 +6,7 @@ const quoteArray = [
     },
     {
         id: 1,
-        quote: "I guess one person can make a difference",
+        quote: "I guess one person can make a difference.",
         auth: "- Stan Lee"
     },
     {
@@ -18,6 +18,11 @@ const quoteArray = [
         id: 3,
         quote: "You got the making of greatness in you",
         auth: "- Captain John Silver"
+    },
+    {
+        id:4,
+        quote:"I might be nobody, but wait 'til I'm together like a symphony Resoundin' sound that will continue infinitely",
+        auth: "- Immortal Technique"
     }
 ];
 

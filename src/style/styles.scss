@@ -79,7 +79,7 @@ a {
 .name,
 .selfDescription,
 .skill-intro,
-.aboutMe-Name, .contact-text, .about-title {
+.aboutMe-Name, .contact-text, .about-title, .project-header{
   font-family: cocoFont !important;
 }
 
@@ -147,6 +147,9 @@ h3,
   div {
     text-align: left !important;
   }
+}
+.project-header{
+  font-size: 45px;
 }
 
 
@@ -247,58 +250,21 @@ a {
     }
   }
 
-  // ****************************
-  // skills section
-  // ****************************
-  .card-sec {
-    width: 85% !important;
-  }
-  .moonoz-Img {
-    box-shadow: #133a1b;
-    img {
-      border-radius: 70%;
-      object-fit: contain;
-      width: 100%;
-    }
-  }
-  .Moonoz {
-    margin-left: 11rem !important;
-    margin-top: -12rem !important;
-  }
-
-  .skills-space {
-    margin-top: 32px;
-  }
-  .skill,
-  .certificate-title,
-  .front-title,
-  .tool-title, .graphics-title  {
-    text-align: center;
-    font-size: 28px;
-    font-weight: 600;
-  }
-
-  .skills-head {
-    font-size: 18px;
-  }
-  .skill-text{
-    font-size: 12px;
-    font-weight: 600;
-  }
   .project-img{
     border-radius: 5%;
     height: 90%;
     width: 100%;
     margin-top: 10px;
   }
-
+  .project-header{
+    font-size: 27px;
+  }
+  
 
   #About, #Projects{
     margin-top: 10px;
   }
 
-  
-  
 
   .selfDescription {
     font-size: 20px;
@@ -336,20 +302,12 @@ a {
 // skills
 // *********************
 
-.skill-title{
-  font-weight: 500;
-  font-size: 25px;
-}
+
 .cert-icon, .graph-icon, .tools-icon, .front-icon{
   margin-right: 5px;
   margin-bottom: 5px;
 }
-.moonoz-Img{
-  margin-top: 3rem;
-  .Moonoz{
-    width: 90%;
-  }
-}
+
 
 
 }
