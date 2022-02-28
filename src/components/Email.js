@@ -29,12 +29,18 @@ const Email = () => {
 
 
     return (
-        <Container id="Email" fluid>
+        <Container id="Email" >
             <Row>
                 <Col className="contact-header" sm={6}>
-                    <h2 className="contact-text">
-                        Send me a message!
-                    </h2>
+                <Container>
+                    
+                    <h1 className="contact-text">
+                        Wana chat?
+                    </h1>
+                    <p>
+                        Feel free to reach out to me with any question or request
+                    </p>
+                </Container>
                 </Col>
                 {/* email form */}
                 <Col sm={5}>
@@ -54,7 +60,7 @@ const Email = () => {
                             />
                         </Form.Group>
                         <div className="button-align">
-                            <Button type="submit" variant="danger" className="styleButton" value="Send" size="lg">
+                            <Button type="submit" variant="outline-danger" className="styleButton" value="Send" size="lg">
                                 Submit
                             </Button>
                         </div>

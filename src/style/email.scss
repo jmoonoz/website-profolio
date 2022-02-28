@@ -1,28 +1,47 @@
 // ************************
 // email
 // ************************
-.button-align{
-    display: flex;
-    justify-content: flex-end;
-  }
-  .formInput, .form-control, .button-align{
-    margin-top: 15px;
-  }
-.contact-header{
-    justify-content: center;
-    display: flex;
-    align-items: center;
+.button-align {
+  display: flex;
+  justify-content: flex-end;
 }
 
-@media screen and (max-width:389px) {
-    .contact-text{
-        font-size: 25px !important;
-    }
-    
+.formInput,
+.form-control,
+.button-align {
+  margin-top: 15px;
 }
-@media screen and (min-width: 390 ) and (max-width: 430px) {
-    .contact-text{
-        font-size: 27px !important;
-    }
-    
+.contact-header {
+  justify-content: center;
+  // display: flex;
+  align-items: center;
+  p {
+    opacity: 80%;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .container {
+    margin-top: 10%;
+  }
+}
+.contact-text {
+  display: inline-block;
+}
+.form-control {
+  background-color: transparent;
+}
+
+@media screen and (max-width: 389px) {
+  .contact-text {
+    font-size: 40px !important;
+    font-weight: 500 !important;
+  }
+  
+}
+@media screen and (min-width: 390) and (max-width: 430px) {
+  .contact-text {
+    font-size: 45px !important;
+    font-weight: 600 !important;
+  }
+ 
 }

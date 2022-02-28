@@ -9,7 +9,7 @@ import { BiCertification } from "react-icons/bi";
 
 const Skills = () => {
   return (
-    <Container id='Skills' fluid>
+    <Container id='Skills' >
       <Row>
         {/* skills */}
         <Col xs={1}></Col>

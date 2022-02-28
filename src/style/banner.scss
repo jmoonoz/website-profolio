@@ -23,36 +23,26 @@
     }
   }
   // icon hover
-  .lkd-icon:hover {
+  .link-icon:hover {
     opacity: 100% !important;
     .icon-item {
-      fill: #f5801e;
+      fill: #dc3545;
     }
   }
-  .git-icon:hover {
-    opacity: 100% !important;
-    .icon-item {
-      fill: #ee3b24;
-    }
-  }
-  .ig-icon:hover {
-    opacity: 100% !important;
-    .icon-item {
-      fill: #ef519e;
-    }
-  }
+
   .banner {
+    height: 100vh;
     background-size: cover;
     background-image: url("../img/bannerLight.jpg");
     background-position: center;
-    padding: 21.3rem 0 14rem !important;
+    // padding: 21.3rem 0 14rem !important;
   }
   
-  @media only screen and (max-width: 700px) {
+  @media only screen and(min-width:370px) and (max-width: 700px) {
 
     .banner {
         padding: 360px 0 60px !important;
-        background-position: -650px 0px;
+        background-position: -864px 0px;
       }
       .banner-arrow {
         // margin-top: 50px;
@@ -63,7 +53,7 @@
         font-weight: 500;
       }
       .banner-text{
-        margin-top: 15px;
+        margin-top: 125px;
       }
   }
 

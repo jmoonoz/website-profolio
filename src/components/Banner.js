@@ -10,18 +10,19 @@ const Banner = () => {
         <Row className="banner-text">
           <Col md={1}></Col>
           <Col md={5}>
+          <h4>Welcome!</h4>
             <h1 className="name" >Joel Muñoz</h1>
             <h2 className="job-title" >Front-End Developer</h2>
             <Container className="banner-icons">
-              <a className="lkd-icon" href="https://www.linkedin.com/in/moonoz/" >
+              <a className="link-icon" href="https://www.linkedin.com/in/moonoz/" >
                 <BsLinkedin className='icon-item' />
               </a>
-              <a className="git-icon" href="https://github.com/jmoonoz">
-                <BsGithub className='icon-item ' />
+              <a className="link-icon" href="https://github.com/jmoonoz">
+                <BsGithub className='icon-item' />
               </a>
 
-              <a className="ig-icon" href="https://www.instagram.com/moonozdisenoz/?hl=en">
-                <BsInstagram className='icon-item ' />
+              <a className="link-icon" href="https://www.instagram.com/moonozdisenoz/?hl=en">
+                <BsInstagram className='icon-item' />
               </a>
             </Container>
             <a href="#Quote" >

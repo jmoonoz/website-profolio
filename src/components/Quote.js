@@ -32,7 +32,7 @@ const Quote = () => {
 
 
   return (
-    <Container id="Quote" fluid>
+    <Container id="Quote" >
       <Container className="quote-row">
         <Row >
 

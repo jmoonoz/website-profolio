@@ -23,7 +23,7 @@ export default function App() {
           <Quote />
           <Skills />
           <Projects />
-          <About />
+          {/* <About /> */}
           <ContactMe />
         </Container>
         <Footer />

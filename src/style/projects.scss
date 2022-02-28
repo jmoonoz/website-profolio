@@ -1,0 +1,39 @@
+.btn-row {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.card-title {
+  font-weight: 700;
+  transition: 200ms ease-in-out;
+}
+.card:hover {
+  .card-title {
+    color: #dc3545 !important;
+  }
+}
+
+.card-text {
+  font-size: 17px;
+  opacity: 80%;
+}
+.project-tools {
+  font-size: 12px;
+  font-weight: 300;
+  opacity: 50%;
+}
+.card-text,
+.card-title,
+.btn-row,
+.project-tools {
+  text-align: left;
+}
+.card-body {
+  padding-left: 30px;
+}
+
+@media screen and (min-width: 390px) and (max-width: 420px) {
+  .card {
+    margin-top: 10px !important;
+  }
+}

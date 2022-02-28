@@ -1,11 +1,13 @@
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import MoonozNetflix from "../img/MoonozNetflix.png";
+import ProjectCard from "./ProjectCard";
+import "../style/projects.scss";
 
 const Projects = () => {
   return (
 
-    <Container id="Projects" fluid>
+    <Container id="Projects" >
       <Row>
         {/* row */}
         <Col xs={1} ></Col>
@@ -16,21 +18,32 @@ const Projects = () => {
         {/* row */}
         <Col xs={1} ></Col>
         <Col xs={10}>
-          <h4 className="project-header">Check out some of my projects</h4>
+          <h4 className="project-header">Few things I've Coded</h4>
         </Col>
         <Col xs={1}></Col>
         {/* row */}
-        <Col sm={6}>
-          <a href="https://netflix-clone-8caf8.web.app/" >
-            <img src={MoonozNetflix} alt="netflix clone" className="project-img hvr-grow-rotate-right" />
-          </a>
+        <Col xs={1} md={1}></Col>
+        <Col sm={6} md={5}>
+          <ProjectCard
+            projectImage={MoonozNetflix}
+            name="Netflix Clone"
+            description="Clone reconstuction Netflix home page coded with React."
+            demo="https://netflix-clone-8caf8.web.app/"
+            tools="React JS Html SCSS React-Bootstrap Netlify Github"
+            git="https://github.com/jmoonoz/Netflix-Clone"
+          />
         </Col>
-        <Col sm={6} >
-
-          <a href="https://netflix-clone-8caf8.web.app/" >
-            <img src={MoonozNetflix} alt="netflix clone" className="project-img hvr-grow-rotate-left" />
-          </a>
+        <Col sm={6} md={5}>
+          <ProjectCard
+            projectImage={MoonozNetflix}
+            name="Netflix Clone"
+            description="Clone reconstuction Netflix home page coded with React."
+            demo="https://netflix-clone-8caf8.web.app/"
+            tools="React JS Html SCSS React-Bootstrap Netlify Github"
+            git="https://github.com/jmoonoz/Netflix-Clone"
+          />
         </Col>
+        <Col sm={1} md={1}></Col>
 
       </Row>
 

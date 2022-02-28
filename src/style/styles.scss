@@ -1,10 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap");
 
-@font-face {
-  font-family: "cocoFont";
-  src: url("../font/Coco.otf");
-}
+
 // colors influenced by coco
 $main-bkgd: #0d1318;
 $whtColor: #fcf4f4;
@@ -59,13 +56,16 @@ a {
   .navbar-brand,
   .nav-link,
   .navbar-text {
-    color: white !important;
+    color: white ;
     font-weight: 900;
   }
   .navbar-brand {
     text-align: left !important;
   }
  
+}
+.navbar-brand:hover, .nav-link:hover{
+  color: #dc3545 !important;
 }
 
 .nav-tag {
@@ -76,12 +76,7 @@ a {
 //************************
 //text1
 //************************
-.name,
-.selfDescription,
-.skill-intro,
-.aboutMe-Name, .contact-text, .about-title, .project-header{
-  font-family: cocoFont !important;
-}
+
 
 h1 {
   font-size: 80px;
@@ -119,6 +114,19 @@ h3,
   #About, #Projects{
     margin-top: 50px;
   }
+
+// ************************
+// button
+// ************************
+.btn-outline-danger {
+  color: #dc3545 !important;
+
+}
+.btn-outline-danger:hover{
+  background-color: rgba(220, 53, 69, 0.3) !important;
+}
+
+
 
 
 // ************************
@@ -236,19 +244,6 @@ a {
     margin-bottom: 2rem;
   }
 
-  .card {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    h4,
-    .card-text {
-      text-align: left;
-    }
-    .about-icon {
-      margin-bottom: 6px;
-    }
-  }
 
   .project-img{
     border-radius: 5%;
