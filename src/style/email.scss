@@ -25,8 +25,9 @@
   }
 }
 .contact-text {
-  display: inline-block;
-}
+    font-size: 50px !important;
+    font-weight: 600 !important;
+  }
 .form-control {
   background-color: transparent;
 }
@@ -36,12 +37,13 @@
     font-size: 40px !important;
     font-weight: 500 !important;
   }
-  
 }
 @media screen and (min-width: 390) and (max-width: 430px) {
-  .contact-text {
-    font-size: 45px !important;
-    font-weight: 600 !important;
+  .contact-header {
+    .container {
+      margin-top: 5%;
+      
+    }
   }
- 
+  
 }

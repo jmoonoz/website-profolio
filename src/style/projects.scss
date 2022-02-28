@@ -31,6 +31,39 @@
 .card-body {
   padding-left: 30px;
 }
+.project-footer{
+  opacity: 60%;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 2%;
+}
+.git-link{
+  display: inline-block;
+  position: relative;
+  color: #dc3545;
+  transition: .5s ease-out;
+}
+.git-link::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  color: #dc3545;
+  background-color: #dc3545 ;
+  transform-origin: bottom right !important;
+  transition: transform 0.25s ease-out;
+}
+.git-link:hover{
+  color: #dc3545 !important;
+}
+.git-link:hover:after{
+  color: #dc3545 !important;
+  transform: scaleX(1)!important;
+  transform-origin: bottom left !important;
+}
 
 @media screen and (min-width: 390px) and (max-width: 420px) {
   .card {

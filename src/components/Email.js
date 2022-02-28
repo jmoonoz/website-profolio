@@ -34,9 +34,9 @@ const Email = () => {
                 <Col className="contact-header" sm={6}>
                 <Container>
                     
-                    <h1 className="contact-text">
+                    <h2 className="contact-text">
                         Wana chat?
-                    </h1>
+                    </h2>
                     <p>
                         Feel free to reach out to me with any question or request
                     </p>

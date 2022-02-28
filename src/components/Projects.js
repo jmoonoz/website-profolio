@@ -27,9 +27,9 @@ const Projects = () => {
           <ProjectCard
             projectImage={MoonozNetflix}
             name="Netflix Clone"
-            description="Clone reconstuction Netflix home page coded with React."
+            description="Clone reconstuction Netflix home page coded with React. "
             demo="https://netflix-clone-8caf8.web.app/"
-            tools="React JS Html SCSS React-Bootstrap Netlify Github"
+            tools="React JS  Html  SCSS  React-Bootstrap  Netlify Github TMDB-API"
             git="https://github.com/jmoonoz/Netflix-Clone"
           />
         </Col>
@@ -44,6 +44,11 @@ const Projects = () => {
           />
         </Col>
         <Col sm={1} md={1}></Col>
+        <Col sm={12}>
+          <p className="project-footer">
+            Take a look at some of my other works on my <a className="git-link" href="https://github.com/jmoonoz">Git hub</a>
+          </p>
+        </Col>
 
       </Row>
 
