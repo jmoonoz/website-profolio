@@ -32,17 +32,11 @@
   background-color: transparent;
 }
 
-@media screen and (max-width: 389px) {
-  .contact-text {
-    font-size: 40px !important;
-    font-weight: 500 !important;
-  }
-}
-@media screen and (min-width: 390) and (max-width: 430px) {
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
   .contact-header {
     .container {
-      margin-top: 5%;
-      
+      margin-top: 0px;
     }
   }
   
