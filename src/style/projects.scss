@@ -1,5 +1,5 @@
 .btn-row {
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
 }
@@ -65,8 +65,12 @@
   transform-origin: bottom left !important;
 }
 
-@media screen and (min-width: 390px) and (max-width: 420px) {
+@media screen and (min-width: 375px) and (max-width: 420px) {
   .card {
     margin-top: 10px !important;
+  }
+  .project-footer{
+    margin-top: 15px;
+    font-size: 20px;
   }
 }
