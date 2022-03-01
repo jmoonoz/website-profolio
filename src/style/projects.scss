@@ -84,6 +84,9 @@
 @media screen and (min-width: 375px) and (max-width: 420px) {
   .card {
     margin-top: 10px !important;
+    .project-tools{
+      font-size: 9px;
+    }
   }
   .project-footer{
     margin-top: 15px;

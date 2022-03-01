@@ -29,7 +29,7 @@ const Projects = () => {
           <ProjectCard
             projectImage={MoonozNetflix}
             name="Netflix Clone"
-            description="Clone replication of Netflix home page coded with React."
+            description="Clone replication of Netflix home page coded with React. With real time data gathered and functionality like trailer preview"
             demo="https://netflix-clone-8caf8.web.app/"
             tools="React JS  Html  SCSS  React-Bootstrap  Netlify Github TMDB-API"
             git="https://github.com/jmoonoz/Netflix-Clone"
@@ -39,7 +39,7 @@ const Projects = () => {
           <ProjectCard
             projectImage={Spotify}
             name="Spotify Clone"
-            description="Clone reconstuction Netflix home page coded with React. Utalizing spotify very own API for working functions like searching, playing and reading Lyrics"
+            description="Clone recreation of Spotify with React. Utalizing Spotify own API for functions like searching, playing and reading Lyrics"
             // demo="https://netflix-clone-8caf8.web.app/"
             tools="React JS Html SCSS React-Bootstrap Github Spotify-API "
             git="https://github.com/jmoonoz/Spotify-clone"
@@ -48,8 +48,8 @@ const Projects = () => {
         <Col sm={12} md={4}>
           <ProjectCard
             projectImage={portfolio}
-            name="Portfolio website"
-            description="Early version of my portfolio websites. Much improvement since, insluding speed, organization, proper use"
+            name="Personal Website V1"
+            description="Early prototypes of my portfolio website. First time creating a React project that would be deployed"
             demo="https://dreamy-mccarthy-16d697.netlify.app/"
             tools="React JS Html CSS React-Bootstrap Github CSS-Animasion"
             git="https://github.com/jmoonoz/moonozProfile"
