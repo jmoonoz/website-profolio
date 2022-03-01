@@ -1,7 +1,9 @@
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import MoonozNetflix from "../img/MoonozNetflix.png";
+import Spotify from "../img/Spotify.png";
 import ProjectCard from "./ProjectCard";
+import portfolio from "../img/portfolioV1.png";
 import "../style/projects.scss";
 
 const Projects = () => {
@@ -22,28 +24,38 @@ const Projects = () => {
         </Col>
         <Col xs={1}></Col>
         {/* row */}
-        <Col xs={1} md={1}></Col>
-        <Col sm={6} md={5}>
+        {/* <Col xs={1} md={1}></Col> */}
+        <Col sm={12} md={4}>
           <ProjectCard
             projectImage={MoonozNetflix}
             name="Netflix Clone"
-            description="Clone reconstuction Netflix home page coded with React. "
+            description="Clone replication of Netflix home page coded with React."
             demo="https://netflix-clone-8caf8.web.app/"
             tools="React JS  Html  SCSS  React-Bootstrap  Netlify Github TMDB-API"
             git="https://github.com/jmoonoz/Netflix-Clone"
           />
         </Col>
-        <Col sm={6} md={5}>
+        <Col sm={12} md={4}>
           <ProjectCard
-            projectImage={MoonozNetflix}
-            name="Netflix Clone"
-            description="Clone reconstuction Netflix home page coded with React."
-            demo="https://netflix-clone-8caf8.web.app/"
-            tools="React JS Html SCSS React-Bootstrap Netlify Github"
-            git="https://github.com/jmoonoz/Netflix-Clone"
+            projectImage={Spotify}
+            name="Spotify Clone"
+            description="Clone reconstuction Netflix home page coded with React. Utalizing spotify very own API for working functions like searching, playing and reading Lyrics"
+            // demo="https://netflix-clone-8caf8.web.app/"
+            tools="React JS Html SCSS React-Bootstrap Github Spotify-API "
+            git="https://github.com/jmoonoz/Spotify-clone"
           />
         </Col>
-        <Col sm={1} md={1}></Col>
+        <Col sm={12} md={4}>
+          <ProjectCard
+            projectImage={portfolio}
+            name="Portfolio website"
+            description="Early version of my portfolio websites. Much improvement since, insluding speed, organization, proper use"
+            demo="https://dreamy-mccarthy-16d697.netlify.app/"
+            tools="React JS Html CSS React-Bootstrap Github CSS-Animasion"
+            git="https://github.com/jmoonoz/moonozProfile"
+          />
+        </Col>
+       
         <Col sm={12}>
           <p className="project-footer">
             Take a look at some of my other works on my <a className="git-link" href="https://github.com/jmoonoz">Git hub</a>

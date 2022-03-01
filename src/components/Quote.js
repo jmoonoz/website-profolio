@@ -37,12 +37,12 @@ const Quote = () => {
         <Row >
 
           <Col sm={12}>
-            <h3 className="quote-text" >
+            <h3 className="quote-text fade-in" >
               <TextTransition text={QuoteArray[index].quote} springConfig={presets.gentle} delay={400} />
             </h3>
           </Col>
           <Col sm={12}>
-            <div className="quote-auth">
+            <div className="quote-auth fade-in">
               <TextTransition text={QuoteArray[index].auth} springConfig={presets.gentle} delay={400} />
             </div>
           </Col>
