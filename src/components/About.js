@@ -19,21 +19,30 @@ const About = () => {
   return (
     <Container id="About" >
       <Row>
-        <Col xs={1}></Col>
-        <Col xs={10}>
+        <Col xs={2}></Col>
+        <Col xs={8}>
           <h6 className="aboutMe-title">About me</h6>
         </Col>
-        <Col xs={1}></Col>
-        <Col sm={12}>
-          <h1 className="aboutMe-Name">Mooñoz Mundo</h1>
-        </Col>
+        <Col xs={2}></Col>
+
       </Row>
       <Row>
         {/*  */}
         <Col sm={2}>1</Col>
         <Col sm={4}>
           <Container className="">
-            <p>Hey! My name is Joel Muñoz and im a Front-End Developer. I graduated California State University East Bay (CSUEB) with a B.S. In COmputer Science, B.A. Psychology and minor in Sociology. </p>
+            <p>
+              Hey! My name is Joel Muñoz and I'm a Front-End Developer. I graduated California State University East Bay (CSUEB) with a B.S. In COmputer Science, B.A. Psychology and minor in Sociology.
+            </p>
+            <p>Here are some of the technologies I've coded with:</p>
+            <ul className="Skill-list">
+              <li>Javascrip</li>
+              <li>Javascrip</li>
+              <li>Javascrip</li>
+              <li>Javascrip</li>
+              <li>Javascrip</li>
+              <li>Javascrip</li>
+            </ul>
           </Container>
         </Col>
 
