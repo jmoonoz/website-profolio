@@ -31,20 +31,20 @@
 .card-body {
   padding-left: 30px;
 }
-.project-footer{
+.project-footer {
   opacity: 60%;
   font-size: 30px;
   font-weight: 600;
   margin-top: 2%;
 }
-.git-link{
+.git-link {
   display: inline-block;
   position: relative;
   color: #dc3545;
-  transition: .5s ease-out;
+  transition: 0.5s ease-out;
 }
-.git-link::after{
-  content: '';
+.git-link::after {
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
@@ -52,44 +52,65 @@
   bottom: 0;
   left: 0;
   color: #dc3545;
-  background-color: #dc3545 ;
+  background-color: #dc3545;
   transform-origin: bottom right !important;
   transition: transform 0.25s ease-out;
 }
-.git-link:hover{
+.git-link:hover {
   color: #dc3545 !important;
 }
-.git-link:hover:after{
+.git-link:hover:after {
   color: #dc3545 !important;
-  transform: scaleX(1)!important;
+  transform: scaleX(1) !important;
   transform-origin: bottom left !important;
 }
-@media screen and (min-width: 900px) and (max-width:1400px){
-  .card{
-    height:100%;
-    .card-title{
+@media screen and (min-width: 900px) and (max-width: 1400px) {
+  .card {
+    height: 100%;
+    .card-title {
       font-size: 35px;
     }
-    .card-text{
-      font-size:12px;
-      height: 55px
+    .card-text {
+      font-size: 12px;
+      height: 55px;
     }
-    .project-tools{
+    .project-tools {
       font-size: 10px;
     }
   }
-  
 }
 
-@media screen and (min-width: 375px) and (max-width: 420px) {
+@media screen and (max-width: 375px) {
   .card {
     margin-top: 10px !important;
-    .project-tools{
-      font-size: 9px;
+    .card-title {
+      font-size: 27px;
+    }
+    .card-text {
+      font-weight: 300;
+      font-size: 17px;
+    }
+    .project-tools {
+      font-size: 12px;
+      font-weight: 200;
+    }
+    .project-footer {
+      margin-top: 15px;
+      font-size: 15px;
     }
   }
-  .project-footer{
-    margin-top: 15px;
-    font-size: 15px;
+}
+// large mobile screen
+@media screen and (max-width: 425px) {
+  .card {
+    margin-top: 2%;
+    .card-title {
+      font-size: 30px;
+    }
+    // .card-text {
+    // }
+    .project-footer {
+      font-size: 25px !important;
+    }
   }
 }
