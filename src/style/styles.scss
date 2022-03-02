@@ -3,15 +3,9 @@
 
 
 // colors influenced by coco
-$main-bkgd: #0d1318;
+$main-bkgd: #172029;
 $whtColor: #fcf4f4;
-$redColor: #ee3b24;
-$blueColor: #2498cb;
-$dk-blue: #107dbc;
-$pinkColor: #ef519e;
-$orangeColor: #f99e1a;
-$dk-orange-color: #f5801e;
-$green-color: #ada03d;
+
 
 :root{
   --font: "Inter", sans-serif;
@@ -23,6 +17,9 @@ $green-color: #ada03d;
   margin: 0;
   display: flexbox;
   color: $whtColor;
+}
+body{
+  background-color: $main-bkgd !important;
 }
 
 a {
@@ -39,7 +36,7 @@ a {
 }
 .section-bkgd {
   padding: 15px 0;
-  background-color: $main-bkgd;
+  // background-color: $main-bkgd;
 }
 
 .icon-item {

@@ -12,8 +12,8 @@ function ProjectCard({ projectImage, name, description, demo,tools, git }) {
                 </Card.Text>
                 <p className='project-tools'>{tools}</p>
                 <div className='btn-row'>
-                    <Button variant="outline-danger" className="styleButton"  href={demo} >Demo</Button>
-                    <Button variant="outline-danger" href={git}>Git Repo</Button>
+                    <Button variant="outline-danger" className="styleButton"  href={demo} target="_blank">Demo</Button>
+                    <Button variant="outline-danger" href={git} target="_blank">Git Repo</Button>
                 </div>
             </Card.Body>
 

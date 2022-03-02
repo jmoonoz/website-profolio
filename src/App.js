@@ -21,9 +21,9 @@ export default function App() {
         <Banner />
         <Container className="section-bkgd" fluid>
           <Quote />
-          <Skills />
+          {/* <Skills /> */}
           <Projects />
-          {/* <About /> */}
+          <About />
           <ContactMe />
         </Container>
         <Footer />

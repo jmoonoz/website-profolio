@@ -17,7 +17,7 @@ import HiddenMouseketeer from "../img/HiddenMouseketeer.png";
 
 const About = () => {
   return (
-    <Container id="About" fluid>
+    <Container id="About" >
       <Row>
         <Col xs={1}></Col>
         <Col xs={10}>
@@ -30,85 +30,23 @@ const About = () => {
       </Row>
       <Row>
         {/*  */}
+        <Col sm={2}>1</Col>
         <Col sm={4}>
-          <Container>
-            <Card className="blue-change hvr-grow-shadow">
-              <Card.Body>
-                <Card.Title >
-                  <div className="about-title" >
-                    Education
-                  </div>
-                </Card.Title>
-                <Card.Text>
-                  2019 California State University East Bay (CSUEB) Alumni with a B.S. in Computer Science, B.A. in
-                  Psychology and a minor in Sociology.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Container>
-        </Col>
-        <Col sm={4}>
-          <Container>
-            <Card className="blue-change hvr-grow-shadow" >
-              <Card.Body>
-                <Card.Title>
-                  <div className="about-title">
-                    Design
-                  </div>
-                </Card.Title>
-                <Card.Text>
-                  Freelance Graphics designer, filling the world with art one design at a time. Skilled in desinging with Procreate, Affinity Designer and Photoshop.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Container>
-        </Col>
-        {/* blank col */}
-        <Col sm={4} className="d-xs-none">
-        </Col>
-
-        <Col sm={4}>
-          <Container>
-            <Card className="blue-change hvr-grow-shadow" >
-              <Card.Body>
-                <Card.Title>
-                  <div className="about-title ">
-                    Animation
-                  </div>
-                </Card.Title>
-                <Card.Text>
-                  Filled with admiration for the works of Disney and Pixar animated films has inspired by intrest in developing my own 2D animated shorts. 
-                </Card.Text>
-              </Card.Body>
-            </Card>
+          <Container className="">
+            <p>Hey! My name is Joel Muñoz and im a Front-End Developer. I graduated California State University East Bay (CSUEB) with a B.S. In COmputer Science, B.A. Psychology and minor in Sociology. </p>
           </Container>
         </Col>
 
 
-        <Col sm={4}>
-          <Container>
-            <Card className="blue-change hvr-grow-shadow" >
-              <Card.Body>
-                <Card.Title>
-                  <div className="about-title">
-                    Hidden Mouseketeer
-                  </div>
-                </Card.Title>
-                <Card.Text>
-                  Freelance Graphics designer, filling the world with art one design at a time. I look to further my art skills into animation.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Container>
-        </Col>
         {/* frame image */}
-        <Col sm={4} >
+        <Col sm={5} >
           <Container>
             <div className="moonoz-college frame">
               <img src={HiddenMouseketeer} className="hidden-Mouseketeer" alt="Hidden Mouseketeer" />
             </div>
           </Container>
         </Col>
+        <Col sm={1}>1</Col>
       </Row>
       <Row>
         <Col sm={12}>
