@@ -12,6 +12,7 @@ import Projects from "./components/Projects";
 import ContactMe from "./components/Email";
 import {Container} from 'react-bootstrap';
 
+
 export default function App() {
   return (
     <div className="App">
@@ -21,7 +22,7 @@ export default function App() {
         <Banner />
         <Container className="section-bkgd" fluid>
           <Quote />
-          {/* <Skills /> */}
+          <Skills />
           <Projects />
           <About />
           <ContactMe />

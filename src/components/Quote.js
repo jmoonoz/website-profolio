@@ -5,6 +5,7 @@ import { FaCode } from "react-icons/fa";
 import { GoCode } from "react-icons/go";
 import QuoteArray from './quotes';
 import TextTransition, { presets } from "react-text-transition";
+import {IoMdQuote} from "react-icons/io";
 
 
 
@@ -38,7 +39,9 @@ const Quote = () => {
 
           <Col sm={12}>
             <h3 className="quote-text fade-in" >
+            <IoMdQuote />
               <TextTransition text={QuoteArray[index].quote} springConfig={presets.gentle} delay={400} />
+              <IoMdQuote />
             </h3>
           </Col>
           <Col sm={12}>

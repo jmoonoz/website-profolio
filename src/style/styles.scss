@@ -73,6 +73,33 @@ a {
   width: 25%;
   text-align: left !important;
 }
+.word-link {
+  display: inline-block;
+  position: relative;
+  color: #dc3545;
+  transition: 0.5s ease-out;
+}
+.word-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  color: #dc3545;
+  background-color: #dc3545;
+  transform-origin: bottom right !important;
+  transition: transform 0.25s ease-out;
+}
+.word-link:hover {
+  color: #dc3545 !important;
+}
+.word-link:hover:after {
+  color: #dc3545 !important;
+  transform: scaleX(1) !important;
+  transform-origin: bottom left !important;
+}
 
 //************************
 //text1

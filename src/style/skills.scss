@@ -1,60 +1,119 @@
-@media screen and (min-width: 350px) and (max-width: 420px) {
-  .card-sec {
-    width: 85% !important;
-  }
-  .moonoz-Img {
-    box-shadow: #133a1b;
-    img {
-      border-radius: 70%;
-      object-fit: contain;
-      width: 100%;
-    }
-  }
-  .Moonoz {
-    margin-left: 11rem !important;
-    margin-top: -12rem !important;
-  }
+.card-sec {
+  width: 100%;
+  border-radius: 10px !important;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 500ms ease-in-out;
+}
+.card,
+.card-sec {
+  background-color: rgb(24, 37, 41) !important;
+}
 
-  .skills-space {
-    margin-top: 32px;
-  }
-  .skill,
-  .certificate-title,
-  .front-title,
-  .tool-title,
-  .graphics-title {
-    text-align: center;
-    font-size: 28px;
-    font-weight: 600;
-  }
+#Skills {
+  text-align: left !important;
+}
+.skills-title{
+  font-weight:600;
+}
+.intro-text{
+  opacity:70%;
+}
 
-  .skills-head {
-    font-size: 18px;
-  }
-  .skill-text {
-    font-size: 12px;
-    font-weight: 600;
-  }
-  .project-img {
-    border-radius: 5%;
-    height: 90%;
-    width: 100%;
-    margin-top: 10px;
-  }
-  .project-header {
-    font-size: 27px;
+li{
+  font-size: 12px;
+  font-weight: 200;
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+
+li::marker{
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: #dc3545 !important;
+}
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  gap: 0px 10px;
+  margin-left: 15px !important;
+  padding: 0px;
+  margin: 20px 0px 0px;
+  list-style: none;
+}
+
+.moonoz-college {
+  width: 100%;
+  height: auto;
+  margin: 10% 0 12%;
+  background: url("../img/joelCollege.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hidden-Mouseketeer {
+  opacity: 0;
+  transition: 1s ease-in;
+}
+.moonoz-college:hover {
+  .hidden-Mouseketeer {
+    opacity: 1;
+    // margin-bottom: 50px;
+    transition: 1s ease-out;
   }
 }
 
-@media screen and (min-width: 990) {
-  .skill-title {
-    font-weight: 500;
-    font-size: 25px;
+.frame {
+  border-image: url("../img/goldFrame.png") 130 145 133 138 stretch stretch;
+  border-color: #f4be52;
+  border-style: inset;
+  border-width: 50px;
+  display: inline-block;
+  background-color: #fffe;
+  margin: 0 auto;
+}
+.about-title {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.red-change:hover {
+  background-color: rgb(126, 33, 53, 0.5) !important;
+}
+.blue-change:hover {
+  background-color: #345454 !important;
+}
+
+@media screen and (min-width: 370px) and (max-width: 400px) {
+  .hidden-Mouseketeer {
+    width: 35%;
+    left: 130px;
   }
-  .moonoz-Img {
-    margin-top: 3rem;
-    .Moonoz {
-      width: 90%;
-    }
+  .moonoz-college {
+    width: 100% !important;
+    height: 294px !important;
+    margin: 10% 0 12%;
+  }
+  .aboutMe-Name {
+    font-size: 27px;
+  }
+
+  .aboutMe-foot {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .moonoz-college {
+    width: 100%;
+    height: auto;
+  }
+  .moonoz-Img img {
+    width: 75%;
+  }
+  .hidden-Mouseketeer {
+    // visibility: hidden;
+    width: 75%;
   }
 }

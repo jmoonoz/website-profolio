@@ -58,7 +58,7 @@ const Projects = () => {
        
         <Col sm={12}>
           <p className="project-footer">
-            Take a look at some of my other works on my <a className="git-link" href="https://github.com/jmoonoz">Git hub</a>
+            Take a look at some of my other works on my <a className="word-link" href="https://github.com/jmoonoz">Git hub</a>
           </p>
         </Col>
 
