@@ -13,6 +13,12 @@
 #About {
   text-align: left !important;
 }
+.skills-title{
+  font-weight:600;
+}
+.intro-text{
+  opacity:70%;
+}
 
 li{
   font-size: 12px;
@@ -27,7 +33,7 @@ li::marker{
   left: 0;
   color: #dc3545 !important;
 }
-.Skill-list {
+.skills-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(140px, 200px));
   gap: 0px 10px;
@@ -110,28 +116,4 @@ li::marker{
     // visibility: hidden;
     width: 75%;
   }
-}
-
-
-.def-title{
-  display:flex;
-  text-align: left;
-  h6{
-    margin-bottom:0;
-    margin-top:8px;
-    margin-left: 10px;
-    opacity: 70%;
-    font-weight: 400;
-  }
-}
-.text-def{
-  text-align: left;
-  font-weight: 200;
-  p{
-    font-size:18px;
-  }
-}
-
-.about-header{
-  text-align: left;
 }

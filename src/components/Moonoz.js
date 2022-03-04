@@ -1,16 +1,16 @@
 import React from "react";
-import "../style/skills.scss";
+import "../style/moonoz.scss";
 import { Container, Col, Img, Row } from "react-bootstrap";
 import HiddenMouseketeer from "../img/HiddenMouseketeer.png";
 import College from "../img/joelCollege.jpg";
 
-const Skills = () => {
+const Moonoz = () => {
   return (
-    <Container id='Skills' >
+    <Container id='Moonoz' >
       <Row>
         <Col xs={2}></Col>
         <Col xs={8}>
-          <h2 className="skills-title">About me</h2>
+          <h2 className="skills-title">Who is...Moonoz?</h2>
         </Col>
         <Col xs={2}></Col>
 
@@ -21,16 +21,21 @@ const Skills = () => {
         <Col sm={5}>
           <Container className="intro-text">
             <p>
-              Hey! My name is Joel Muñoz and I'm a Front-End Developer. I graduated California State University East Bay (CSUEB) with a B.S. In COmputer Science, B.A. Psychology and minor in Sociology.
+              Moonoz is the creativity side of me that takes over whenever I design. I have always been passion about drawing and designing ever since I was young enough to grab a pencil and paper. My creativity was deeply inspired by the works of Walt Disney and Pixar Movies.
             </p>
-            <p>Here are some of the technologies I've coded with:</p>
+            <p>
+              In 2018 I bought an Ipad Pro and since then my life. Since then I learn the structure of digital designing and have even produced my works into stickers and pins.
+            </p>
+            <p>
+
+            </p>
+            <p>Here are some of the programs I've designed with:</p>
             <ul className="Skill-list">
-              <li>Javascrip (ES6+)</li>
-              <li>React JS</li>
-              <li>Node.JS</li>
-              <li>CSS</li>
-              <li>Bootstrap</li>
-              <li>C++</li>
+              <li>Procreate</li>
+              <li>Photoshop</li>
+              <li>Illustrator</li>
+              <li>Affinity Desinger</li>
+              
             </ul>
           </Container>
         </Col>
@@ -46,9 +51,9 @@ const Skills = () => {
         </Col>
         <Col sm={1}></Col>
       </Row>
-      <Row>
-        <Col sm={12}>
-          <p className="selfDescription" >Accomplished. Artistic. Deticated.</p>
+      <Row className="moonoz-footer">
+        <Col sm={12} className="selfDescription" >
+          <p >Accomplished. Artistic. Deticated.</p>
         </Col>
         <Col sm={12}>
           <div className="aboutMe-foot">
@@ -61,4 +66,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default Moonoz;

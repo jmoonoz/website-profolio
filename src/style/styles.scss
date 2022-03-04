@@ -106,19 +106,7 @@ a {
 //************************
 
 
-h1 {
-  font-size: 80px;
-  font-weight: 600;
-}
 
-
-h1,
-h2,
-h3,
-.navbar-brand {
-  color: white;
-  font-weight: bold;
-}
 .aboutMe-title,
 .skills-head,
 .quote-auth,
@@ -130,8 +118,7 @@ h3,
   opacity: 60% !important;
 }
 
-.quote-text,
-.job-title {
+.quote-text{
   font-size: 35px;
   font-weight: 500;
 }
