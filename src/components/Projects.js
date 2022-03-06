@@ -14,13 +14,13 @@ const Projects = () => {
         {/* row */}
         <Col xs={1} ></Col>
         <Col xs={10}>
-          <h6 className="projects-title">Projects</h6>
+          <h4 className="projects-title">Projects</h4>
         </Col>
         <Col xs={1} ></Col>
         {/* row */}
         <Col xs={1} ></Col>
         <Col xs={10}>
-          <h4 className="project-header">Few things I've Coded</h4>
+          <h2 className="project-header">Few things I've Coded</h2>
         </Col>
         <Col xs={1}></Col>
         {/* row */}

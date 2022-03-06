@@ -10,7 +10,7 @@ const Banner = () => {
         <Row >
           <Col md={1}></Col>
           <Col md={5} className="banner-text">
-            <h1 className="name" >Joel Muñoz</h1>
+            <div className="name" >Joel Muñoz</div>
             <h2 className="job-title" >Front-End Developer</h2>
             <Container className="banner-icons">
               <a className="link-icon" href="https://www.linkedin.com/in/moonoz/" >
