@@ -37,7 +37,9 @@
   font-weight: 300;
   opacity: 50%;
 }
-
+.project-header{
+  margin-bottom: 1em;
+}
 .project-footer {
   opacity: 60%;
   font-size: 25px;
@@ -95,5 +97,9 @@
     .project-tools {
       font-size: 10px;
     }
+  }
+  .project-header{
+    font-size: 50px;
+    font-weight:600;
   }
 }

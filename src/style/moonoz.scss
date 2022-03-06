@@ -1,6 +1,14 @@
-#Moonoz{
-    text-align: left;
+#Moonoz {
+  text-align: left;
 }
-.moonoz-footer{
-    text-align: center;
+.moonoz-footer {
+  text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .selfDescription {
+    font-size: 50px;
+    font-weight: 600;
+
+  }
 }
