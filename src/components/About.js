@@ -58,7 +58,7 @@ const About = () => {
 
         {/* frame image */}
         <Col sm={4} >
-          <Container>
+          <Container className="moonoz-cont">
             <div className="moonoz-college frame">
               <img src={HiddenMouseketeer} className="hidden-Mouseketeer" alt="Hidden Mouseketeer" />
             </div>

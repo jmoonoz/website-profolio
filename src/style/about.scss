@@ -28,7 +28,7 @@ li{
 }
 
 li::marker{
-  content: "▹";
+  content: "▹" !important;
   position: absolute;
   left: 0;
   color: #dc3545 !important;
@@ -44,12 +44,17 @@ li::marker{
 }
 
 .moonoz-college {
+  // top: 50%;
   width: 100%;
   height: auto;
   margin: 10% 0 12%;
   background: url("../img/joelCollege.jpg") no-repeat;
   background-position: center;
   background-size: cover;
+}
+.moonoz-cont{
+  height: 100%;
+  align-items: center;
 }
 
 .hidden-Mouseketeer {

@@ -30,17 +30,14 @@ const Moonoz = () => {
 
             </p>
             <p>Here are some of the programs I've designed with:</p>
-            <ul className="Skill-list">
+            <ul className="skills-list">
               <li>Procreate</li>
               <li>Photoshop</li>
               <li>Illustrator</li>
               <li>Affinity Desinger</li>
-              
             </ul>
           </Container>
         </Col>
-
-
         {/* frame image */}
         <Col sm={4} >
           <Container>
