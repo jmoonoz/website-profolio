@@ -4,6 +4,27 @@
 .moonoz-footer {
   text-align: center;
 }
+.moonoz-design{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.moonoz-Ipad{
+  // position: absolute;
+  top: 50%;
+  border-radius: 10px;;
+  width: 100%;
+  height: auto;
+}
+.ipad-outline{
+  // position: relative;
+  height: 100%;
+  width: 100%;
+  border: 5px solid rgba(155,255,23);
+  // transform: translateZ(4px);
+}
 
 @media screen and (min-width: 1200px) {
   .selfDescription {
@@ -19,5 +40,8 @@
   .selfDescription {
     font-size: 22px;
     font-weight: 600;
+  }
+  .moonoz-design{
+    margin-top: 5%;
   }
 }

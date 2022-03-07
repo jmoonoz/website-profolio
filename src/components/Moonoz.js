@@ -1,8 +1,9 @@
 import React from "react";
 import "../style/moonoz.scss";
-import { Container, Col, Img, Row } from "react-bootstrap";
+import { Button, Container, Col, Img, Row } from "react-bootstrap";
 import HiddenMouseketeer from "../img/HiddenMouseketeer.png";
 import College from "../img/joelCollege.jpg";
+import MoonozIpad from "../img/ipadDesign.jpg";
 
 const Moonoz = () => {
   return (
@@ -39,21 +40,22 @@ const Moonoz = () => {
           </Container>
         </Col>
         {/* frame image */}
-        <Col sm={4} >
-          <Container>
-            <div className="moonoz-college frame">
-              <img src={HiddenMouseketeer} className="hidden-Mouseketeer" alt="Hidden Mouseketeer" />
-            </div>
-          </Container>
+        <Col sm={4} className="moonoz-design"  >
+
+          {/* <Container fluid> */}
+            <img src={MoonozIpad} className="moonoz-Ipad fluid" alt="Moonoz Ipad" />
+            {/* <div className="ipad-outline"></div> */}
+          {/* </Container> */}
+
         </Col>
         <Col sm={1}></Col>
       </Row>
       <Row className="moonoz-footer">
-        <Col sm={12} className="selfDescription" >
+        {/* <Col sm={12} className="selfDescription" >
           <p >Accomplished. Artistic. Deticated.</p>
-        </Col>
+        </Col> */}
         <Col sm={12}>
-          <div className="aboutMe-foot">
+          <div className="sec-footer">
             Learn more by checking out my {" "}
             <a href="https://www.instagram.com/moonozdisenoz/?hl=en" className="word-link">Instagram</a>
           </div>
