@@ -12,7 +12,6 @@ const API_USER = "user_E2y7AWBwmc6CuoPjIzgMV";
 
 const Email = () => {
     const form = useRef();
-    console.log(API_USER);
 
     const sendEmail = (e) => {
         e.preventDefault();
