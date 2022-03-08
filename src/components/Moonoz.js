@@ -22,10 +22,10 @@ const Moonoz = () => {
         <Col lg={5}>
           <Container className="intro-text">
             <p>
-              Moonoz is the creativity side of me that takes over whenever I design. I have always been passion about drawing and designing ever since I was young enough to grab a pencil and paper. My creativity was deeply inspired by the works of Walt Disney and Pixar Movies.
+              Moonoz is the creative side of me that takes over whenever I design. I have always been passionate about drawing and designing ever since I was young enough to grab a pencil and paper. My creativity was deeply inspired by the works of Walt Disney and Pixar Movies.
             </p>
             <p>
-              In 2018 I bought an Ipad Pro and since then my life. Since then I learn the structure of digital designing and have even produced my works into stickers and pins.
+              In 2018 I bought an IPad and was exposed to the world of digital design. Since then I learn the structure of digital designing and have even produced my works into stickers and pins.
             </p>
             <p>
 

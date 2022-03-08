@@ -35,13 +35,13 @@ const About = () => {
               Hey! My name is Joel Muñoz and I'm a Front-End Developer. I graduated California State University East Bay (CSUEB) with a B.S. In Computer Science, B.A. Psychology and minor in Sociology.
             </p>
             <p>
-              I initially began my academic career in Psychology, but after receiving my B.A. I transitioned my focus into Computer science. This is where I discovered how to code internet magic.
+              I initially began my academic career in Psychology, but after receiving my B.A. I transitioned my focus into Computer Science. This is where I discovered how to code internet magic.
             </p>
             <p>
-              Bringing it to today, my passion travels though my fingertips as I typing away at pixel perfect program. Specializing in designing with JavaScript along with React, Bootstrap and the essential HTML & CSS! My passion has also driven my curiosity to design 3d models with VRML and dive into Three.JS.
+              Bringing it to today, my passion travels through my fingertips as I'm typing away at pixel perfect program. Specializing in designing with JavaScript along with React, Bootstrap and the essential HTML & CSS! My passion has also driven my curiosity to design 3d models with VRML and dive into Three.JS.
             </p>
             <p>
-              Although i graduated school my curiosity for leanring new languages and techniques will never stop. I will contonue learing and developing myself into a greater Front end Engineer.
+              Although I graduated school my curiosity for leanring new languages and techniques will never stop. I will continue learing and developing myself into a greater Front end Engineer.
             </p>
             <p>Here are some of the technologies I've coded with:</p>
             <ul className="skills-list">
