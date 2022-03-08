@@ -3,8 +3,9 @@
   display: flex;
   justify-content: space-evenly;
 }
-.card{
+.card {
   height: 100%;
+  border-radius: 5% !important;
 }
 .card:hover {
   .card-title {
@@ -37,7 +38,8 @@
   font-weight: 300;
   opacity: 50%;
 }
-.project-header{
+.project-header {
+  font-weight: 600;
   margin-bottom: 1em;
 }
 .project-footer {
@@ -45,7 +47,9 @@
   font-size: 25px;
   font-weight: 600;
 }
-#Projects, .project-footer, .selfDescription{
+#Projects,
+.project-footer,
+.selfDescription {
   margin-top: 5%;
 }
 
@@ -83,6 +87,24 @@
     }
   }
 }
+@media screen and (max-width: 850px) {
+  .card {
+    margin-bottom: 6%;
+  }
+  .card-title {
+    font-size: 50px;
+  }
+  .card-text {
+    font-size: 20px;
+  }
+  .project-header {
+    font-size: 40px;
+  }
+  .project-tools {
+    font-size: 20px;
+  }
+  
+}
 
 @media screen and (min-width: 1200px) {
   .card {
@@ -98,8 +120,8 @@
       font-size: 10px;
     }
   }
-  .project-header{
+  .project-header {
     font-size: 50px;
-    font-weight:600;
+    font-weight: 600;
   }
 }

@@ -8,8 +8,8 @@ const Banner = () => {
     <Container id="Banner" className="banner banner-Mobile" fluid>
       <Container>
         <Row >
-          <Col md={1}></Col>
-          <Col md={5} className="banner-text">
+          <Col lg={1}></Col>
+          <Col lg={5} className="banner-text">
             <div className="name" >Joel Muñoz</div>
             <h2 className="job-title" >Front-End Developer</h2>
             <Container className="banner-icons">
@@ -29,7 +29,7 @@ const Banner = () => {
             </a>
 
           </Col>
-          <Col md={6}></Col>
+          <Col lg={6}></Col>
 
         </Row>
       </Container>

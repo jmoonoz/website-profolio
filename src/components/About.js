@@ -19,17 +19,17 @@ const About = () => {
   return (
     <Container id="About" >
       <Row>
-        <Col xs={2}></Col>
-        <Col xs={8}>
+        <Col lg={2}></Col>
+        <Col lg={8}>
           <h2 className="skills-title">About me</h2>
         </Col>
-        <Col xs={2}></Col>
+        <Col lg={2}></Col>
 
       </Row>
       <Row>
         {/*  */}
-        <Col sm={2}></Col>
-        <Col sm={5}>
+        <Col lg={2}></Col>
+        <Col lg={5}>
           <Container className="intro-text">
             <p>
               Hey! My name is Joel Muñoz and I'm a Front-End Developer. I graduated California State University East Bay (CSUEB) with a B.S. In Computer Science, B.A. Psychology and minor in Sociology.
@@ -57,14 +57,14 @@ const About = () => {
 
 
         {/* frame image */}
-        <Col sm={4} >
+        <Col lg={4} >
           <Container className="moonoz-cont">
             <div className="moonoz-college frame">
               <img src={HiddenMouseketeer} className="hidden-Mouseketeer" alt="Hidden Mouseketeer" />
             </div>
           </Container>
         </Col>
-        <Col sm={1}></Col>
+        <Col lg={1}></Col>
       </Row>
       {/* <Row>
         <Col sm={12} className="selfDescription" >

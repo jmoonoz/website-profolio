@@ -12,20 +12,20 @@ const Projects = () => {
     <Container id="Projects" >
       <Row>
         {/* row */}
-        <Col xs={1} ></Col>
-        <Col xs={10}>
+        <Col lg={1} ></Col>
+        <Col lg={10}>
           <h4 className="projects-title">Projects</h4>
         </Col>
-        <Col xs={1} ></Col>
+        <Col lg={1} ></Col>
         {/* row */}
-        <Col xs={1} ></Col>
-        <Col xs={10}>
+        <Col lg={1} ></Col>
+        <Col lg={10}>
           <h2 className="project-header">Few things I've Coded</h2>
         </Col>
-        <Col xs={1}></Col>
+        <Col lg={1}></Col>
         {/* row */}
         {/* <Col xs={1} md={1}></Col> */}
-        <Col sm={12} md={4}>
+        <Col sm={12} lg={4}>
           <ProjectCard
             projectImage={MoonozNetflix}
             name="Netflix Clone"
@@ -35,7 +35,7 @@ const Projects = () => {
             git="https://github.com/jmoonoz/Netflix-Clone"
           />
         </Col>
-        <Col sm={12} md={4}>
+        <Col sm={12} lg={4}>
           <ProjectCard
             projectImage={Spotify}
             name="Spotify Clone"
@@ -45,7 +45,7 @@ const Projects = () => {
             git="https://github.com/jmoonoz/Spotify-clone"
           />
         </Col>
-        <Col sm={12} md={4}>
+        <Col sm={12} lg={4}>
           <ProjectCard
             projectImage={portfolio}
             name="Personal Website V1"

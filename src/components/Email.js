@@ -4,20 +4,21 @@ import { init } from '@emailjs/browser';
 import "../style/email.scss";
 import { Container, Button, Form, Row, Col } from "react-bootstrap";
 
-const API_SER = process.env.REACT_APP_SERVICE_KEY;
-const API_TEMP = process.env.REACT_APP_TEMPLATE_KEY;
-const API_USER = process.env.REACT_APP_USER_KEY;
-init(API_USER);
+const API_SER = "service_whwcb36";
+const API_TEMP = "template_t42zq95";
+const API_USER = "user_E2y7AWBwmc6CuoPjIzgMV";
+// init(API_USER);
 
 
 const Email = () => {
     const form = useRef();
+    console.log(API_USER);
 
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs.init(API_USER);
 
-        emailjs.sendForm(API_SER, API_TEMP, form.current, API_USER)
+    emailjs.sendForm(API_SER, API_TEMP, form.current, API_USER)
             .then((result) => {
                 console.log(result.text);
             }, (error) => {

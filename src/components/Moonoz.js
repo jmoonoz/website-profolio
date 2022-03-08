@@ -9,17 +9,17 @@ const Moonoz = () => {
   return (
     <Container id='Moonoz' >
       <Row>
-        <Col xs={2}></Col>
-        <Col xs={8}>
+        <Col lg={2}></Col>
+        <Col lg={8}>
           <h2 className="skills-title">Who is...Moonoz?</h2>
         </Col>
-        <Col xs={2}></Col>
+        <Col lg={2}></Col>
 
       </Row>
       <Row>
         {/*  */}
-        <Col sm={2}></Col>
-        <Col sm={5}>
+        <Col lg={2}></Col>
+        <Col lg={5}>
           <Container className="intro-text">
             <p>
               Moonoz is the creativity side of me that takes over whenever I design. I have always been passion about drawing and designing ever since I was young enough to grab a pencil and paper. My creativity was deeply inspired by the works of Walt Disney and Pixar Movies.
@@ -40,7 +40,7 @@ const Moonoz = () => {
           </Container>
         </Col>
         {/* frame image */}
-        <Col sm={4} className="moonoz-design"  >
+        <Col lg={4} className="moonoz-design"  >
 
           {/* <Container fluid> */}
             <img src={MoonozIpad} className="moonoz-Ipad fluid" alt="Moonoz Ipad" />
@@ -48,13 +48,13 @@ const Moonoz = () => {
           {/* </Container> */}
 
         </Col>
-        <Col sm={1}></Col>
+        <Col lg={1}></Col>
       </Row>
       <Row className="moonoz-footer">
         {/* <Col sm={12} className="selfDescription" >
           <p >Accomplished. Artistic. Deticated.</p>
         </Col> */}
-        <Col sm={12}>
+        <Col lg={12}>
           <div className="sec-footer">
             Learn more by checking out my {" "}
             <a href="https://www.instagram.com/moonozdisenoz/?hl=en" className="word-link">Instagram</a>

@@ -54,6 +54,8 @@ li::marker{
 }
 .moonoz-cont{
   height: 100%;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -108,7 +110,14 @@ li::marker{
     font-size: 14px;
   }
 }
-
+@media screen  and (min-width: 768px) and (max-width: 900px) {
+  .moonoz-college{
+    height: 650px;
+  }
+  .hidden-Mouseketeer{
+    width: 50%;
+  }
+}
 @media screen and (min-width: 990px) {
   .moonoz-college {
     width: 100%;
