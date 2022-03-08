@@ -65,18 +65,12 @@ const About = () => {
           </Container>
         </Col>
         <Col lg={1}></Col>
+        <Col className="about-foot" sm={12}>
+          <p className="sec-footer">
+            Wana know more about my expertise? check out my <a className="word-link" href="https://www.linkedin.com/in/moonoz/">Linkedin</a>
+          </p>
+        </Col>
       </Row>
-      {/* <Row>
-        <Col sm={12} className="selfDescription" >
-          <p >Accomplished. Artistic. Deticated.</p>
-        </Col>
-        <Col sm={12}>
-          <div className="aboutMe-foot">
-            Learn more by checking out my {" "}
-            <a href="https://www.instagram.com/moonozdisenoz/?hl=en" className="word-link">Instagram</a>
-          </div>
-        </Col>
-      </Row> */}
     </Container>
   );
 };

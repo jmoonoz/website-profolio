@@ -41,22 +41,14 @@ const Moonoz = () => {
         </Col>
         {/* frame image */}
         <Col lg={4} className="moonoz-design"  >
-
-          {/* <Container fluid> */}
-            <img src={MoonozIpad} className="moonoz-Ipad fluid" alt="Moonoz Ipad" />
-            {/* <div className="ipad-outline"></div> */}
-          {/* </Container> */}
-
+            <img src={MoonozIpad} className="moonoz-Ipad" alt="Moonoz Ipad" />
         </Col>
         <Col lg={1}></Col>
       </Row>
       <Row className="moonoz-footer">
-        {/* <Col sm={12} className="selfDescription" >
-          <p >Accomplished. Artistic. Deticated.</p>
-        </Col> */}
         <Col lg={12}>
           <div className="sec-footer">
-            Learn more by checking out my {" "}
+            See more of my designs by checking out my {" "}
             <a href="https://www.instagram.com/moonozdisenoz/?hl=en" className="word-link">Instagram</a>
           </div>
         </Col>

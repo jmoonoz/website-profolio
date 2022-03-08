@@ -84,6 +84,11 @@ li::marker{
   font-size: 40px;
   font-weight: 600;
 }
+.about-foot{
+  // display: flex;
+  // justify-content:center;
+  text-align:center;
+}
 
 .red-change:hover {
   background-color: rgb(126, 33, 53, 0.5) !important;
