@@ -32,7 +32,7 @@ const Email = () => {
     return (
         <Container id="Email" >
             <Row>
-                <Col className="contact-header" sm={6}>
+                <Col className="contact-header" lg={6}>
                 <Container>
                     
                     <h2 className="contact-text">
@@ -44,7 +44,7 @@ const Email = () => {
                 </Container>
                 </Col>
                 {/* email form */}
-                <Col sm={5}>
+                <Col lg={5}>
                     <Form ref={form} className="formInput" onSubmit={sendEmail} >
                         <Form.Group controlId="enterName">
                             <Form.Control type="text" placeholder="Name" name="name" />
@@ -67,7 +67,7 @@ const Email = () => {
                         </div>
                     </Form>
                 </Col>
-                <Col md={1}></Col>
+                <Col lg={1}></Col>
             </Row>
         </Container>
 
