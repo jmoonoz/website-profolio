@@ -7,7 +7,7 @@ import MoonozIpad from "../img/ipadDesign.jpg";
 
 const Moonoz = () => {
   return (
-    <Container id='Moonoz' >
+    <Container id='Moonoz'  data-aos="fade-left" >
       <Row>
         <Col lg={2}></Col>
         <Col lg={8}>

@@ -9,6 +9,7 @@
   "main": "src/index.js",
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
+    "aos": "^3.0.0-beta.6",
     "bootstrap": "^5.1.3",
     "hover.css": "^2.3.2",
     "querystring-es3": "^0.2.1",

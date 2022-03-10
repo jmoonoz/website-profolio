@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import MoonozNetflix from "../img/MoonozNetflix.png";
 import Spotify from "../img/Spotify.png";
@@ -6,10 +6,12 @@ import ProjectCard from "./ProjectCard";
 import portfolio from "../img/portfolioV1.png";
 import "../style/projects.scss";
 
+
 const Projects = () => {
+ 
   return (
 
-    <Container id="Projects" >
+    <Container id="Projects" data-aos="fade-up" >
       <Row>
         {/* row */}
         <Col lg={1} ></Col>
