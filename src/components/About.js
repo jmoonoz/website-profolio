@@ -17,7 +17,7 @@ import HiddenMouseketeer from "../img/HiddenMouseketeer.png";
 
 const About = () => {
   return (
-    <Container id="About" data-aos="fade-right"  >
+    <Container id="About" data-aos="fade-down"  >
       <Row>
         <Col lg={2}></Col>
         <Col lg={8}>

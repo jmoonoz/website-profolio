@@ -8,7 +8,7 @@ const NavBar = () => {
     <Navbar id='nav' fixed="top" expand="lg">
       <Container>
         <Navbar.Brand href="#Banner">Joel Munoz</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" data-bs-target="#basic-navbar-nav" />
         <Container>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">

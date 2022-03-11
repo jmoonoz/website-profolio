@@ -29,7 +29,7 @@ const Email = () => {
 
 
     return (
-        <Container id="Email" >
+        <Container id="Email" data-aos="fade-up" >
             <Row>
                 <Col className="contact-header" lg={6}>
                 <Container>
