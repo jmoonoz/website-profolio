@@ -63,13 +63,7 @@ li::marker{
   opacity: 0;
   transition: 1s ease-in;
 }
-.moonoz-college:hover {
-  .hidden-Mouseketeer {
-    opacity: 1;
-    // margin-bottom: 50px;
-    transition: 1s ease-out;
-  }
-}
+
 
 .frame {
   border-image: url("../img/goldFrame.png") 130 145 133 138 stretch stretch;
@@ -134,5 +128,12 @@ li::marker{
   .hidden-Mouseketeer {
     // visibility: hidden;
     width: 75%;
+  }
+  .moonoz-college:hover {
+    .hidden-Mouseketeer {
+      opacity: 1;
+      // margin-bottom: 50px;
+      transition: 1s ease-out;
+    }
   }
 }

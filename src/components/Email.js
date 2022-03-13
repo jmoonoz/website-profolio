@@ -35,10 +35,10 @@ const Email = () => {
                 <Container>
                     
                     <h2 className="contact-text">
-                        Wana chat?
+                        Lets Talk
                     </h2>
                     <p>
-                        Feel free to reach out to me with any question or request
+                        Feel free to reach out to me with any question or if you like to just chat it up!
                     </p>
                 </Container>
                 </Col>
