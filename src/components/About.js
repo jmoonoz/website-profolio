@@ -38,7 +38,7 @@ const About = () => {
               I initially began my academic career in Psychology, but after receiving my B.A. I transitioned my focus into Computer Science. This is where I discovered how to code internet magic.
             </p>
             <p>
-              Bringing it to today, my passion travels through my fingertips as I'm typing away at pixel perfect program. Specializing in designing with JavaScript along with React, Bootstrap and the essential HTML & CSS! My passion has also driven my curiosity to design 3d models with VRML and dive into Three.JS.
+              My passion travels through my fingertips as I'm typing away at pixel perfect program. Specializing in the top technology like React and Bootstrap, I enjoy creating responsive robust web application. My passion has also driven my curiosity to design 3D models with VRML and dive into Three.JS, but I'll let Moonoz explain that more in detail.
             </p>
             <p>Here are some of the technologies I've coded with:</p>
             <ul className="skills-list">
