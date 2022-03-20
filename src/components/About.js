@@ -40,9 +40,6 @@ const About = () => {
             <p>
               Bringing it to today, my passion travels through my fingertips as I'm typing away at pixel perfect program. Specializing in designing with JavaScript along with React, Bootstrap and the essential HTML & CSS! My passion has also driven my curiosity to design 3d models with VRML and dive into Three.JS.
             </p>
-            <p>
-              Although I graduated school my curiosity for leanring new languages and techniques will never stop. I will continue learing and developing myself into a greater Front end Engineer.
-            </p>
             <p>Here are some of the technologies I've coded with:</p>
             <ul className="skills-list">
               <li>Javascrip (ES6+)</li>

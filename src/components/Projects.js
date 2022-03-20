@@ -11,7 +11,7 @@ const Projects = () => {
  
   return (
 
-    <Container id="Projects" data-aos="fade-up" >
+    <Container id="Projects" data-aos="fade" >
       <Row>
         {/* row */}
         <Col lg={1} ></Col>
