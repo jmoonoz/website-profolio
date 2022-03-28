@@ -20,7 +20,7 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 export default function App() {
   useEffect(() => {
     // ..
-    AOS.init({delay: 100, duration: 3000, once: true});
+    AOS.init({ duration: 3000, once: true});
   }, []);
   
   return (
