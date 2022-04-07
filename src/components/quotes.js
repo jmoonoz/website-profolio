@@ -27,7 +27,7 @@ const quoteArray = [
     {
         id:5,
         quote:"If you don't fail, you're not even trying",
-        auth: "- Denzel Washington wife"
+        auth: "- Denzel Washington"
     }
 ];
 
