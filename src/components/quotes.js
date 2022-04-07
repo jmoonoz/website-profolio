@@ -23,6 +23,11 @@ const quoteArray = [
         id:4,
         quote:"I might be nobody, but wait 'til I'm together like a symphony Resoundin' sound that will continue infinitely",
         auth: "- Immortal Technique"
+    },
+    {
+        id:5,
+        quote:"If you don't fail, you're not even trying",
+        auth: "- Denzel Washington wife"
     }
 ];
 

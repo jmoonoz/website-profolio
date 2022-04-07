@@ -40,8 +40,10 @@ const Moonoz = () => {
           </Container>
         </Col>
         {/* frame image */}
-        <Col lg={4} className="moonoz-design"  >
+        <Col lg={4}  >
+        <Container className="moonoz-design" >
             <img src={MoonozIpad} className="moonoz-Ipad" alt="Moonoz Ipad" />
+        </Container>
         </Col>
         <Col lg={1}></Col>
       </Row>
