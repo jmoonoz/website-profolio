@@ -46,7 +46,7 @@ const Quote = () => {
           </Col>
           <Col sm={12}>
             <div className="quote-auth fade-in">
-              <TextTransition text={QuoteArray[index].auth} springConfig={presets.gentle} delay={400} />
+              - <TextTransition text={QuoteArray[index].auth} springConfig={presets.gentle} delay={400} />
             </div>
           </Col>
         </Row>
