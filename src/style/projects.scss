@@ -11,10 +11,8 @@
     border-radius: 10px 10px 0px 0px;
   }
 }
-.card:hover {
-  .card-title {
-    color: #dc3545 !important;
-  }
+.card-title:hover {
+  color: #dc3545 !important;
 }
 .card-text,
 .card-title,
